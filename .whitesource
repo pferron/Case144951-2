@@ -31,7 +31,6 @@
   },
   "remediateSettings": {
     "enableRenovate": true,
-    "extends": ["config:base"];
     "workflowRules": {
       "enabled": true
     }
