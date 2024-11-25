@@ -1,0 +1,14 @@
+.next/
+.hogan/
+dist/
+build/
+.coverage/
+*.d.ts
+node_modules/
+scripts/
+CHANGELOG.md
+pnpm-lock.yaml
+public/
+next-env.d.ts
+src/graphql/schema/types.ts
+src/graphql/operations/operations.ts

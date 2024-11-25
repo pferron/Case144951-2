@@ -1,0 +1,30 @@
+{
+  "name": "@cvent/planner-event-hubs-model",
+  "version": "4.4.1",
+  "private": true,
+  "description": "Used for types, subscriptions and/or Schema package",
+  "files": [
+    "operations",
+    "schema",
+    "types"
+  ],
+  "scripts": {
+    "build": "nx build",
+    "clean": "rm -rf schema operations types",
+    "lint": "nx lint",
+    "fix": "nx fix"
+  },
+  "prettier": "@cvent/prettier-config",
+  "eslintConfig": {
+    "extends": "@cvent/eslint-config"
+  },
+  "jest": {
+    "displayName": "@cvent/planner-event-hubs-model",
+    "preset": "@cvent/jest-config"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "nx": {
+    "includedScripts": []
+  }
+}

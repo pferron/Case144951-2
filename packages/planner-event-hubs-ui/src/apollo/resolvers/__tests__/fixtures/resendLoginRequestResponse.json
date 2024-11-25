@@ -1,0 +1,17 @@
+[
+  {
+    "status": "SUCCESS"
+  },
+  {
+    "status": "MAGIC_LINK_EXPIRED"
+  },
+  {
+    "status": "EMAIL_LOCKED"
+  },
+  {
+    "status": "USER_RESTRICTED"
+  },
+  {
+    "status": "SERVER_ERROR"
+  }
+]

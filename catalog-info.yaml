@@ -1,0 +1,30 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    hogan-templates/directory: packages/planner-event-hubs-ui
+    hogan-templates/regex: '^(.env|.env\.development|.env\.production|.env\.template)$'
+    datadoghq.com/service-name: planner-event-hubs-ui
+    sonarqube.org/project-key: planner-event-hubs-ui
+    octopus.com/project-slug: planner-event-hubs-ui
+  namespace: default
+  name: planner-event-hubs
+  title: planner-event-hubs
+  description: This is both the Planner front end and the graphQL layer to
+    manage all things Events+.
+  tags:
+    - javascript
+    - cdk
+  links:
+    - title: Wiki
+      url: https://wiki.cvent.com/spaces/viewspace.action?key=VH
+      icon: help
+  labels:
+    product: attendee-hub
+spec:
+  type: application
+  lifecycle: production
+  owner: red
+  providesApis: []
+  dependsOn: []

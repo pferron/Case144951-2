@@ -1,0 +1,32 @@
+{
+  "name": "image upload clicked",
+  "type": "track",
+  "folder": "eventsPlusHub",
+  "phase": "engagement",
+  "destinations": ["datadog", "Snowflake", "Mixpanel"],
+  "release": "v2.0",
+  "multiStep": false,
+  "owner": "red",
+  "description": "this action tracks the users who wants to upload image in order to use it in logo banners or channels",
+  "trigger": "this action is triggered when user clicks on Upload' button on image edit component in branding, banners or channels",
+  "sdk": "analytics.js",
+  "status": "active",
+  "rules": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "context": {},
+      "properties": {
+        "type": "object",
+        "properties": {
+          "triggerLocation": {
+            "description": "Location from where the upload action is triggered",
+            "type": "string"
+          }
+        },
+        "required": []
+      },
+      "traits": {}
+    }
+  }
+}

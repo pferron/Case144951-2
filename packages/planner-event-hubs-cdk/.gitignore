@@ -1,0 +1,16 @@
+*.d.ts
+node_modules
+target/
+!tests/__fixtures__/**
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Parcel build directories
+.cache
+.build
+
+# tsc output
+dist/
+outputs.json

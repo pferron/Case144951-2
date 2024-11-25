@@ -1,0 +1,6 @@
+CHANGELOG.md
+README.md
+**/cdk.out
+**/__fixtures__
+packages/**/public/storybook
+packages/**/dist/standalone

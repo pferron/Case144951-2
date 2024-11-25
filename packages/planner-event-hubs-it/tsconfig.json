@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["ES2019.Array"],
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "baseUrl": "./",
+    "types": ["node", "jest"],
+    "paths": {
+      "@utils/*": ["src/utils/*"],
+      "@queries/*": ["src/queries/*"],
+      "@fixtures/*": ["src/fixtures/*"],
+      "@resources/*": ["src/resources/*"],
+      "@helpers/*": ["src/helpers/*"]
+    },
+    "include": ["src/**/*.ts", "**/*.tsx"],
+    "exclude": ["dist", "node_modules"]
+  }
+}

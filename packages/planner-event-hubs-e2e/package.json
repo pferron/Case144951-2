@@ -1,0 +1,36 @@
+{
+  "name": "@cvent/planner-event-hubs-e2e",
+  "version": "5.10.8",
+  "description": "End-to-End UI Testing",
+  "keywords": [],
+  "license": "UNLICENSED",
+  "author": "Cvent<rd@cvent.com>",
+  "maintainers": [
+    "Automation Team #automation-support"
+  ],
+  "scripts": {
+    "clean": "rm -rf .coverage .hogan .next cdk.out dist dist local.log pnpm-lock.yaml screenshot-*.png target",
+    "docker:run": "nx docker:run",
+    "build": "nx build",
+    "lint": "nx lint",
+    "fix": "nx fix",
+    "dev:e2e": "ENV=sg50 BROWSER=chrome pnpm test:e2e",
+    "test:e2e": "MAX_INSTANCES=2 wdio wdio.conf.ts",
+    "test:pvt": "wdio wdio.conf.ts --suite pvt",
+    "sitespeed": "sitespeed.io src/sitespeed/nx-home.js --multi -n 1",
+    "deploy": "nx deploy"
+  },
+  "prettier": "@cvent/prettier-config",
+  "dependencies": {
+    "@cvent/planner-event-hubs-model": "workspace:*",
+    "@faker-js/faker": "^9.0.0",
+    "axios": "^1.7.7",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "@cvent-sitespeed/sitespeed-utils": "^0.0.15"
+  },
+  "nx": {
+    "includedScripts": []
+  }
+}

@@ -1,0 +1,11 @@
+node_modules/
+.next/
+scripts/
+dist/
+public/
+next-env.d.ts
+src/metrics/client/
+src/metrics/__tests__/
+src/metrics/docs/
+# tsc & cdk output
+cdk.out/

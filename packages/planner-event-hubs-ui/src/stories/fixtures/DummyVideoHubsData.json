@@ -1,0 +1,50 @@
+[
+  {
+    "id": "04ca6ae2-0dc3-487b-953e-86d6abbdf7d3",
+    "status": "Inactive",
+    "config": {
+      "title": "Future Technologies",
+      "ownerFirstName": "Achuthanandan",
+      "ownerLastName": "Velikkakathu Sankaran",
+      "ownerEmail": "Achuthanandan.VS@domain.tld",
+      "url": "https://www.google.com",
+      "locale": "English"
+    }
+  },
+  {
+    "id": "770c7898-ff21-4736-8613-3fb587975639",
+    "status": "Inactive",
+    "config": {
+      "title": "Inactive Event 2",
+      "ownerFirstName": "Frank",
+      "ownerLastName": "Yuan",
+      "ownerEmail": "fyuan4ever@cvent.com",
+      "url": "https://www.google.com",
+      "locale": "English"
+    }
+  },
+  {
+    "id": "aa2cc81f-b140-4f5e-ba12-a0b1f6df3194",
+    "status": "Active",
+    "config": {
+      "title": "Active Event 1",
+      "ownerFirstName": "Brodie",
+      "ownerLastName": "Beaman",
+      "ownerEmail": "bb@cvent.com",
+      "url": "https://www.google.com",
+      "locale": "English"
+    }
+  },
+  {
+    "id": "d20ba749-1ac0-4d1b-a1f4-d861e8c19562",
+    "status": "Active",
+    "config": {
+      "title": "Active Event 2",
+      "ownerFirstName": "Chun-Ku",
+      "ownerLastName": "Lin",
+      "ownerEmail": "ckl@cvent.com",
+      "url": "https://www.google.com",
+      "locale": "English"
+    }
+  }
+]

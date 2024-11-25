@@ -1,0 +1,22 @@
+{
+  "calenderLinkDestination": 1,
+  "timeZoneId": 35,
+  "webLinks": ["Object"],
+  "calendarLinkAlternate": "",
+  "calendarLinkCompletedEvent": "",
+  "startDateUtc": "2022-05-07T22:00Z",
+  "endDateUtc": "2030-05-05T02:00Z",
+  "venue": ["Object"],
+  "id": "d940e1d6-07f9-48ba-8e4f-ef57ef1bd261",
+  "status": "Closed",
+  "startDate": "2022-05-07T18:00",
+  "endDate": "2030-05-04T22:00",
+  "title": "Upcoming Event No 1- HUB-26132 Location test",
+  "location": "CVENT Inc",
+  "description": "",
+  "timeZone": "Event_Timezone_Abbr_35__resx",
+  "categoryId": 1,
+  "spanMultiDay": true,
+  "type": "EVENT",
+  "eventFormat": 2
+}

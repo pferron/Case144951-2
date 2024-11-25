@@ -1,0 +1,32 @@
+{
+  "name": "select video from library add button clicked",
+  "type": "track",
+  "folder": "channels",
+  "phase": "engagement",
+  "destinations": ["datadog", "Snowflake", "Mixpanel"],
+  "release": "v2.0",
+  "multiStep": false,
+  "owner": "red",
+  "description": "this action tracks the users who select videos from list in order to update the videos in channel",
+  "trigger": "this action is triggered when user clicks on 'Add' in the select 'Video from Library'",
+  "sdk": "analytics.js",
+  "status": "active",
+  "rules": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "context": {},
+      "properties": {
+        "type": "object",
+        "properties": {
+          "numberOfVideoAdded": {
+            "description": "Number of videos added to that channel",
+            "type": "number"
+          }
+        },
+        "required": ["numberOfVideoAdded"]
+      },
+      "traits": {}
+    }
+  }
+}

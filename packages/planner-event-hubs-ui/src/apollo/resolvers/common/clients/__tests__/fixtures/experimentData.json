@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "description": "experiment on",
+    "weight": 100,
+    "include": [],
+    "exclude": [],
+    "metadata": {
+      "fields": "some field"
+    }
+  },
+  {
+    "id": 0,
+    "description": "experiment off",
+    "weight": 100,
+    "include": [],
+    "exclude": [],
+    "metadata": {}
+  },
+  {
+    "id": 0,
+    "description": "experiment on with version 5",
+    "weight": 100,
+    "include": [],
+    "exclude": [],
+    "metadata": {
+      "version": 5
+    }
+  },
+  {
+    "id": 1,
+    "description": "experiment on with version 10",
+    "weight": 100,
+    "include": [],
+    "exclude": [],
+    "metadata": {
+      "version": 10
+    }
+  }
+]

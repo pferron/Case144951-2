@@ -1,0 +1,60 @@
+{
+  "paging": {
+    "_links": { "self": ["Object"] },
+    "limit": 200,
+    "totalCount": 2,
+    "currentToken": "d14de754-e3a5-4c30-84cc-b9939edf6dbb"
+  },
+  "data": [
+    {
+      "id": "1419761d-eed2-4495-a2a0-9dd1b8131e3b",
+      "event": ["Object"],
+      "confirmationNumber": "ZXNZW2ZTHQP",
+      "type": {},
+      "contact": ["Object"],
+      "admissionItem": ["Object"],
+      "registrationPath": ["Object"],
+      "invitationList": ["Object"],
+      "participation": ["Object"],
+      "amountOrdered": 0,
+      "amountPaid": 0,
+      "invitee": true,
+      "groupMember": false,
+      "groupLeader": false,
+      "unsubscribed": false,
+      "status": "Accepted",
+      "registrationDate": "2022-10-17T00:00:00.000Z",
+      "registrationLastModified": "2022-10-17T09:07:35.300Z",
+      "created": "2022-10-17T09:07:35.300Z",
+      "lastModified": "2022-12-16T20:59:44.185Z",
+      "invitationMethod": "Planner-Invited",
+      "registrationMethod": "Planner-Invited",
+      "responseMethod": "Planner-Responded"
+    },
+    {
+      "id": "7a936c55-8e8c-4543-b271-e810d483d268",
+      "event": ["Object"],
+      "confirmationNumber": "3ZNZ395K5VT",
+      "type": {},
+      "contact": ["Object"],
+      "admissionItem": ["Object"],
+      "registrationPath": ["Object"],
+      "invitationList": ["Object"],
+      "participation": ["Object"],
+      "amountOrdered": 0,
+      "amountPaid": 0,
+      "invitee": true,
+      "groupMember": false,
+      "groupLeader": false,
+      "unsubscribed": false,
+      "status": "Accepted",
+      "registrationDate": "2022-10-17T00:00:00.000Z",
+      "registrationLastModified": "2022-10-17T10:13:51.500Z",
+      "created": "2022-10-17T10:13:51.500Z",
+      "lastModified": "2022-12-16T20:59:44.185Z",
+      "invitationMethod": "Planner-Invited",
+      "registrationMethod": "Planner-Invited",
+      "responseMethod": "Planner-Responded"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "branding save button clicked",
+  "type": "track",
+  "folder": "branding",
+  "phase": "engagement",
+  "destinations": ["datadog", "Snowflake", "Mixpanel"],
+  "release": "v2.0",
+  "multiStep": false,
+  "owner": "red",
+  "description": "this action tracks the users who makes changes in themes in order to change the colors of branding",
+  "trigger": "this action is triggered when clicks on save button in brandind edit page",
+  "sdk": "analytics.js",
+  "status": "active",
+  "rules": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "context": {},
+      "properties": {
+        "type": "object",
+        "properties": {
+          "primaryColor": {
+            "description": "Primary color of the events+ hub",
+            "type": "string"
+          },
+          "secondaryColor": {
+            "description": "Secondary color color of the events+ hub",
+            "type": "string"
+          },
+          "backgroundColor": {
+            "description": "BackgroundColor color color of the events+ hub",
+            "type": "string"
+          },
+          "selectYourMood": {
+            "description": "Mood of the events+ hub",
+            "type": "string"
+          },
+          "safeColorMode": {
+            "description": "Whether safemode is turned on or off for the events+ hub",
+            "type": "boolean"
+          },
+          "overrideBackgroundColor": {
+            "description": "Whether background color is overriden for the events+ hub",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "primaryColor",
+          "secondaryColor",
+          "selectYourMood",
+          "safeColorMode",
+          "backgroundColor"
+        ]
+      },
+      "traits": {}
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "data": {
+    "navigation": {
+      "id": "/videoHubs/[videoHub]",
+      "title": "Videos",
+      "page": "/videoHubs/[videoHub]",
+      "logo": {
+        "src": "/cvent-logo.png",
+        "url": "/",
+        "title": "Videos",
+        "__typename": "CarinaNavigationLogo"
+      },
+      "search": {
+        "url": "",
+        "title": "Search",
+        "__typename": "CarinaSearch"
+      },
+      "appSwitcher": {
+        "title": "Developer Resources",
+        "defaultOpen": false,
+        "items": [
+          {
+            "icon": "PagesIcon",
+            "title": "Cvent Technology",
+            "status": "enabled",
+            "url": {
+              "href": "https://technology.docs.cvent.org",
+              "__typename": "CarinaLink"
+            },
+            "__typename": "CarinaAppSwitcherLink"
+          },
+          {
+            "icon": "PagesIcon",
+            "title": "Carina Design System",
+            "status": "enabled",
+            "url": {
+              "href": "https://carina.core.cvent.org",
+              "__typename": "CarinaLink"
+            },
+            "__typename": "CarinaAppSwitcherLink"
+          },
+          {
+            "icon": "PagesIcon",
+            "title": "Nx Framework",
+            "status": "enabled",
+            "url": {
+              "href": "https://nx.docs.cvent.org/",
+              "__typename": "CarinaLink"
+            },
+            "__typename": "CarinaAppSwitcherLink"
+          },
+          {
+            "icon": "PagesIcon",
+            "title": "Developer Admin Portal",
+            "status": "enabled",
+            "url": {
+              "href": "https://admin.core.cvent.org",
+              "__typename": "CarinaLink"
+            },
+            "__typename": "CarinaAppSwitcherLink"
+          }
+        ],
+        "__typename": "CarinaAppSwitcher"
+      },
+      "globalNav": [
+        {
+          "index": "0",
+          "current": null,
+          "title": "events_top_nav",
+          "url": {
+            "href": "/Subscribers/Events2/EventSelection",
+            "__typename": "CarinaLink"
+          },
+          "items": [],
+          "__typename": "CarinaNavItem"
+        },
+        {
+          "index": "1",
+          "current": null,
+          "title": "video_hub_top_nav",
+          "url": {
+            "href": "/eventsplus",
+            "__typename": "CarinaLink"
+          },
+          "items": [],
+          "__typename": "CarinaNavItem"
+        },
+        {
+          "index": "2",
+          "current": null,
+          "title": "webinar_top_nav",
+          "url": {
+            "href": "/webinars",
+            "__typename": "CarinaLink"
+          },
+          "items": [],
+          "__typename": "CarinaNavItem"
+        }
+      ],
+      "localNav": [
+        {
+          "title": "video_hub_top_nav",
+          "current": null,
+          "url": null,
+          "items": [
+            {
+              "title": "channels_side_nav",
+              "current": null,
+              "url": {
+                "href": "/videoHubs/test1/channels",
+                "__typename": "CarinaLink"
+              },
+              "items": [],
+              "__typename": "CarinaNavItem"
+            }
+          ],
+          "__typename": "CarinaNavItem"
+        }
+      ],
+      "__typename": "CarinaNavigation"
+    }
+  }
+}

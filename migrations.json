@@ -1,0 +1,116 @@
+{
+  "migrations": [
+    {
+      "version": "1.40.97",
+      "description": "Update octo pipeline to use hogan prop in app",
+      "cli": "nx",
+      "implementation": "dist/cjs/migrations/upgrade-1.41/addUseHoganPropInAppOctoPipeline",
+      "package": "@cvent/cdf",
+      "name": "update-octo-pipeline-to-use-hogan-props"
+    },
+    {
+      "version": "1.40.125",
+      "description": "Update package.json scripts to pick getBaseForNxAffectedScript and remove getBase script",
+      "cli": "nx",
+      "implementation": "dist/cjs/migrations/upgrade-1.41/updatePackageJsonScriptsAndRemoveGetBaseScript",
+      "package": "@cvent/cdf",
+      "name": "update-package-json-scripts-and-remove-get-base-script"
+    },
+    {
+      "version": "1.40.127",
+      "description": "Update package.json to add nx config",
+      "cli": "nx",
+      "implementation": "dist/cjs/migrations/upgrade-1.42/addNxConfigToPackageJson",
+      "package": "@cvent/cdf",
+      "name": "add-nx-config-to-package-json"
+    },
+    {
+      "version": "1.40.134",
+      "description": "Update pnpmfile with @cvent/wdio-configs for e2e dependencies",
+      "cli": "nx",
+      "implementation": "dist/cjs/migrations/updatePnpmFile",
+      "package": "@cvent/cdf",
+      "name": "update-pnpmfile-for-cvent-wdio-configs"
+    },
+    {
+      "version": "1.40.135",
+      "description": "Update the project.json for webapps to pass in the application name for the build report",
+      "cli": "nx",
+      "implementation": "dist/cjs/migrations/updateNxConfig",
+      "package": "@cvent/cdf",
+      "name": "update-nx-config-to-support-build-report-diff"
+    },
+    {
+      "version": "1.40.136",
+      "description": "Updates /logger/Logger.ts to silence logs when in building a webapp",
+      "cli": "nx",
+      "implementation": "dist/cjs/migrations/upgrade-1.43/addSilenceWhenBuildingToLogger",
+      "package": "@cvent/cdf",
+      "name": "add-silence-when-building-to-logger"
+    },
+    {
+      "version": "1.40.137",
+      "description": "Updating the project.json file to add api spec integration target and dependencies",
+      "cli": "nx",
+      "implementation": "dist/cjs/migrations/updateNxConfig",
+      "package": "@cvent/cdf",
+      "name": "add-api-spec-target"
+    },
+    {
+      "version": "1.40.138",
+      "description": "Update pnpmfile with @wdio/axe-service and @wdio/qeportal-service for e2e dependencies",
+      "cli": "nx",
+      "implementation": "dist/cjs/migrations/updatePnpmFile",
+      "package": "@cvent/cdf",
+      "name": "update-pnpmfile-to-fix-cvent-wdio-dependency-bundling"
+    },
+    {
+      "version": "1.41.29",
+      "description": "Updating the list of output files cached for test:java to include /target/site the jacoco files so coverage is consistent",
+      "cli": "nx",
+      "implementation": "dist/cjs/migrations/updateNxConfig",
+      "package": "@cvent/cdf",
+      "name": "add-jacoco-target-site-to-cached-files"
+    },
+    {
+      "version": "1.41.40",
+      "description": "Update nx.json so that e2e named inputs will contain the wdio conf file.",
+      "cli": "nx",
+      "implementation": "dist/cjs/migrations/updateNxConfig",
+      "package": "@cvent/cdf",
+      "name": "update-nx-config-named-input-src-wdio"
+    },
+    {
+      "version": "1.41.43",
+      "description": "Update package.json scripts to pick getBaseForNxAffectedScript",
+      "cli": "nx",
+      "implementation": "dist/cjs/migrations/upgrade-1.42/updatePackageJsonScriptsPathToPickGetBaseForNxAffected",
+      "package": "@cvent/cdf",
+      "name": "update-package-json-scripts-path-to-pick-getbasefornxaffected"
+    },
+    {
+      "version": "1.41.49",
+      "description": "Update project.json inside playwright e2e project.",
+      "cli": "nx",
+      "implementation": "dist/cjs/migrations/updateNxConfig",
+      "package": "@cvent/cdf",
+      "name": "update-project-config-json-in-playwright-e2e"
+    },
+    {
+      "version": "1.44.2",
+      "description": "Updates the middleware.ts for webapps to disable analytics for bots",
+      "cli": "nx",
+      "implementation": "dist/cjs/migrations/upgrade-1.44/addBotIgnoreAnalyticsToMiddleware",
+      "package": "@cvent/cdf",
+      "name": "add-bot-ignore-analytics-to-middleware"
+    },
+    {
+      "version": "1.45.0",
+      "description": "Enable inferred tasks in nx.json and remove targets from project.json",
+      "cli": "nx",
+      "implementation": "dist/cjs/migrations/upgrade-1.44/enableInferredTasks",
+      "package": "@cvent/cdf",
+      "name": "enable-inferred-tasks"
+    }
+  ]
+}

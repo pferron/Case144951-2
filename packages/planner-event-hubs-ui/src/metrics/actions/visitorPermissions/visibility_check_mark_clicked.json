@@ -1,0 +1,32 @@
+{
+  "name": "visibility check mark clicked",
+  "type": "track",
+  "folder": "visitorPermissions",
+  "phase": "engagement",
+  "destinations": ["datadog", "Snowflake", "Mixpanel"],
+  "release": "v2.0",
+  "multiStep": false,
+  "owner": "red",
+  "description": "this action tracks the users who changes visibility in order to set the visibility of events+",
+  "trigger": "this action is triggered when user clicks on check mark on visibility section edit state on the visitor permissions page",
+  "sdk": "analytics.js",
+  "status": "active",
+  "rules": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "context": {},
+      "properties": {
+        "type": "object",
+        "properties": {
+          "visibilityStatus": {
+            "description": "Conditions determines the visibility of the events+",
+            "type": "string"
+          }
+        },
+        "required": ["visibilityStatus"]
+      },
+      "traits": {}
+    }
+  }
+}

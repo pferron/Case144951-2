@@ -1,0 +1,59 @@
+{
+  "name": "create eventsplus hub button clicked",
+  "type": "track",
+  "folder": "eventsPlusHub",
+  "phase": "engagement",
+  "destinations": ["datadog", "Snowflake", "Mixpanel"],
+  "release": "v2.0",
+  "multiStep": false,
+  "owner": "red",
+  "description": "this action tracks the users who clicks on create events+ hub in order to create a new events+ hub",
+  "trigger": "this action is triggered when user clicks on Create Events+ Hub button within New Events+ Hub creation modal ",
+  "sdk": "analytics.js",
+  "status": "active",
+  "rules": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "context": {},
+      "properties": {
+        "type": "object",
+        "properties": {
+          "hubName": {
+            "description": "Name of the events+ hub created",
+            "type": "string"
+          },
+          "eventHubLanguageSelected": {
+            "description": "Language of the events+ hub while creation",
+            "type": "string"
+          },
+          "hubOwnerFirstName": {
+            "description": "First name of the owner creating the events+ hub",
+            "type": "string"
+          },
+          "hubOwnerLastName": {
+            "description": "Last name of the owner creating the events+ hub",
+            "type": "string"
+          },
+          "hubOwnerEmail": {
+            "description": "Email of the owner creating the events+ hub",
+            "type": "string"
+          },
+          "triggerLocation": {
+            "description": "Location from where the create action is triggered",
+            "type": "string"
+          }
+        },
+        "required": [
+          "hubName",
+          "eventHubLanguageSelected",
+          "hubOwnerFirstName",
+          "hubOwnerLastName",
+          "hubOwnerEmail",
+          "triggerLocation"
+        ]
+      },
+      "traits": {}
+    }
+  }
+}

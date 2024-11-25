@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "downlevelIteration": true,
+    "jsx": "preserve",
+    "jsxImportSource": "@emotion/react",
+    "baseUrl": ".",
+    "sourceMap": true,
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@dataSources/*": ["src/apollo/dataSources/*"],
+      "@navigation/*": ["src/navigation/*"],
+      "@pages/*": ["src/pages/*"],
+      "@resolvers/*": ["src/apollo/resolvers/*"],
+      "@locales/*": ["locales/*"],
+      "@tools/*": ["src/tools/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@utils/*": ["src/utils/*"],
+      "@server/*": ["src/server/*"],
+      "@context/*": ["src/context/*"],
+      "@metrics/*": ["src/metrics/*"]
+    },
+    "incremental": true,
+    "types": ["@emotion/react/types/css-prop", "jest"]
+  },
+  "exclude": ["node_modules"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.test.tsx",
+    "emotion.d.ts"
+  ]
+}

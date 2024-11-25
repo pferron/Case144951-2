@@ -1,0 +1,23 @@
+{
+  "hosted-zone:account=504055967630:domainName=cvent-development.cvent.cloud:privateZone=false:region=us-east-1": {
+    "Id": "/hostedzone/Z1TUUJI1KYX9Q0",
+    "Name": "cvent-development.cvent.cloud."
+  },
+  "hosted-zone:account=572724207364:domainName=cvent-sandbox.cvent.cloud:privateZone=false:region=us-east-1": {
+    "Id": "/hostedzone/Z321UXK1TZE4RD",
+    "Name": "cvent-sandbox.cvent.cloud."
+  },
+  "hosted-zone:account=834623602341:domainName=cvent-integration.cvent.cloud:privateZone=false:region=us-east-1": {
+    "Id": "/hostedzone/ZWROP8Z0O9JAV",
+    "Name": "cvent-integration.cvent.cloud."
+  },
+  "hosted-zone:account=659687181524:domainName=cvent-production.cvent.cloud:privateZone=false:region=us-east-1": {
+    "Id": "/hostedzone/Z1IVBH911D8UTA",
+    "Name": "cvent-production.cvent.cloud."
+  },
+  "hosted-zone:account=924052762697:domainName=core-app-prod.cvent.cloud:privateZone=false:region=eu-west-1": {
+    "Id": "/hostedzone/Z1DKHS93A71VQW",
+    "Name": "core-app-prod.cvent.cloud."
+  },
+  "acknowledged-issue-numbers": [19836]
+}

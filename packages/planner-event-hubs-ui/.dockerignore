@@ -1,0 +1,4 @@
+**/*.map
+!**/array.prototype.map
+!**/array.prototype.map/
+**/.env.local

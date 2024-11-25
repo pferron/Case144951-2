@@ -1,0 +1,11 @@
+{
+  "accessToken": "cachedAccountToken",
+  "refreshToken": "cachedRefreshToken",
+  "csrfToken": "testCsrfToken",
+  "created": 1578953040527,
+  "accessTokenTTL": 2400,
+  "refreshTokenTTL": 2400,
+  "appId": 123,
+  "apiKey": "123",
+  "authorization": {}
+}

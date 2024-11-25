@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Status Text Render Active label 1`] = `
+.emotion-0 {
+  border-width: 0;
+  border-radius: 4px;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: #D1EAD1;
+}
+
+.emotion-0 svg {
+  fill: rgb(26,32,38);
+}
+
+.emotion-1 {
+  font-family: 'Rubik','Helvetica','Arial';
+  font-size: 0.75rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  border: 0;
+  padding: 5px 0;
+  position: relative;
+  color: #006200;
+}
+
+<body>
+  <div>
+    <span
+      class="emotion-0"
+    >
+      <span
+        class="emotion-1"
+      >
+        Live
+      </span>
+    </span>
+  </div>
+</body>
+`;
+
+exports[`Status Text Render Inactive label 1`] = `
+.emotion-0 {
+  border-width: 0;
+  border-radius: 4px;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: #D3E5FA;
+}
+
+.emotion-0 svg {
+  fill: rgb(26,32,38);
+}
+
+.emotion-1 {
+  font-family: 'Rubik','Helvetica','Arial';
+  font-size: 0.75rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  border: 0;
+  padding: 5px 0;
+  position: relative;
+  color: #0050AB;
+}
+
+<body>
+  <div>
+    <span
+      class="emotion-0"
+    >
+      <span
+        class="emotion-1"
+      >
+        Not live
+      </span>
+    </span>
+  </div>
+</body>
+`;

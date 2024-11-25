@@ -1,0 +1,40 @@
+export const BANNER_NAME_FIELD = 'bannerName';
+export const BANNER_NAME_MAX_LENGTH = 100;
+export const ALT_TEXT_FIELD = 'altText';
+export const IMAGE_FIELD = 'imageAsset';
+export const TEXT_COLOR = 'TEXT_AND_COLOR';
+export const INSET_IMAGE = 'INSET_IMAGE';
+export const FULL_IMAGE = 'FULL_IMAGE';
+export const TEXT_ALIGNMENT = 'textAlignment';
+export const FONT_COLOR = 'fontColor';
+export const BANNER_TITLE_FIELD = 'bannerTitle';
+export const BANNER_BODY_FIELD = 'bannerBody';
+export const BANNER_BUTTON_ENABLED = 'bannerButtonEnabled';
+export const BANNER_BUTTON_TEXT_FIELD = 'bannerButtonText';
+export const BANNER_BUTTON_DESTINATION_TYPE = 'bannerButtonDestinationType';
+export const BANNER_BUTTON_DESTINATION_URL = 'bannerButtonDestinationURL';
+export const buttonLinkDestinations = {
+  INTERNAL: 'Internal',
+  EXTERNAL: 'External'
+};
+export const VIDEOS_PAGE = 'videosPage';
+export const EXHIBITOR_LIST_PAGE_SIZE = 8;
+export const CHANNELS_PAGE = 'channelsPage';
+export const TEMPLATE_FIELD = 'template';
+export const ADD_PLACEMENT = 'add';
+export const EDIT_MENU_ITEM = 'edit';
+export const DELETE_MENU_ITEM = 'delete';
+export const PLACEMENT_ALWAYS = 'ALWAYS_VISIBLE';
+export const PLACEMENT_EVENT_DATES = 'EVENT_DATES';
+export const PLACEMENT_CUSTOM_TIMES = 'CUSTOM_TIMES';
+export const PLACEMENT_HIDDEN = 'HIDDEN';
+export const ALIGN_LEFT = 'Left';
+export const ALIGN_RIGHT = 'Right';
+export const ALIGN_CENTER = 'Center';
+export const ADD_BANNER = 'ADD_BANNER';
+export const ADD_BANNER_PLACEMENTS_FAIL = 'ADD_BANNER_PLACEMENTS_FAIL';
+export const IMAGE_ALIGNMENT = 'imageAlignment';
+export const VIDEO_CENTER_PAGE = 'VideoCenterPage';
+export const EXHIBITOR_ATTRIBUTION = 'exhibitorAttribution';
+export const CUSTOM_PAGES = 'CUSTOM_PAGES';
+export const BANNER_BTN_EXTERNAL_URL_LENGTH = 255;

@@ -1,0 +1,867 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CodeSnippetsTable Renders CodeSnippets Table with data 1`] = `
+.emotion-0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1px;
+}
+
+.emotion-1 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.emotion-2 {
+  box-sizing: border-box;
+  outline-width: 1px;
+  outline-offset: -1px;
+  outline-style: solid;
+  outline-color: rgb(217,220,222);
+  width: 100%;
+  overflow: hidden;
+  min-height: 56px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: rgb(255,255,255);
+}
+
+.emotion-3 {
+  box-sizing: border-box;
+  position: relative;
+  width: 54px;
+  background-color: rgb(255,255,255);
+  padding-left: 8px;
+  padding-right: 8px;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  font-size: 0.875rem;
+  font-family: 'Rubik','Helvetica','Arial';
+  min-width: 54px;
+}
+
+.emotion-4 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.emotion-5 {
+  box-sizing: border-box;
+  position: relative;
+  width: 0;
+  background-color: rgb(255,255,255);
+  padding-left: 8px;
+  padding-right: 8px;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  font-size: 0.875rem;
+  font-family: 'Rubik','Helvetica','Arial';
+  min-width: 150px;
+}
+
+.emotion-6 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  padding: 0;
+  font-size: 0.875rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: rgb(26,32,38);
+}
+
+.emotion-6:focus>.heading-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% + 1px);
+  bottom: -2px;
+  background-color: rgb(0,106,225);
+  pointer-events: none;
+}
+
+.emotion-7 {
+  position: relative;
+  font-weight: 400;
+  font-family: 'Rubik','Helvetica','Arial';
+  overflow: hidden;
+}
+
+.emotion-17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(217,220,222);
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(217,220,222);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(217,220,222);
+}
+
+.emotion-18 {
+  position: relative;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgb(105,113,122);
+  width: 100%;
+  overflow-x: hidden;
+  -ms-overflow-y: hidden;
+  border-left: 1px solid rgb(217,220,222);
+  border-right: 1px solid rgb(217,220,222);
+}
+
+.emotion-18::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.emotion-18:hover button[aria-checked],
+.emotion-18:focus-within button[aria-checked] {
+  z-index: 5;
+}
+
+.emotion-18:hover button[aria-checked]>div,
+.emotion-18:focus-within button[aria-checked]>div {
+  border-color: rgba(154,159,166,0.8);
+  background-color: transparent;
+}
+
+.emotion-18:hover button[aria-checked]>div svg,
+.emotion-18:focus-within button[aria-checked]>div svg {
+  fill: rgba(154,159,166,0.8);
+}
+
+.emotion-18:hover span:first-child:hover button[aria-checked]>div,
+.emotion-18:focus-within span:first-child:hover button[aria-checked]>div,
+.emotion-18:hover span:first-child:focus-within button[aria-checked]>div,
+.emotion-18:focus-within span:first-child:focus-within button[aria-checked]>div {
+  border-color: rgb(255,255,255);
+}
+
+.emotion-18:hover span:first-child:hover button[aria-checked]>div svg,
+.emotion-18:focus-within span:first-child:hover button[aria-checked]>div svg,
+.emotion-18:hover span:first-child:focus-within button[aria-checked]>div svg,
+.emotion-18:focus-within span:first-child:focus-within button[aria-checked]>div svg {
+  fill: rgb(255,255,255);
+}
+
+.emotion-18 .x-ray {
+  z-index: 5;
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transition: opacity .18s;
+  transition: opacity .18s;
+  position: absolute;
+  -webkit-transform: translateY(2px);
+  -moz-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  transform: translateY(2px);
+  -ms-transform: translate(-22px, -8px);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .emotion-18:hover .x-ray.start,
+  .emotion-18:hover .x-ray.end {
+    opacity: 1;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .emotion-18:hover .x-ray.start,
+  .emotion-18:hover .x-ray.end {
+    opacity: 1;
+  }
+}
+
+.emotion-19 {
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgb(255,255,255);
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+  z-index: 1;
+  min-height: 56px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 0;
+  -webkit-transition: left .18s;
+  transition: left .18s;
+  right: unset;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: rgb(217,220,222);
+  border-top: 1px solid rgb(217,220,222);
+}
+
+.emotion-19:focus {
+  outline: none;
+}
+
+.emotion-19::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  pointer-events: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .emotion-19:hover {
+    background-color: #E7F2FF;
+  }
+}
+
+.emotion-20 {
+  box-sizing: border-box;
+  width: 54px;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  color: rgb(26,32,38);
+  font-family: 'Rubik','Helvetica','Arial';
+  font-weight: 300;
+  font-size: 0.875rem;
+  padding-right: 8px;
+  padding-left: 8px;
+  min-width: 54px;
+}
+
+.emotion-21 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-22 {
+  box-sizing: border-box;
+  height: 16px;
+  width: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(105,113,122);
+  border-radius: 4px;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+.emotion-23 {
+  box-sizing: border-box;
+  width: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  color: rgb(26,32,38);
+  font-family: 'Rubik','Helvetica','Arial';
+  font-weight: 300;
+  font-size: 0.875rem;
+  padding-right: 8px;
+  padding-left: 8px;
+  min-width: 150px;
+}
+
+.emotion-24 {
+  max-width: 100%;
+  overflow: visible;
+  overflow-wrap: anywhere;
+}
+
+<body>
+  <div>
+    <div
+      dir="ltr"
+    >
+      <div
+        class="emotion-0"
+        data-cvent-id="code-snippet-table"
+        dir="ltr"
+        role="table"
+      >
+        <div
+          class="emotion-1"
+          data-cvent-id="code-snippet-table-table-header"
+          role="rowgroup"
+        >
+          <div
+            class="emotion-2"
+            role="row"
+          >
+            <div
+              class="emotion-3"
+              role="columnheader"
+              scope="col"
+            >
+              <div
+                class="emotion-4"
+              />
+            </div>
+            <div
+              class="emotion-5"
+              role="columnheader"
+              scope="col"
+            >
+              <div
+                class="emotion-6"
+                data-cvent-id="code-snippet-table-heading-1"
+              >
+                <div
+                  class="heading-text emotion-7"
+                >
+                  Name
+                </div>
+              </div>
+            </div>
+            <div
+              class="emotion-5"
+              role="columnheader"
+              scope="col"
+            >
+              <div
+                class="emotion-6"
+                data-cvent-id="code-snippet-table-heading-2"
+              >
+                <div
+                  class="heading-text emotion-7"
+                >
+                  Data Tag Code
+                </div>
+              </div>
+            </div>
+            <div
+              class="emotion-5"
+              role="columnheader"
+              scope="col"
+            >
+              <div
+                class="emotion-6"
+                data-cvent-id="code-snippet-table-heading-3"
+              >
+                <div
+                  class="heading-text emotion-7"
+                >
+                  Status
+                </div>
+              </div>
+            </div>
+            <div
+              class="emotion-5"
+              role="columnheader"
+              scope="col"
+            >
+              <div
+                class="emotion-6"
+                data-cvent-id="code-snippet-table-heading-4"
+              >
+                <div
+                  class="heading-text emotion-7"
+                >
+                  Visitors can turn off
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="emotion-17"
+          role="rowgroup"
+        >
+          <div
+            class="emotion-18"
+          >
+            <div
+              class="emotion-19"
+              data-cvent-id="code-snippet-table-row-0"
+              role="row"
+              tabindex="0"
+            >
+              <div
+                class="emotion-20"
+                role="cell"
+              >
+                <div
+                  class="emotion-21"
+                >
+                  <div
+                    class="emotion-22"
+                  />
+                </div>
+              </div>
+              <div
+                class="emotion-23"
+                role="cell"
+              >
+                <div
+                  class="emotion-24"
+                >
+                  Test-code-snippet
+                </div>
+              </div>
+              <div
+                class="emotion-23"
+                role="cell"
+              >
+                <div
+                  class="emotion-24"
+                >
+                  TEST
+                </div>
+              </div>
+              <div
+                class="emotion-23"
+                role="cell"
+              >
+                <div
+                  class="emotion-24"
+                >
+                  Approved
+                </div>
+              </div>
+              <div
+                class="emotion-23"
+                role="cell"
+              >
+                <div
+                  class="emotion-24"
+                >
+                  Yes
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="emotion-18"
+          >
+            <div
+              class="emotion-19"
+              data-cvent-id="code-snippet-table-row-1"
+              role="row"
+              tabindex="0"
+            >
+              <div
+                class="emotion-20"
+                role="cell"
+              >
+                <div
+                  class="emotion-21"
+                >
+                  <div
+                    class="emotion-22"
+                  />
+                </div>
+              </div>
+              <div
+                class="emotion-23"
+                role="cell"
+              >
+                <div
+                  class="emotion-24"
+                >
+                  Marketo2
+                </div>
+              </div>
+              <div
+                class="emotion-23"
+                role="cell"
+              >
+                <div
+                  class="emotion-24"
+                >
+                  TEST2
+                </div>
+              </div>
+              <div
+                class="emotion-23"
+                role="cell"
+              >
+                <div
+                  class="emotion-24"
+                >
+                  Approved
+                </div>
+              </div>
+              <div
+                class="emotion-23"
+                role="cell"
+              >
+                <div
+                  class="emotion-24"
+                >
+                  Yes
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`CodeSnippetsTable Renders CodeSnippets Table with headers 1`] = `
+.emotion-0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1px;
+}
+
+.emotion-1 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.emotion-2 {
+  box-sizing: border-box;
+  outline-width: 1px;
+  outline-offset: -1px;
+  outline-style: solid;
+  outline-color: rgb(217,220,222);
+  width: 100%;
+  overflow: hidden;
+  min-height: 56px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: rgb(255,255,255);
+}
+
+.emotion-3 {
+  box-sizing: border-box;
+  position: relative;
+  width: 54px;
+  background-color: rgb(255,255,255);
+  padding-left: 8px;
+  padding-right: 8px;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  font-size: 0.875rem;
+  font-family: 'Rubik','Helvetica','Arial';
+  min-width: 54px;
+}
+
+.emotion-4 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  padding: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.emotion-5 {
+  box-sizing: border-box;
+  position: relative;
+  width: 0;
+  background-color: rgb(255,255,255);
+  padding-left: 8px;
+  padding-right: 8px;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  font-size: 0.875rem;
+  font-family: 'Rubik','Helvetica','Arial';
+  min-width: 150px;
+}
+
+.emotion-6 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  padding: 0;
+  font-size: 0.875rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: rgb(26,32,38);
+}
+
+.emotion-6:focus>.heading-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% + 1px);
+  bottom: -2px;
+  background-color: rgb(0,106,225);
+  pointer-events: none;
+}
+
+.emotion-7 {
+  position: relative;
+  font-weight: 400;
+  font-family: 'Rubik','Helvetica','Arial';
+  overflow: hidden;
+}
+
+.emotion-17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(217,220,222);
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(217,220,222);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(217,220,222);
+}
+
+<body>
+  <div>
+    <div
+      dir="ltr"
+    >
+      <div
+        class="emotion-0"
+        data-cvent-id="code-snippet-table"
+        dir="ltr"
+        role="table"
+      >
+        <div
+          class="emotion-1"
+          data-cvent-id="code-snippet-table-table-header"
+          role="rowgroup"
+        >
+          <div
+            class="emotion-2"
+            role="row"
+          >
+            <div
+              class="emotion-3"
+              role="columnheader"
+              scope="col"
+            >
+              <div
+                class="emotion-4"
+              />
+            </div>
+            <div
+              class="emotion-5"
+              role="columnheader"
+              scope="col"
+            >
+              <div
+                class="emotion-6"
+                data-cvent-id="code-snippet-table-heading-1"
+              >
+                <div
+                  class="heading-text emotion-7"
+                >
+                  Name
+                </div>
+              </div>
+            </div>
+            <div
+              class="emotion-5"
+              role="columnheader"
+              scope="col"
+            >
+              <div
+                class="emotion-6"
+                data-cvent-id="code-snippet-table-heading-2"
+              >
+                <div
+                  class="heading-text emotion-7"
+                >
+                  Data Tag Code
+                </div>
+              </div>
+            </div>
+            <div
+              class="emotion-5"
+              role="columnheader"
+              scope="col"
+            >
+              <div
+                class="emotion-6"
+                data-cvent-id="code-snippet-table-heading-3"
+              >
+                <div
+                  class="heading-text emotion-7"
+                >
+                  Status
+                </div>
+              </div>
+            </div>
+            <div
+              class="emotion-5"
+              role="columnheader"
+              scope="col"
+            >
+              <div
+                class="emotion-6"
+                data-cvent-id="code-snippet-table-heading-4"
+              >
+                <div
+                  class="heading-text emotion-7"
+                >
+                  Visitors can turn off
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="emotion-17"
+          role="rowgroup"
+        />
+      </div>
+    </div>
+  </div>
+</body>
+`;

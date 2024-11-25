@@ -1,0 +1,6 @@
+{
+  "app": "node dist/bin/ci.js",
+  "plugin": ["@cvent/cdk-credential-plugin"],
+  "context": {},
+  "versionReporting": false
+}

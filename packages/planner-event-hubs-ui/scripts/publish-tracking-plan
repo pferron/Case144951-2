@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+# Parent page is https://wiki.cvent.com/display/CDP/Tracking+Plans
+
+poetry run md2cf \
+  --host 'https://wiki.cvent.com/rest/api' \
+  --preface-markdown '**Contents are auto-generated. Do not edit.**' \
+  --space 'CDP' \
+  --parent-id '523887083' \
+  --username "$USER" \
+  "$(git rev-parse --show-toplevel)/packages/planner-event-hubs-ui/src/metrics/docs"

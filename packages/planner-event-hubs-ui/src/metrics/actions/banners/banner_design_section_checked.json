@@ -1,0 +1,36 @@
+{
+  "name": "banner design section checked",
+  "type": "track",
+  "folder": "banners",
+  "phase": "engagement",
+  "destinations": ["datadog", "Snowflake", "Mixpanel"],
+  "release": "v2.0",
+  "multiStep": false,
+  "owner": "red",
+  "description": "this action tracks the users who updates design section in order to change the text alignments in banner",
+  "trigger": "this action is triggered when user clicks on check mark button in edit state of banner design section",
+  "sdk": "analytics.js",
+  "status": "active",
+  "rules": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "context": {},
+      "properties": {
+        "type": "object",
+        "properties": {
+          "textAlignment": {
+            "description": "Text alignment selected for the banner",
+            "type": "string"
+          },
+          "fontColor": {
+            "description": "Font color of the text that appears on the banner",
+            "type": "string"
+          }
+        },
+        "required": ["textAlignment"]
+      },
+      "traits": {}
+    }
+  }
+}

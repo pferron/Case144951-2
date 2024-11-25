@@ -1,0 +1,36 @@
+{
+  "name": "create button clicked",
+  "type": "track",
+  "folder": "channels",
+  "phase": "engagement",
+  "destinations": ["datadog", "Snowflake", "Mixpanel"],
+  "release": "v2.0",
+  "multiStep": false,
+  "owner": "red",
+  "description": "this action tracks the users who clicks on create channel in order to create channel for events+",
+  "trigger": "this action is triggered when user clicks Create Channel button on the channels page",
+  "sdk": "analytics.js",
+  "status": "active",
+  "rules": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "context": {},
+      "properties": {
+        "type": "object",
+        "properties": {
+          "channelName": {
+            "description": "Name of the Channel created",
+            "type": "string"
+          },
+          "channelDescription": {
+            "description": "Description of the Channel created",
+            "type": "string"
+          }
+        },
+        "required": ["channelName", "channelDescription"]
+      },
+      "traits": {}
+    }
+  }
+}

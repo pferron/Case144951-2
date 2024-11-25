@@ -1,0 +1,149 @@
+@@@VideoHubGatekeepers          @lkobiti @ssimpson @jcurtis
+@@@ServiceOwners                @gsavoie @bkaster @JHeller @kwen @vlakki @vsubbanna @kelly.yao @scahail @jfu
+@@@Fireball                     @HTandon @pshokeen @nikhil.yadav @anmol.kapoor
+@@@Mauve                        @iarora @nikhil.verma @Harbhajan.Singh @hgupta @rohit.agrawal @Shivangi.Singh1 @punit.nandal
+@@@Red                          @gsavoie @bkaster @JHeller @kwen @vlakki @vsubbanna @kelly.yao @scahail @jfu
+@@@Sev1Group                    @gsavoie @bkaster @pshokeen @iarora @HTandon @hgupta @JHeller @abhijeet.rathore # The group should be leveraged in case of urgent production fixes when the owning team is not available.
+@@@AutomatedTest				@kelly.yao
+
+# The repo is owned by Red Team. Please make sure to get approval from the team.
+# Each component should have one owner.
+
+CODEOWNERS.destination_branch_pattern main
+
+# These groups will be added to all PRs
+*                               @@VideoHubGatekeepers @@ServiceOwners @@Sev1Group
+packages/planner-event-hubs-e2e/**	@@AutomatedTest
+
+# [Pages]
+# [Pages - api]
+packages/planner-event-hubs-ui/src/pages/api/image.ts @@Red
+packages/planner-event-hubs-ui/src/pages/api/s3ProxyUploadCallback.ts @@Red
+packages/planner-event-hubs-ui/src/pages/api/ok.ts @@Red
+packages/planner-event-hubs-ui/src/pages/api/log.ts @@Red
+packages/planner-event-hubs-ui/src/pages/api/graphql.ts @@Red
+packages/planner-event-hubs-ui/src/pages/*/index.ts @@Red
+
+# [Components]
+packages/planner-event-hubs-ui/src/components/banners/** @@Red
+packages/planner-event-hubs-ui/src/components/langaugeManagement/** @@Red
+packages/planner-event-hubs-ui/src/components/channels/** @@Fireball
+packages/planner-event-hubs-ui/src/components/common/LibraryConfirmationModal @@Fireball
+packages/planner-event-hubs-ui/src/components/common/WritingAssistant @@Red
+packages/planner-event-hubs-ui/src/components/common/* @@Red
+packages/planner-event-hubs-ui/src/components/customRegistration/** @@Mauve
+packages/planner-event-hubs-ui/src/components/features/** @@Mauve
+packages/planner-event-hubs-ui/src/components/hubOverview/** @@Mauve
+packages/planner-event-hubs-ui/src/components/layout/** @@Red
+packages/planner-event-hubs-ui/src/components/memberList/** @@Mauve
+packages/planner-event-hubs-ui/src/components/member-profile/** @@Mauve
+packages/planner-event-hubs-ui/src/components/privacy/** @@Mauve
+packages/planner-event-hubs-ui/src/components/common/loading/** @@Red
+packages/planner-event-hubs-ui/src/components/shared/Flyout.tsx @@Mauve
+packages/planner-event-hubs-ui/src/components/tracking-codes/** @@Mauve
+packages/planner-event-hubs-ui/src/components/videoEngagement/** @@Mauve
+packages/planner-event-hubs-ui/src/components/upcoming-events/** @@Red
+packages/planner-event-hubs-ui/src/components/userSession/** @@Red
+packages/planner-event-hubs-ui/src/components/videoCenters/** @@Red
+packages/planner-event-hubs-ui/src/components/visitor-permissions/** @@Mauve
+packages/planner-event-hubs-ui/src/components/metrics/* @@Fireball
+
+# [Analytics]
+packages/planner-event-hubs-ui/src/analytics/** @@Red
+
+# [Apollo]
+# [Apollo - DataSource]
+packages/planner-event-hubs-ui/apollo/dataSources/authService/** @@Red
+packages/planner-event-hubs-ui/apollo/dataSources/bannerService/** @@Red
+packages/planner-event-hubs-ui/apollo/dataSources/customDomain/** @@Fireball
+packages/planner-event-hubs-ui/apollo/dataSources/imageLookupService/** @@Red
+packages/planner-event-hubs-ui/apollo/dataSources/RESTDataSource/** @@Red
+packages/planner-event-hubs-ui/apollo/dataSources/s3ProxyService/** @@Red
+packages/planner-event-hubs-ui/apollo/dataSources/universalVideoService/** @@Fireball
+packages/planner-event-hubs-ui/apollo/dataSources/videoCenterService/** @@Red @@Mauve
+packages/planner-event-hubs-ui/apollo/dataSources/CvestDataSource.ts @@Red
+
+# [Apollo - Resolvers]
+packages/planner-event-hubs-ui/apollo/resolvers/appfeatures/** @@Fireball
+packages/planner-event-hubs-ui/apollo/resolvers/banner/** @@Red
+packages/planner-event-hubs-ui/apollo/resolvers/catalog/** @@Fireball
+packages/planner-event-hubs-ui/apollo/resolvers/channel/** @@Fireball
+packages/planner-event-hubs-ui/apollo/resolvers/common/clients/ExperimentsClient.ts @@Fireball
+packages/planner-event-hubs-ui/apollo/resolvers/common/dataAccess/banner.ts @@Red
+packages/planner-event-hubs-ui/apollo/resolvers/common/dataAccess/catalog.ts @@Fireball
+packages/planner-event-hubs-ui/apollo/resolvers/common/dataAccess/channel.ts @@Fireball
+packages/planner-event-hubs-ui/apollo/resolvers/common/dataAccess/upload.ts @@Red
+packages/planner-event-hubs-ui/apollo/resolvers/common/dataAccess/videos.ts @@Red
+packages/planner-event-hubs-ui/apollo/resolvers/customDomain/** @@Fireball
+packages/planner-event-hubs-ui/apollo/resolvers/hub/** @@Red @@Mauve
+packages/planner-event-hubs-ui/apollo/resolvers/upload/** @@Red
+packages/planner-event-hubs-ui/apollo/resolvers/video/** @@Red
+packages/planner-event-hubs-ui/apollo/resolvers/trackingcodes/** @@Mauve
+
+# [Graphql]
+# [Graphql - Operations]
+packages/planner-event-hubs-ui/graphql/operations/channel.ts @@Fireball
+packages/planner-event-hubs-ui/graphql/operations/home.ts @@Red
+packages/planner-event-hubs-ui/graphql/operations/hub.ts @@Red @@Mauve
+packages/planner-event-hubs-ui/graphql/operations/local.ts @@Fireball
+packages/planner-event-hubs-ui/graphql/operations/video.ts @@Red
+
+# [Graphql - Schema]
+packages/planner-event-hubs-model/schema/banner.ts @@Red
+packages/planner-event-hubs-model/schema/catalog.ts @@Fireball
+packages/planner-event-hubs-model/schema/channel.ts @@Fireball
+packages/planner-event-hubs-model/schema/customDomain.ts @@Fireball
+packages/planner-event-hubs-model/schema/hub.ts @@Red @@Mauve
+packages/planner-event-hubs-model/schema/local.ts @@Fireball
+packages/planner-event-hubs-model/schema/login.ts @@Red
+packages/planner-event-hubs-model/schema/memberChannels.ts @@Fireball
+packages/planner-event-hubs-model/schema/shortUrl.ts @@Red
+packages/planner-event-hubs-model/schema/upload.ts @@Red
+packages/planner-event-hubs-model/schema/video.ts @@Red
+packages/planner-event-hubs-model/schema/trackingCodes.ts @@Mauve
+
+# [Hooks]
+packages/planner-event-hubs-ui/hooks/* @@Red
+
+# [Server]
+packages/planner-event-hubs-ui/server/S3ProxyHandler/** @@Red
+packages/planner-event-hubs-ui/server/S3ProxyHandler/S3ProxyHandler.ts @@Red
+packages/planner-event-hubs-ui/src/server/RedisConfig.ts @@Red
+packages/planner-event-hubs-ui/src/server/RemoteCacheOrFallback.ts @@Red
+packages/planner-event-hubs-ui/src/server/cache @@Red
+packages/planner-event-hubs-ui/src/server/getAppfeatures @@Red
+
+# Managing Pages
+packages/planner-event-hubs-ui/src/pages/eventsplus/**/channels/**                 @@Fireball @@Sev1Group
+packages/planner-event-hubs-ui/src/pages/eventsplus/**/features/**                 @@Mauve @@Sev1Group
+packages/planner-event-hubs-ui/src/pages/eventsplus/**/member-profile/**           @@Mauve @@Sev1Group
+packages/planner-event-hubs-ui/src/pages/eventsplus/**/privacy/**                  @@Mauve @@Sev1Group
+packages/planner-event-hubs-ui/src/pages/eventsplus/**/members/**                  @@Mauve @@Sev1Group
+packages/planner-event-hubs-ui/src/pages/eventsplus/**/visitor-permissions/**      @@Mauve @@Sev1Group
+packages/planner-event-hubs-ui/src/pages/eventsplus/**/tracking-codes/**            @@Mauve @@Sev1Group
+packages/planner-event-hubs-ui/src/pages/eventsplus/**/custom-registration/**       @@Mauve @@Sev1Group
+packages/planner-event-hubs-ui/src/pages/eventsplus/**/hub-overview/**            @@Mauve @@Sev1Group
+packages/planner-event-hubs-ui/src/pages/eventsplus/**/video-engagement/**          @@Mauve @@Sev1Group
+
+
+# Managing Components
+packages/planner-event-hubs-ui/src/components/channels/**                    @@Fireball @@Sev1Group
+packages/planner-event-hubs-ui/src/components/features/**                    @@Mauve @@Sev1Group
+packages/planner-event-hubs-ui/src/components/member-profile/**              @@Mauve @@Sev1Group
+packages/planner-event-hubs-ui/src/components/privacy/**                     @@Mauve @@Sev1Group
+packages/planner-event-hubs-ui/src/components/memberList/**                  @@Mauve @@Sev1Group
+packages/planner-event-hubs-ui/src/components/visitor-permissions/**         @@Mauve @@Sev1Group
+packages/planner-event-hubs-ui/src/components/tracking-codes/**              @@Mauve @@Sev1Group
+packages/planner-event-hubs-ui/src/components/videoEngagement/**             @@Mauve @@Sev1Group
+packages/planner-event-hubs-ui/src/components/hubOverview/**                 @@Mauve @@Sev1Group
+packages/planner-event-hubs-ui/src/components/banners/**                     @@Red @@Sev1Group
+packages/planner-event-hubs-ui/src/components/langaugeManagement/**          @@Red @@Sev1Group
+packages/planner-event-hubs-ui/src/components/customRegistration/**          @@Mauve @@Sev1Group
+
+
+OverallCheck(2)
+
+((Check(@@Mauve >= 1)  & (Check(@@ServiceOwners >= 1) | Check(@@VideoHubGatekeepers >= 1))) | Check(@@Sev1Group >= 2))
+((Check(@@Red >= 1) & (Check(@@ServiceOwners >= 1) | Check(@@VideoHubGatekeepers >= 1)))  | Check(@@Sev1Group >= 2))
+((Check(@@Fireball >= 1) & (Check(@@ServiceOwners >= 1) | Check(@@VideoHubGatekeepers >= 1))) | Check(@@Sev1Group >= 2))
+

@@ -1,0 +1,52 @@
+{
+  "name": "banner content section checked",
+  "type": "track",
+  "folder": "banners",
+  "phase": "engagement",
+  "destinations": ["datadog", "Snowflake", "Mixpanel"],
+  "release": "v2.0",
+  "multiStep": false,
+  "owner": "red",
+  "description": "this action tracks the users who provides banner details in order to update the banner content section",
+  "trigger": "this action is triggered when user clicks on check mark button in edit state of banner content section",
+  "sdk": "analytics.js",
+  "status": "active",
+  "rules": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "context": {},
+      "properties": {
+        "type": "object",
+        "properties": {
+          "bannerTitle": {
+            "description": "Title provided for the banner",
+            "type": "string"
+          },
+          "bannerBody": {
+            "description": "Description provided for the banner",
+            "type": "string"
+          },
+          "buttonText": {
+            "description": "Button text if there are any buttons added to the banner",
+            "type": "string"
+          },
+          "whereWillThisButtonBringYourMembers": {
+            "description": "Destination page or link on click on the button",
+            "type": "string"
+          },
+          "selectAPage": {
+            "description": "Name of the page that button takes when selected Events+ hub",
+            "type": "string"
+          },
+          "externalLink": {
+            "description": "External Link to which the button clicks takes to",
+            "type": "string"
+          }
+        },
+        "required": ["bannerTitle"]
+      },
+      "traits": {}
+    }
+  }
+}

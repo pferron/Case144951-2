@@ -1,0 +1,23 @@
+{
+  "name": "assign pages button clicked",
+  "type": "track",
+  "folder": "banners",
+  "phase": "engagement",
+  "destinations": ["datadog", "Snowflake", "Mixpanel"],
+  "release": "v2.0",
+  "multiStep": false,
+  "owner": "red",
+  "description": "this action tracks the users who has intent to assign pages to banners in order to show banners on those pages",
+  "trigger": "this action is triggered when user clicks on 'Assign pages' in page section of banner",
+  "sdk": "analytics.js",
+  "status": "active",
+  "rules": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "context": {},
+      "properties": { "type": "object", "properties": {}, "required": [] },
+      "traits": {}
+    }
+  }
+}

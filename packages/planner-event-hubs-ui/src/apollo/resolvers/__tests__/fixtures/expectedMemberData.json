@@ -1,0 +1,16 @@
+{
+  "profile": {
+    "emailAddress": "test@test.com",
+    "firstName": "test",
+    "lastName": "user",
+    "prefix": "prefix",
+    "profileImageUrl": {
+      "href": "profileImageUrl"
+    },
+    "registrationDate": "2017-10-11T13:16:09.765Z",
+    "lastLoginDate": "2017-10-11T13:16:09.765Z",
+    "mobileNumber": "1234567890"
+  },
+  "termsAccepted": true,
+  "visibility": true
+}

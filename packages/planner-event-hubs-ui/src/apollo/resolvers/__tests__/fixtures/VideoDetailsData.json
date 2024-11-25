@@ -1,0 +1,25 @@
+{
+  "videoPlaybackInfo": {
+    "id": "68c9b457-ff9e-4096-b52f-1098dc2e9e81",
+    "created": "2022-11-10T17:16:20.642Z",
+    "description": "desc",
+    "lastModified": "2022-11-10T17:41:54.490Z",
+    "duration": 7533,
+    "title": "video 2 updated again",
+    "type": "mov",
+    "status": "Available",
+    "uploadCompleted": "2022-11-10T17:41:54.491Z",
+    "uploadStarted": "2022-11-10T17:16:20.642Z",
+    "url": {
+      "href": "6b019113-9f5a-4b78-bb0f-56892fa115b6/00000000-0000-0000-0000-000000000000/68c9b457-ff9e-4096-b52f-1098dc2e9e81/video.mov"
+    },
+    "generatedThumbnail": {
+      "url": {
+        "href": "https://video-sg50.cvent.com/S606/6b019113-9f5a-4b78-bb0f-56892fa115b6/00000000-0000-0000-0000-000000000000/68c9b457-ff9e-4096-b52f-1098dc2e9e81/converted-videos-1668100596/poster/video.0000001.jpg?Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vdmlkZW8tc2c1MC5jdmVudC5jb20vUzYwNi82YjAxOTExMy05ZjVhLTRiNzgtYmIwZi01Njg5MmZhMTE1YjYvMDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAwLzY4YzliNDU3LWZmOWUtNDA5Ni1iNTJmLTEwOThkYzJlOWU4MS9jb252ZXJ0ZWQtdmlkZW9zLTE2NjgxMDA1OTYvcG9zdGVyLyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2NjgxOTQzMDJ9fX1dfQ__&Signature=3gMeyH6WfAzv6z7P13d6RCBvteoYaobP1~-fK-F0eVmE44seBEoA5wymGjFSZQ8yj6DZS~m0-KpUZDEVwUCcDroQJ1BvrHYff68l0xG1JKCLqLSsp0xZgEjJbsTDwTVMIrhshgZNq95yT4Cv4OS5Tm0tzF6ReRIEtfRVIi22u8P7-ZiD~So-n7r0gkl-M-9hWlvQgL77lQyvsLrctn4mXVjriiL-CcvNzVe1b5oXvEYbOFkZTTserM2G0oiK6meZTk8z6KErdUJLk0HgG-g61RFX8v0Ot9Z4Q-bTKu8uHXDVv5dZEjip5IDUK7JhFgSdKvSWegpqW6Js0YF-fsBsKQ__&Key-Pair-Id=K2VO5FHT41WK3E"
+      },
+      "lastModified": "2022-11-10T17:41:54.490Z",
+      "id": "68c9b457-ff9e-4096-b52f-1098dc2e9e81"
+    }
+  },
+  "views": ""
+}

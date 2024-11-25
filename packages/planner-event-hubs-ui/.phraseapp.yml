@@ -1,0 +1,11 @@
+phraseapp:
+  access_token: dba6ba3cd51c8d2a4276c4de6aabd0f406b083ba13a1da5930f2db0ed7bf4dfb
+  project_id: 5595df6942bc114acccdf4b65229a912
+  file_format: react_simple_json
+  pull:
+    targets:
+      - file: ./locales/<locale_code>.json
+        params:
+          include_unverified_translations: true
+          include_empty_translations: true
+          fallback_locale_id: en-US

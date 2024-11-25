@@ -1,0 +1,107 @@
+{
+  "id": "2797f8d5-5394-4591-86e2-804c24163c29",
+  "title": "Space Technologies",
+  "description": "You need the dark in order to show the light. At home you have unlimited time. Those great big fluffy clouds. See. We take the corner of the brush and let it play back-and-forth. Be brave. If we're gonna walk though the woods, we need a little path. Everyone wants to enjoy the good parts - but you have to build the framework first. There's not a thing in the world wrong with washing your brush. Making all those little fluffies that live in the clouds. Get tough with it, get strong. And I know you're saying, 'Oh Bob, you've done it this time.",
+  "shortUrl": "https://www.example.com",
+  "catalog": {
+    "id": "12392258-cee6-4e11-97d5-f90a48412395",
+    "catalogType": "LIST",
+    "sections": [
+      {
+        "id": "9475c4cd-4236-4b9e-8685-87579fb035ec",
+        "title": "[Section Name]",
+        "videoCount": 11,
+        "videos": [
+          {
+            "id": "48c512e2-a066-4c0b-95b5-dff7251a1f51",
+            "title": "video.mp4",
+            "views": "10,321",
+            "date": "2022-04-28T16:55:01.848Z",
+            "url": "https://source.unsplash.com/1600x900/?fitness",
+            "duration": "1:32:50"
+          },
+          {
+            "id": "ad2f559f-9479-4d29-9c0c-9f1caef6d7e6",
+            "title": "video.mp4",
+            "views": "10,321",
+            "date": "2022-04-28T16:55:01.848Z",
+            "url": "https://source.unsplash.com/1600x900/?nature",
+            "duration": "1:32:50"
+          },
+          {
+            "id": "7660e962-e0cf-4cb6-9b78-0d7f55d3c08d",
+            "title": "video.mp4",
+            "views": "10,321",
+            "date": "2022-04-28T16:55:01.848Z",
+            "url": "https://source.unsplash.com/1600x900/?people",
+            "duration": "1:32:50"
+          },
+          {
+            "id": "6e3c7a19-695e-404e-b019-eb8716b6b4bf",
+            "title": "video.mp4",
+            "views": "10,321",
+            "date": "2022-04-28T16:55:01.848Z",
+            "url": "https://source.unsplash.com/1600x900/?sky",
+            "duration": "1:32:50"
+          },
+          {
+            "id": "a4ae21c2-279d-4ce9-bc0c-47fdb2660020",
+            "title": "video.mp4",
+            "views": "10,321",
+            "date": "2022-04-28T16:55:01.848Z",
+            "url": "https://source.unsplash.com/1600x900/?night",
+            "duration": "1:32:50"
+          },
+          {
+            "id": "c3fd6513-6f12-4654-8d1d-37b1466629c2",
+            "title": "video.mp4",
+            "views": "10,321",
+            "date": "2022-04-28T16:55:01.848Z",
+            "url": "https://source.unsplash.com/1600x900/?food",
+            "duration": "1:32:50"
+          },
+          {
+            "id": "3a1301ab-3ac9-428a-bbb6-33890317cfef",
+            "title": "video.mp4",
+            "views": "10,321",
+            "date": "2022-04-28T16:55:01.848Z",
+            "url": "https://source.unsplash.com/1600x900/?doctor",
+            "duration": "1:32:50"
+          },
+          {
+            "id": "4f126f95-692a-4698-ad12-2bc40a7f51c9",
+            "title": "video.mp4",
+            "views": "10,321",
+            "date": "2022-04-28T16:55:01.848Z",
+            "url": "https://source.unsplash.com/1600x900/?art",
+            "duration": "1:32:50"
+          },
+          {
+            "id": "0af7f817-df3d-4a8f-a28e-a4b032864301",
+            "title": "video.mp4",
+            "views": "10,321",
+            "date": "2022-04-28T16:55:01.848Z",
+            "url": "https://source.unsplash.com/1600x900/?home",
+            "duration": "1:32:50"
+          },
+          {
+            "id": "8caed22e-8488-4c38-886c-a6ad32b8f8d8",
+            "title": "video.mp4",
+            "views": "10,321",
+            "date": "2022-04-28T16:55:01.848Z",
+            "url": "https://source.unsplash.com/1600x900/?chocolate",
+            "duration": "1:32:50"
+          },
+          {
+            "id": "3d292552-3fd4-4ffb-980e-bd52fce9b928",
+            "title": "video.mp4",
+            "views": "10,321",
+            "date": "2022-04-28T16:55:01.848Z",
+            "url": "https://source.unsplash.com/1600x900/?books",
+            "duration": "1:32:50"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "04ca6ae2-0dc3-487b-953e-86d6abbdf7d3",
+  "status": "Inactive",
+  "accountMappingId": "04ca6ae2-0dc3-487b-953e-86d6abbdf7d3",
+  "title": "Future Technologies",
+  "ownerFirstName": "Achuthanandan",
+  "ownerLastName": "Velikkakathu Sankaran",
+  "ownerEmail": "Achuthanandan.VS@domain.tld",
+  "url": "https://s3.amazonaws.com/bucket/scope/logo.png",
+  "actionColor": "#0F0F0F",
+  "backgroundColor": "#0F0F0F",
+  "mainColor": "#0F0F0F",
+  "logoImageRelativePath": "/scope/logo.png",
+  "logoImageUrl": "https://s3.amazonaws.com/bucket/scope/logo.png",
+  "locale": "en-GB",
+  "created": "2017-01-02T02:00:00Z",
+  "createdBy": "hporter",
+  "lastModified": "2019-02-12T03:00:00Z",
+  "lastModifiedBy": "hporter"
+}

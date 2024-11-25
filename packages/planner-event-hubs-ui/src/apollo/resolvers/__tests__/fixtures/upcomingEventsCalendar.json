@@ -1,0 +1,22 @@
+{
+  "config": {},
+  "data": [
+    {
+      "id": "d940e1d6-07f9-48ba-8e4f-ef57ef1bd261"
+    },
+    {
+      "id": "9a9a7027-8eda-43e0-873a-3ddc2191daee"
+    },
+    {
+      "id": "c7dc44a0-1496-4b70-8a69-d1f238a6a847"
+    }
+  ],
+  "id": "346b2349-9f6e-41b1-8a53-373f1bd083fd",
+  "paging": {
+    "currentToken": "OTdmNTQ5ZDItNWVkNy00N2MxLWFiZWEtODEwZmVhZDE5YTFiOjE=",
+    "limit": 20,
+    "nextToken": null,
+    "previousToken": null,
+    "totalCount": 3
+  }
+}

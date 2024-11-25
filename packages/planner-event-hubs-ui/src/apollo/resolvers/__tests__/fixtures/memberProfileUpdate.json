@@ -1,0 +1,19 @@
+{
+  "firstName": "test",
+  "lastName": "user",
+  "prefix": "prefix",
+  "designation": "designation",
+  "jobTitle": "jobTitle",
+  "companyName": "companyName",
+  "socialMediaLinks": {
+    "facebookUrl": {
+      "href": "https://www.facebookUrl.com"
+    },
+    "twitterUrl": {
+      "href": "https://www.twitterUrl.com"
+    },
+    "linkedinUrl": {
+      "href": "https:/www.linkedinUrl.com"
+    }
+  }
+}

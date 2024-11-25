@@ -1,0 +1,30 @@
+{
+  "hub": {
+    "id": "test-video-center",
+    "status": "Active",
+    "config": {
+      "title": "test",
+      "ownerFirstName": "firstName",
+      "ownerLastName": "lastName",
+      "ownerEmail": "firstName.lastName@cvent.com",
+      "url": null,
+      "locale": "en-US"
+    },
+    "theme": {
+      "actionColor": "#1a6137",
+      "backgroundColor": "#1ce6e6",
+      "logoImageRelativePath": null,
+      "logoImageUrl": "https://images-lower.cvent.com/S606/f6d746482c09496fa3e3e3f6cd1503a0/video-center/55113f0a-9f28-4257-8c0e-3ca34f44c4b9/banner/48b8279e-36af-4324-b5b3-2055911a815a/69f8c46a294a908fff6c5c83df6af5c8!_!56c9871d97eb0444b64299d9a13a6225.png",
+      "logoAltText": null,
+      "mainColor": "#1622e6",
+      "backgroundImageUrl": "https://images-lower.cvent.com/S606/f6d746482c09496fa3e3e3f6cd1503a0/video-center/55113f0a-9f28-4257-8c0e-3ca34f44c4b9/banner/48b8279e-36af-4324-b5b3-2055911a815a/69f8c46a294a908fff6c5c83df6af5c8!_!56c9871d97eb0444b64299d9a13a6225.png",
+      "backgroundOriginalImageUrl": "https://silo606-custom.core.cvent.org/f6d746482c09496fa3e3e3f6cd1503a0/video-center/55113f0a-9f28-4257-8c0e-3ca34f44c4b9/banner/48b8279e-36af-4324-b5b3-2055911a815a/connections.png"
+    },
+    "termsLinkText": "Terms Of Use",
+    "cventPrivacyPolicyLinkText": "Privacy Policy",
+    "displayCventPrivacyPolicy": true,
+    "privacyPolicyLinkText": "Test Policy",
+    "allowTurnOffCookies": false,
+    "allowTurnOffGoogleAnalytics": false
+  }
+}

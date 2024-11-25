@@ -1,0 +1,8 @@
+{
+  "accessToken": "860b8219ec2a9443b6a6e8530c14cb63",
+  "refreshToken": "52051b66b916a6d41f2cba5c6844c1cf",
+  "csrfToken": "395fe1ebf958496c4f89fe22b53994b7c2dd9ab16b8893285f0a9d886ce27d3dc0f78521a94d1a75f035d8e3b991d33b010dbc20842066694ca4370ba72c2988",
+  "created": 1578953040527,
+  "accessTokenTTL": 2400,
+  "refreshTokenTTL": 2400
+}

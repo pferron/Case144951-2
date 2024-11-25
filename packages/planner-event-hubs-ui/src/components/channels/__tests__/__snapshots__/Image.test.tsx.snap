@@ -1,0 +1,1356 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image Card Test Render Image card when Image is already uploaded & it is in Edit mode, when editing is not allowed 1`] = `
+.emotion-0 {
+  max-width: 20rem;
+}
+
+.emotion-2 {
+  overflow: hidden;
+  aspect-ratio: 1.78;
+  position: relative;
+}
+
+.emotion-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.emotion-4 {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  font-size: 1rem;
+  word-break: break-all;
+}
+
+.emotion-5 {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.emotion-7 {
+  direction: inherit;
+  box-sizing: border-box;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  min-height: 0;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+.emotion-8 {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.emotion-9 {
+  direction: ltr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #006DE9;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: 'Rubik','Helvetica','Arial';
+  font-style: normal;
+  font-weight: 400;
+  height: 36px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  letter-spacing: 0;
+  margin-right: 0;
+  margin-left: 0;
+  max-width: 100%;
+  padding-bottom: 0;
+  padding-top: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background-color cubic-bezier(0, 0, 0.39, 1) 100ms,color cubic-bezier(0, 0, 0.39, 1) 100ms,border-color cubic-bezier(0, 0, 0.39, 1) 100ms,box-shadow cubic-bezier(0.2, 0, 0.4, 0.9) 100ms;
+  transition: background-color cubic-bezier(0, 0, 0.39, 1) 100ms,color cubic-bezier(0, 0, 0.39, 1) 100ms,border-color cubic-bezier(0, 0, 0.39, 1) 100ms,box-shadow cubic-bezier(0.2, 0, 0.4, 0.9) 100ms;
+  color: #006DE9;
+  font-size: 0.875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  min-width: 80px;
+}
+
+@media (hover: hover) {
+  .emotion-9:hover {
+    background-color: rgb(0,106,225);
+    color: rgb(255,255,255);
+  }
+
+  .emotion-9:hover svg {
+    fill: rgb(255,255,255);
+  }
+}
+
+.emotion-9:active {
+  background-color: #004CD6;
+  color: rgb(255,255,255);
+  -webkit-transform: scale(0.96);
+  -moz-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  transform: scale(0.96);
+}
+
+.emotion-9:active svg {
+  fill: rgb(255,255,255);
+}
+
+.emotion-9:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #4494EF;
+}
+
+.emotion-10 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  margin-right: 0.5rem;
+}
+
+.emotion-11 {
+  width: 1rem;
+  height: 1rem;
+  fill: #006DE9;
+}
+
+.emotion-12 {
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.emotion-13 {
+  margin-top: 1rem;
+}
+
+.emotion-14 {
+  direction: ltr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #006DE9;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: default;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: 'Rubik','Helvetica','Arial';
+  font-style: normal;
+  font-weight: 400;
+  height: 36px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  letter-spacing: 0;
+  margin-right: 0;
+  margin-left: 0;
+  max-width: 100%;
+  padding-bottom: 0;
+  padding-top: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background-color cubic-bezier(0, 0, 0.39, 1) 100ms,color cubic-bezier(0, 0, 0.39, 1) 100ms,border-color cubic-bezier(0, 0, 0.39, 1) 100ms,box-shadow cubic-bezier(0.2, 0, 0.4, 0.9) 100ms;
+  transition: background-color cubic-bezier(0, 0, 0.39, 1) 100ms,color cubic-bezier(0, 0, 0.39, 1) 100ms,border-color cubic-bezier(0, 0, 0.39, 1) 100ms,box-shadow cubic-bezier(0.2, 0, 0.4, 0.9) 100ms;
+  color: #006DE9;
+  opacity: 0.4;
+  font-size: 0.875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  min-width: 80px;
+}
+
+@media (hover: hover) {
+  .emotion-14:hover {
+    background-color: rgb(0,106,225);
+    color: rgb(255,255,255);
+  }
+
+  .emotion-14:hover svg {
+    fill: rgb(255,255,255);
+  }
+}
+
+.emotion-14:active {
+  background-color: #004CD6;
+  color: rgb(255,255,255);
+  -webkit-transform: scale(0.96);
+  -moz-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  transform: scale(0.96);
+}
+
+.emotion-14:active svg {
+  fill: rgb(255,255,255);
+}
+
+.emotion-14:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #4494EF;
+}
+
+.emotion-14:hover,
+.emotion-14:active {
+  background-color: transparent;
+  color: #006DE9;
+  border: 1px solid #006DE9;
+  opacity: 0.4;
+  cursor: default;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-14:hover svg,
+.emotion-14:active svg {
+  fill: currentColor;
+}
+
+.emotion-18 {
+  font-size: 0.75rem;
+  color: rgb(105,113,122);
+  line-height: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 0.125rem;
+  margin-top: 1rem;
+}
+
+.emotion-19 {
+  font-size: 0.75rem;
+  color: rgb(105,113,122);
+  line-height: 1.125rem;
+  font-weight: 400;
+  margin-top: 0rem;
+}
+
+<body>
+  <div>
+    <div>
+      <div
+        class="emotion-0"
+      >
+        <div
+          class="emotion-0"
+        >
+          <div
+            class="emotion-2"
+            data-cvent-id="uploaded-image"
+          >
+            <img
+              alt="uploaded-image"
+              class="emotion-3"
+              data-cvent-id="uploaded-image-element"
+              src="/croppedUrl/img/00000001.png"
+              title="uploaded-image"
+            />
+          </div>
+        </div>
+        <p
+          class="emotion-4"
+        >
+          test-image.png
+        </p>
+      </div>
+      <div
+        class="emotion-5"
+      />
+      <div
+        class="emotion-5"
+      />
+      <div
+        class="emotion-7"
+        data-layout="row"
+      >
+        <div
+          class="emotion-8"
+        >
+          <button
+            class="emotion-9"
+            data-cvent-id="image-replace-button"
+            type="button"
+          >
+            <span
+              class="emotion-10"
+            >
+              <svg
+                aria-hidden="true"
+                class="emotion-11"
+                focusable="false"
+                role="img"
+                viewBox="0 0 32 32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g>
+                  <svg
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M21 14c-.6 0-1 .4-1 1v4c0 .6-.4 1-1 1H5c-.6 0-1-.4-1-1v-4c0-.6-.4-1-1-1s-1 .4-1 1v4c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-4c0-.6-.4-1-1-1zM7.7 8.7L11 5.4V15c0 .6.4 1 1 1s1-.4 1-1V5.4l3.3 3.3c.2.2.4.3.7.3.3 0 .5-.1.7-.3.4-.4.4-1 0-1.4l-5-5c-.1-.1-.2-.2-.3-.2-.2-.1-.5-.1-.8 0-.1.1-.2.1-.3.2l-5 5c-.4.4-.4 1 0 1.4.4.4 1 .4 1.4 0z"
+                    />
+                    <g
+                      fill-rule="evenodd"
+                    >
+                      <use />
+                      <use
+                        fill-rule="nonzero"
+                      />
+                    </g>
+                  </svg>
+                </g>
+              </svg>
+            </span>
+            <span
+              class="emotion-12"
+            >
+              No image attached
+            </span>
+          </button>
+          <label
+            for="uploadImage"
+            hidden=""
+          >
+            No image attached
+            <input
+              accept=".jpg, .jpeg, .png, .gif"
+              data-cvent-id="image-upload-input"
+              hidden=""
+              id="uploadImage"
+              type="file"
+            />
+          </label>
+        </div>
+        <div
+          class="emotion-13"
+        >
+          <button
+            class="emotion-14"
+            data-cvent-id="image-delete-button"
+            disabled=""
+            type="button"
+          >
+            <span
+              class="emotion-10"
+            >
+              <svg
+                aria-hidden="true"
+                class="emotion-11"
+                focusable="false"
+                role="img"
+                viewBox="0 0 32 32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g>
+                  <svg
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M21 5h-4V4c0-1.7-1.3-3-3-3h-4C8.3 1 7 2.3 7 4v1H3c-.6 0-1 .4-1 1s.4 1 1 1h1v13c0 1.7 1.3 3 3 3h10c1.7 0 3-1.3 3-3V7h1c.6 0 1-.4 1-1s-.4-1-1-1zM9 4c0-.6.4-1 1-1h4c.6 0 1 .4 1 1v1H9V4zm9 16c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V7h12v13z"
+                    />
+                    <path
+                      d="M10 10c-.6 0-1 .4-1 1v6c0 .6.4 1 1 1s1-.4 1-1v-6c0-.6-.4-1-1-1zM14 10c-.6 0-1 .4-1 1v6c0 .6.4 1 1 1s1-.4 1-1v-6c0-.6-.4-1-1-1z"
+                    />
+                  </svg>
+                </g>
+              </svg>
+            </span>
+            <span
+              class="emotion-12"
+            >
+              No image attached
+            </span>
+          </button>
+        </div>
+      </div>
+      <div>
+        <p
+          class="emotion-18"
+        />
+        <p
+          class="emotion-19"
+        >
+          No image attached
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Image Card Test Render Image card when Image is already uploaded for the channel & it is in Edit mode 1`] = `
+.emotion-0 {
+  max-width: 20rem;
+}
+
+.emotion-2 {
+  overflow: hidden;
+  aspect-ratio: 1.78;
+  position: relative;
+}
+
+.emotion-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.emotion-4 {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  font-size: 1rem;
+  word-break: break-all;
+}
+
+.emotion-5 {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.emotion-7 {
+  direction: inherit;
+  box-sizing: border-box;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  min-height: 0;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+.emotion-8 {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.emotion-9 {
+  direction: ltr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #006DE9;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: 'Rubik','Helvetica','Arial';
+  font-style: normal;
+  font-weight: 400;
+  height: 36px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  letter-spacing: 0;
+  margin-right: 0;
+  margin-left: 0;
+  max-width: 100%;
+  padding-bottom: 0;
+  padding-top: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background-color cubic-bezier(0, 0, 0.39, 1) 100ms,color cubic-bezier(0, 0, 0.39, 1) 100ms,border-color cubic-bezier(0, 0, 0.39, 1) 100ms,box-shadow cubic-bezier(0.2, 0, 0.4, 0.9) 100ms;
+  transition: background-color cubic-bezier(0, 0, 0.39, 1) 100ms,color cubic-bezier(0, 0, 0.39, 1) 100ms,border-color cubic-bezier(0, 0, 0.39, 1) 100ms,box-shadow cubic-bezier(0.2, 0, 0.4, 0.9) 100ms;
+  color: #006DE9;
+  font-size: 0.875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  min-width: 80px;
+}
+
+@media (hover: hover) {
+  .emotion-9:hover {
+    background-color: rgb(0,106,225);
+    color: rgb(255,255,255);
+  }
+
+  .emotion-9:hover svg {
+    fill: rgb(255,255,255);
+  }
+}
+
+.emotion-9:active {
+  background-color: #004CD6;
+  color: rgb(255,255,255);
+  -webkit-transform: scale(0.96);
+  -moz-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  transform: scale(0.96);
+}
+
+.emotion-9:active svg {
+  fill: rgb(255,255,255);
+}
+
+.emotion-9:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #4494EF;
+}
+
+.emotion-10 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  margin-right: 0.5rem;
+}
+
+.emotion-11 {
+  width: 1rem;
+  height: 1rem;
+  fill: #006DE9;
+}
+
+.emotion-12 {
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.emotion-13 {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.emotion-18 {
+  margin-top: 1rem;
+}
+
+.emotion-19 {
+  direction: ltr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #006DE9;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: default;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: 'Rubik','Helvetica','Arial';
+  font-style: normal;
+  font-weight: 400;
+  height: 36px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  letter-spacing: 0;
+  margin-right: 0;
+  margin-left: 0;
+  max-width: 100%;
+  padding-bottom: 0;
+  padding-top: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background-color cubic-bezier(0, 0, 0.39, 1) 100ms,color cubic-bezier(0, 0, 0.39, 1) 100ms,border-color cubic-bezier(0, 0, 0.39, 1) 100ms,box-shadow cubic-bezier(0.2, 0, 0.4, 0.9) 100ms;
+  transition: background-color cubic-bezier(0, 0, 0.39, 1) 100ms,color cubic-bezier(0, 0, 0.39, 1) 100ms,border-color cubic-bezier(0, 0, 0.39, 1) 100ms,box-shadow cubic-bezier(0.2, 0, 0.4, 0.9) 100ms;
+  color: #006DE9;
+  opacity: 0.4;
+  font-size: 0.875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  min-width: 80px;
+}
+
+@media (hover: hover) {
+  .emotion-19:hover {
+    background-color: rgb(0,106,225);
+    color: rgb(255,255,255);
+  }
+
+  .emotion-19:hover svg {
+    fill: rgb(255,255,255);
+  }
+}
+
+.emotion-19:active {
+  background-color: #004CD6;
+  color: rgb(255,255,255);
+  -webkit-transform: scale(0.96);
+  -moz-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  transform: scale(0.96);
+}
+
+.emotion-19:active svg {
+  fill: rgb(255,255,255);
+}
+
+.emotion-19:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #4494EF;
+}
+
+.emotion-19:hover,
+.emotion-19:active {
+  background-color: transparent;
+  color: #006DE9;
+  border: 1px solid #006DE9;
+  opacity: 0.4;
+  cursor: default;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-19:hover svg,
+.emotion-19:active svg {
+  fill: currentColor;
+}
+
+.emotion-23 {
+  font-size: 0.75rem;
+  color: rgb(105,113,122);
+  line-height: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 0.125rem;
+  margin-top: 1rem;
+}
+
+.emotion-24 {
+  font-size: 0.75rem;
+  color: rgb(105,113,122);
+  line-height: 1.125rem;
+  font-weight: 400;
+  margin-top: 0rem;
+}
+
+<body>
+  <div>
+    <div>
+      <div
+        class="emotion-0"
+      >
+        <div
+          class="emotion-0"
+        >
+          <div
+            class="emotion-2"
+            data-cvent-id="uploaded-image"
+          >
+            <img
+              alt="uploaded-image"
+              class="emotion-3"
+              data-cvent-id="uploaded-image-element"
+              src="/croppedUrl/img/00000001.png"
+              title="uploaded-image"
+            />
+          </div>
+        </div>
+        <p
+          class="emotion-4"
+        >
+          test-image.png
+        </p>
+      </div>
+      <div
+        class="emotion-5"
+      />
+      <div
+        class="emotion-5"
+      />
+      <div
+        class="emotion-7"
+        data-layout="row"
+      >
+        <div
+          class="emotion-8"
+        >
+          <button
+            class="emotion-9"
+            data-cvent-id="image-replace-button"
+            type="button"
+          >
+            <span
+              class="emotion-10"
+            >
+              <svg
+                aria-hidden="true"
+                class="emotion-11"
+                focusable="false"
+                role="img"
+                viewBox="0 0 32 32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g>
+                  <svg
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M21 14c-.6 0-1 .4-1 1v4c0 .6-.4 1-1 1H5c-.6 0-1-.4-1-1v-4c0-.6-.4-1-1-1s-1 .4-1 1v4c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-4c0-.6-.4-1-1-1zM7.7 8.7L11 5.4V15c0 .6.4 1 1 1s1-.4 1-1V5.4l3.3 3.3c.2.2.4.3.7.3.3 0 .5-.1.7-.3.4-.4.4-1 0-1.4l-5-5c-.1-.1-.2-.2-.3-.2-.2-.1-.5-.1-.8 0-.1.1-.2.1-.3.2l-5 5c-.4.4-.4 1 0 1.4.4.4 1 .4 1.4 0z"
+                    />
+                    <g
+                      fill-rule="evenodd"
+                    >
+                      <use />
+                      <use
+                        fill-rule="nonzero"
+                      />
+                    </g>
+                  </svg>
+                </g>
+              </svg>
+            </span>
+            <span
+              class="emotion-12"
+            >
+              No image attached
+            </span>
+          </button>
+          <label
+            for="uploadImage"
+            hidden=""
+          >
+            No image attached
+            <input
+              accept=".jpg, .jpeg, .png, .gif"
+              data-cvent-id="image-upload-input"
+              hidden=""
+              id="uploadImage"
+              type="file"
+            />
+          </label>
+        </div>
+        <div
+          class="emotion-13"
+        >
+          <button
+            class="emotion-9"
+            data-cvent-id="image-edit-button"
+            type="button"
+          >
+            <span
+              class="emotion-10"
+            >
+              <svg
+                aria-hidden="true"
+                class="emotion-11"
+                focusable="false"
+                role="img"
+                viewBox="0 0 32 32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g>
+                  <svg
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M21.7 7.3l-5-5c-.4-.4-1-.4-1.4 0l-13 13c-.2.2-.3.4-.3.7v5c0 .6.4 1 1 1h5c.3 0 .5-.1.7-.3l13-13c.4-.4.4-1 0-1.4zM7.6 20H4v-3.6l8.8-8.8 3.6 3.6L7.6 20zM17.8 9.8l-3.6-3.6L16 4.4 19.6 8l-1.8 1.8z"
+                    />
+                  </svg>
+                </g>
+              </svg>
+            </span>
+            <span
+              class="emotion-12"
+            >
+              No image attached
+            </span>
+          </button>
+        </div>
+        <div
+          class="emotion-18"
+        >
+          <button
+            class="emotion-19"
+            data-cvent-id="image-delete-button"
+            disabled=""
+            type="button"
+          >
+            <span
+              class="emotion-10"
+            >
+              <svg
+                aria-hidden="true"
+                class="emotion-11"
+                focusable="false"
+                role="img"
+                viewBox="0 0 32 32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g>
+                  <svg
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M21 5h-4V4c0-1.7-1.3-3-3-3h-4C8.3 1 7 2.3 7 4v1H3c-.6 0-1 .4-1 1s.4 1 1 1h1v13c0 1.7 1.3 3 3 3h10c1.7 0 3-1.3 3-3V7h1c.6 0 1-.4 1-1s-.4-1-1-1zM9 4c0-.6.4-1 1-1h4c.6 0 1 .4 1 1v1H9V4zm9 16c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V7h12v13z"
+                    />
+                    <path
+                      d="M10 10c-.6 0-1 .4-1 1v6c0 .6.4 1 1 1s1-.4 1-1v-6c0-.6-.4-1-1-1zM14 10c-.6 0-1 .4-1 1v6c0 .6.4 1 1 1s1-.4 1-1v-6c0-.6-.4-1-1-1z"
+                    />
+                  </svg>
+                </g>
+              </svg>
+            </span>
+            <span
+              class="emotion-12"
+            >
+              No image attached
+            </span>
+          </button>
+        </div>
+      </div>
+      <div>
+        <p
+          class="emotion-23"
+        />
+        <p
+          class="emotion-24"
+        >
+          No image attached
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Image Card Test Render Image card when Image is already uploaded for the channel & it is in read mode 1`] = `
+.emotion-0 {
+  max-width: 20rem;
+}
+
+.emotion-2 {
+  overflow: hidden;
+  aspect-ratio: 1.78;
+  position: relative;
+}
+
+.emotion-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.emotion-4 {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  font-size: 1rem;
+  word-break: break-all;
+}
+
+<body>
+  <div>
+    <div>
+      <div
+        class="emotion-0"
+      >
+        <div
+          class="emotion-0"
+        >
+          <div
+            class="emotion-2"
+            data-cvent-id="uploaded-image"
+          >
+            <img
+              alt="uploaded-image"
+              class="emotion-3"
+              data-cvent-id="uploaded-image-element"
+              src="/croppedUrl/img/00000001.png"
+              title="uploaded-image"
+            />
+          </div>
+        </div>
+        <p
+          class="emotion-4"
+        >
+          test-image.png
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Image Card Test Render Image card when Image is not uploaded for the channel & it is in edit mode 1`] = `
+.emotion-0 {
+  max-width: 20rem;
+}
+
+.emotion-1 {
+  overflow: hidden;
+  aspect-ratio: 1.78;
+  position: relative;
+  background-color: rgb(247,248,249);
+}
+
+.emotion-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.emotion-4 {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: currentColor;
+}
+
+.emotion-5 {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.emotion-7 {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.emotion-8 {
+  direction: ltr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #006DE9;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: 'Rubik','Helvetica','Arial';
+  font-style: normal;
+  font-weight: 400;
+  height: 36px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  letter-spacing: 0;
+  margin-right: 0;
+  margin-left: 0;
+  max-width: 100%;
+  padding-bottom: 0;
+  padding-top: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background-color cubic-bezier(0, 0, 0.39, 1) 100ms,color cubic-bezier(0, 0, 0.39, 1) 100ms,border-color cubic-bezier(0, 0, 0.39, 1) 100ms,box-shadow cubic-bezier(0.2, 0, 0.4, 0.9) 100ms;
+  transition: background-color cubic-bezier(0, 0, 0.39, 1) 100ms,color cubic-bezier(0, 0, 0.39, 1) 100ms,border-color cubic-bezier(0, 0, 0.39, 1) 100ms,box-shadow cubic-bezier(0.2, 0, 0.4, 0.9) 100ms;
+  color: #006DE9;
+  font-size: 0.875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  min-width: 80px;
+}
+
+@media (hover: hover) {
+  .emotion-8:hover {
+    background-color: rgb(0,106,225);
+    color: rgb(255,255,255);
+  }
+
+  .emotion-8:hover svg {
+    fill: rgb(255,255,255);
+  }
+}
+
+.emotion-8:active {
+  background-color: #004CD6;
+  color: rgb(255,255,255);
+  -webkit-transform: scale(0.96);
+  -moz-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  transform: scale(0.96);
+}
+
+.emotion-8:active svg {
+  fill: rgb(255,255,255);
+}
+
+.emotion-8:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #4494EF;
+}
+
+.emotion-9 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  margin-right: 0.5rem;
+}
+
+.emotion-10 {
+  width: 1rem;
+  height: 1rem;
+  fill: #006DE9;
+}
+
+.emotion-11 {
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.emotion-12 {
+  font-size: 0.75rem;
+  color: rgb(105,113,122);
+  line-height: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 0.125rem;
+  margin-top: 1rem;
+}
+
+.emotion-13 {
+  font-size: 0.75rem;
+  color: rgb(105,113,122);
+  line-height: 1.125rem;
+  font-weight: 400;
+  margin-top: 0rem;
+}
+
+<body>
+  <div>
+    <div>
+      <div
+        class="emotion-0"
+      >
+        <div
+          class="emotion-1"
+        >
+          <div
+            class="emotion-2"
+          >
+            <div
+              aria-label="No image attached"
+              class="emotion-3"
+              data-cvent-id="image-icon"
+              role="img"
+              title="No image attached"
+            >
+              <svg
+                aria-hidden="true"
+                class="emotion-4"
+                focusable="false"
+                role="img"
+                viewBox="0 0 32 32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g>
+                  <svg
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19 2H5C3.3 2 2 3.3 2 5v14c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3V5c0-1.7-1.3-3-3-3zM4 5c0-.6.4-1 1-1h14c.6 0 1 .4 1 1v7.6l-3.3-3.3c-.4-.4-1-.4-1.4 0L4.7 19.9c-.4-.1-.7-.5-.7-.9V5zm15 15H7.4l8.6-8.6 4 4V19c0 .6-.4 1-1 1zM8.5 11C9.9 11 11 9.9 11 8.5S9.9 6 8.5 6 6 7.1 6 8.5 7.1 11 8.5 11zm0-3c.3 0 .5.2.5.5s-.2.5-.5.5-.5-.2-.5-.5.2-.5.5-.5z"
+                    />
+                    <g
+                      fill-rule="evenodd"
+                    >
+                      <use />
+                      <use
+                        fill-rule="nonzero"
+                      />
+                    </g>
+                  </svg>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="emotion-5"
+      />
+      <div
+        class="emotion-5"
+      />
+      <div
+        class="emotion-7"
+      >
+        <button
+          class="emotion-8"
+          data-cvent-id="image-upload-button"
+          type="button"
+        >
+          <span
+            class="emotion-9"
+          >
+            <svg
+              aria-hidden="true"
+              class="emotion-10"
+              focusable="false"
+              role="img"
+              viewBox="0 0 32 32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g>
+                <svg
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M21 14c-.6 0-1 .4-1 1v4c0 .6-.4 1-1 1H5c-.6 0-1-.4-1-1v-4c0-.6-.4-1-1-1s-1 .4-1 1v4c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-4c0-.6-.4-1-1-1zM7.7 8.7L11 5.4V15c0 .6.4 1 1 1s1-.4 1-1V5.4l3.3 3.3c.2.2.4.3.7.3.3 0 .5-.1.7-.3.4-.4.4-1 0-1.4l-5-5c-.1-.1-.2-.2-.3-.2-.2-.1-.5-.1-.8 0-.1.1-.2.1-.3.2l-5 5c-.4.4-.4 1 0 1.4.4.4 1 .4 1.4 0z"
+                  />
+                  <g
+                    fill-rule="evenodd"
+                  >
+                    <use />
+                    <use
+                      fill-rule="nonzero"
+                    />
+                  </g>
+                </svg>
+              </g>
+            </svg>
+          </span>
+          <span
+            class="emotion-11"
+          >
+            No image attached
+          </span>
+        </button>
+        <label
+          for="uploadImage"
+          hidden=""
+        >
+          No image attached
+          <input
+            accept=".jpg, .jpeg, .png, .gif"
+            data-cvent-id="image-upload-input"
+            hidden=""
+            id="uploadImage"
+            type="file"
+          />
+        </label>
+      </div>
+      <div>
+        <p
+          class="emotion-12"
+        />
+        <p
+          class="emotion-13"
+        >
+          No image attached
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Image Card Test Render Image card when Image is not uploaded for the channel & it is in read mode 1`] = `
+.emotion-0 {
+  max-width: 20rem;
+}
+
+.emotion-1 {
+  overflow: hidden;
+  aspect-ratio: 1.78;
+  position: relative;
+  background-color: rgb(247,248,249);
+}
+
+.emotion-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.emotion-4 {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: currentColor;
+}
+
+.emotion-5 {
+  font-size: 1rem;
+}
+
+<body>
+  <div>
+    <div>
+      <div
+        class="emotion-0"
+      >
+        <div
+          class="emotion-1"
+        >
+          <div
+            class="emotion-2"
+          >
+            <div
+              aria-label="No image attached"
+              class="emotion-3"
+              data-cvent-id="image-icon"
+              role="img"
+              title="No image attached"
+            >
+              <svg
+                aria-hidden="true"
+                class="emotion-4"
+                focusable="false"
+                role="img"
+                viewBox="0 0 32 32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g>
+                  <svg
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19 2H5C3.3 2 2 3.3 2 5v14c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3V5c0-1.7-1.3-3-3-3zM4 5c0-.6.4-1 1-1h14c.6 0 1 .4 1 1v7.6l-3.3-3.3c-.4-.4-1-.4-1.4 0L4.7 19.9c-.4-.1-.7-.5-.7-.9V5zm15 15H7.4l8.6-8.6 4 4V19c0 .6-.4 1-1 1zM8.5 11C9.9 11 11 9.9 11 8.5S9.9 6 8.5 6 6 7.1 6 8.5 7.1 11 8.5 11zm0-3c.3 0 .5.2.5.5s-.2.5-.5.5-.5-.2-.5-.5.2-.5.5-.5z"
+                    />
+                    <g
+                      fill-rule="evenodd"
+                    >
+                      <use />
+                      <use
+                        fill-rule="nonzero"
+                      />
+                    </g>
+                  </svg>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p
+        class="emotion-5"
+      >
+        No image attached
+      </p>
+    </div>
+  </div>
+</body>
+`;

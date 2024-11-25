@@ -1,0 +1,27 @@
+{
+  "name": "add existing video button clicked",
+  "type": "track",
+  "folder": "channels",
+  "phase": "engagement",
+  "destinations": ["datadog", "Snowflake", "Mixpanel"],
+  "release": "v2.0",
+  "multiStep": false,
+  "owner": "red",
+  "description": "this action tracks the users who clicks on add existing videos button in order to add videos to that channel",
+  "trigger": "this action is triggered when used clicks on 'Delete channel' button on channel information page",
+  "sdk": "analytics.js",
+  "status": "active",
+  "rules": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "context": {},
+      "properties": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      },
+      "traits": {}
+    }
+  }
+}

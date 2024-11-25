@@ -1,0 +1,176 @@
+{
+  "id": "12392258-cee6-4e11-97d5-f90a48412395",
+  "catalogType": "SECTIONS",
+  "sectionCount": 2,
+  "sections": [
+    {
+      "id": "2707fe86-7cc1-46b5-9796-91a62adcbb35",
+      "title": "Section B",
+      "videoCount": 3,
+      "sectionType": "CUSTOM",
+      "videos": [
+        {
+          "id": "9475c4cd-4236-4b9e-8685-87579fb033ec",
+          "videoId": "",
+          "displayName": "Implementing a Strategic Event Management",
+          "duration": 100,
+          "thumbnail": "https://www.cvent.com/sites/default/files/image/2018-03/Cvent-Event-Management-Hospitality.jpg",
+          "sessionId": "9475c4cd-4236-4b9e-8685-87579fb033ec",
+          "videoType": "SESSION",
+          "status": "Available"
+        },
+        {
+          "id": "2797f8d5-5394-4591-86e2-804c24163c23",
+          "videoId": "",
+          "displayName": "Industry Expert Panel: The State of the Industry",
+          "duration": 100,
+          "thumbnail": null,
+          "sessionId": "2797f8d5-5394-4591-86e2-804c24163c23",
+          "videoType": "SESSION",
+          "status": "Upcoming"
+        },
+        {
+          "id": "2797f8d5-5394-4591-86e2-804c24163c31",
+          "videoId": "",
+          "displayName": "Video C",
+          "duration": 100,
+          "thumbnail": null,
+          "sessionId": "2797f8d5-5394-4591-86e2-804c24163c31",
+          "videoType": "SESSION",
+          "status": "Upcoming"
+        }
+      ]
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000000",
+      "title": "More Videos",
+      "videoCount": 12,
+      "sectionType": "DEFAULT",
+      "videos": [
+        {
+          "id": "9475c4cd-4236-4b9e-8685-87579fb035ec",
+          "videoId": "",
+          "displayName": "Artificial Intelligence and the Stock Market",
+          "duration": 100,
+          "thumbnail": "https://www.cvent.com/sites/default/files/image/2018-03/Cvent-Event-Management-Hospitality.jpg",
+          "sessionId": "9475c4cd-4236-4b9e-8685-87579fb035ec",
+          "videoType": "SESSION",
+          "status": "Available"
+        },
+        {
+          "id": "2797f8d5-5394-4591-86e2-804c24163c29",
+          "videoId": "",
+          "displayName": "Keynote Speaker - Technology Growth",
+          "duration": 100,
+          "thumbnail": null,
+          "sessionId": "2797f8d5-5394-4591-86e2-804c24163c29",
+          "videoType": "SESSION",
+          "status": "Upcoming"
+        },
+        {
+          "id": "2797f8d5-5394-4591-86e2-804c24163c30",
+          "videoId": "",
+          "displayName": "General Keynote – Shaping the Internet Economy",
+          "duration": 100,
+          "thumbnail": null,
+          "sessionId": "2797f8d5-5394-4591-86e2-804c24163c30",
+          "videoType": "SESSION",
+          "status": "Upcoming"
+        },
+        {
+          "id": "2797f8d5-5394-4591-86e2-804c24163c99",
+          "videoId": "",
+          "displayName": "Augmenting Intelligence for Business",
+          "duration": 100,
+          "thumbnail": "https://www.cvent.com/sites/default/files/image/2018-03/Cvent-Event-Management-Hospitality.jpg",
+          "sessionId": "2797f8d5-5394-4591-86e2-804c24163c99",
+          "videoType": "SESSION",
+          "status": "Available"
+        },
+        {
+          "id": "9475c4cd-4236-4b9e-8685-87579fb034ec",
+          "videoId": "",
+          "displayName": "New Technologies, the Pivots of the Inclusive",
+          "duration": 100,
+          "thumbnail": "https://www.cvent.com/sites/default/files/image/2018-03/Cvent-Event-Management-Hospitality.jpg",
+          "sessionId": "9475c4cd-4236-4b9e-8685-87579fb034ec",
+          "videoType": "SESSION",
+          "status": "Available"
+        },
+        {
+          "id": "2797f8d5-5394-4591-86e2-804c24163c20",
+          "videoId": "",
+          "displayName": "Video B",
+          "duration": 100,
+          "thumbnail": null,
+          "sessionId": "2797f8d5-5394-4591-86e2-804c24163c20",
+          "videoType": "SESSION",
+          "status": "Upcoming"
+        },
+        {
+          "id": "9475c4cd-4236-4b9e-8685-87579fb025ec",
+          "videoId": "",
+          "displayName": "Video A",
+          "duration": 100,
+          "thumbnail": "https://www.cvent.com/sites/default/files/image/2018-03/Cvent-Event-Management-Hospitality.jpg",
+          "sessionId": "9475c4cd-4236-4b9e-8685-87579fb025ec",
+          "videoType": "SESSION",
+          "status": "Available"
+        },
+        {
+          "id": "2797f8d5-5394-4591-86e2-804c24163c21",
+          "videoId": "",
+          "displayName": "Video B",
+          "duration": 100,
+          "thumbnail": null,
+          "sessionId": "2797f8d5-5394-4591-86e2-804c24163c21",
+          "videoType": "SESSION",
+          "status": "Upcoming"
+        },
+        {
+          "id": "2797f8d5-5394-4591-86e2-804c24163c33",
+          "videoId": "",
+          "displayName": "Video C",
+          "duration": 100,
+          "thumbnail": null,
+          "sessionId": "2797f8d5-5394-4591-86e2-804c24163c33",
+          "videoType": "SESSION",
+          "status": "Upcoming"
+        },
+        {
+          "id": "2797f8d5-5394-4591-86e2-804c24163c32",
+          "videoId": "",
+          "displayName": "Video D",
+          "duration": 100,
+          "thumbnail": "https://www.cvent.com/sites/default/files/image/2018-03/Cvent-Event-Management-Hospitality.jpg",
+          "sessionId": "2797f8d5-5394-4591-86e2-804c24163c32",
+          "videoType": "SESSION",
+          "status": "Available"
+        },
+        {
+          "id": "9475c4cd-4236-4b9e-8685-87579fb015ec",
+          "videoId": "",
+          "displayName": "Video A",
+          "duration": 100,
+          "thumbnail": "https://www.cvent.com/sites/default/files/image/2018-03/Cvent-Event-Management-Hospitality.jpg",
+          "sessionId": "9475c4cd-4236-4b9e-8685-87579fb015ec",
+          "videoType": "SESSION",
+          "status": "Available"
+        },
+        {
+          "id": "2797f8d5-5394-4591-86e2-804c24163c28",
+          "videoId": "",
+          "displayName": "Video B",
+          "duration": 100,
+          "thumbnail": null,
+          "sessionId": "2797f8d5-5394-4591-86e2-804c24163c28",
+          "videoType": "SESSION",
+          "status": "Upcoming"
+        }
+      ],
+      "events": null,
+      "catalogOwner": "VIDEO_HUB",
+      "__typename": "Catalog"
+    }
+  ]
+}

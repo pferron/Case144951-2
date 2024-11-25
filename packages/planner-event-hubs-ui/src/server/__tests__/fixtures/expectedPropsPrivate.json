@@ -1,0 +1,72 @@
+{
+  "props": {
+    "centerId": "0624f8ef-e9e1-4304-bbf5-63827e61a321",
+    "appFeatures": [
+      {
+        "name": "gpcFeature",
+        "enabled": true,
+        "experimentVersion": "1000",
+        "__typename": "AppFeature"
+      },
+      {
+        "name": "sampleFeature1",
+        "enabled": false,
+        "experimentVersion": "1000",
+        "__typename": "AppFeature"
+      },
+      {
+        "name": "sampleFeature2",
+        "enabled": true,
+        "experimentVersion": "1000",
+        "__typename": "AppFeature"
+      }
+    ],
+    "centerInfo": {
+      "__typename": "Hub",
+      "id": "0624f8ef-e9e1-4304-bbf5-63827e61a322",
+      "status": "Active",
+      "config": {
+        "__typename": "Config",
+        "title": "Demo Video Hub",
+        "url": null,
+        "ownerFirstName": "Sourav",
+        "ownerLastName": "Aswal",
+        "ownerEmail": "saswal@j.mail",
+        "locale": null
+      },
+      "theme": {
+        "__typename": "Theme",
+        "actionColor": "#01382b",
+        "backgroundColor": "#eec8c8",
+        "logoImageRelativePath": null,
+        "logoImageUrl": null,
+        "mainColor": "#b86cf8"
+      }
+    },
+    "memberInfo": null,
+    "redirectInfo": {
+      "error": "login_required"
+    },
+    "centerSettings": {
+      "privacySettings": {
+        "displayCventPrivacyPolicy": true,
+        "cventPrivacyPolicyLinkText": "abc",
+        "displayPrivacyPolicy": true,
+        "privacyPolicyUrl": "https://www.google.com",
+        "privacyPolicyLinkText": "Your-policy",
+        "displayTermsLinkOnFooter": true,
+        "termsLinkText": "terms of use",
+        "displayTermsOnLogin": true,
+        "termsText": "Lorem",
+        "notifyUsersAboutCookie": true,
+        "displayCventPrivacyPolicyInCookie": false,
+        "ccpaEnableDoNotSell": true,
+        "guestVisibility": "PRIVATE"
+      },
+      "features": {
+        "profileSetupFeature": true
+      }
+    },
+    "csrfToken": "abc"
+  }
+}

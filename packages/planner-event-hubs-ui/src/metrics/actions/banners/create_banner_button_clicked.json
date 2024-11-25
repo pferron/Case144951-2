@@ -1,0 +1,23 @@
+{
+  "name": "create banner button clicked",
+  "type": "track",
+  "folder": "banners",
+  "phase": "engagement",
+  "destinations": ["datadog", "Snowflake", "Mixpanel"],
+  "release": "v2.0",
+  "multiStep": false,
+  "owner": "red",
+  "description": "this action tracks the users who wants to create banner in order to use in eventsplus pages",
+  "trigger": "this action is triggered when the user clicks on Create Banner' button on the banners page",
+  "sdk": "analytics.js",
+  "status": "active",
+  "rules": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "context": {},
+      "properties": { "type": "object", "properties": {}, "required": [] },
+      "traits": {}
+    }
+  }
+}

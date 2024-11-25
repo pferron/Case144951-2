@@ -1,0 +1,24 @@
+{
+  "data": {
+    "calendars": {
+      "data": [
+        {
+          "id": "85E15046-92E3-482A-87AE-0B3829964DCD",
+          "name": "PROD-137092 Test01  Lisanne"
+        },
+        {
+          "id": "294215EF-A9C6-46E0-B952-1F9D0A354D70",
+          "name": "Reproduce the disappearance of additional calendar item no.2"
+        },
+        {
+          "id": "3BB76AA2-939E-4FDA-9EE3-2AF16186B164",
+          "name": "PROD-137092"
+        },
+        {
+          "id": "B257A972-A07E-491A-85CE-350ED4C70FD3",
+          "name": "Event Calendar 01"
+        }
+      ]
+    }
+  }
+}

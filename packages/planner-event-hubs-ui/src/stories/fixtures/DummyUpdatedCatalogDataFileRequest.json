@@ -1,0 +1,35 @@
+{
+  "channelId": "a1115072-2cda-4c3e-8494-5b8360864d2b",
+  "catalogId": "catalog-id",
+  "catalogInput": {
+    "sections": [
+      {
+        "id": "2707fe86-7cc1-46b5-9796-91a62adcbb35",
+        "title": "Section B",
+        "videos": [{ "videoId": "" }, { "videoId": "" }, { "videoId": "" }],
+        "sectionType": "CUSTOM"
+      },
+      {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "title": "More videos",
+        "videos": [
+          { "videoId": "" },
+          { "videoId": "" },
+          { "videoId": "" },
+          { "videoId": "" },
+          { "videoId": "" },
+          { "videoId": "" },
+          { "videoId": "" },
+          { "videoId": "" },
+          { "videoId": "" },
+          { "videoId": "" },
+          { "videoId": "" },
+          { "videoId": "" }
+        ],
+        "sectionType": "DEFAULT"
+      }
+    ],
+    "catalogType": "SECTIONS",
+    "catalogOwner": "VIDEO_HUB"
+  }
+}

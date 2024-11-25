@@ -1,0 +1,44 @@
+{
+  "name": "image edit applied",
+  "type": "track",
+  "folder": "eventsPlusHub",
+  "phase": "engagement",
+  "destinations": ["datadog", "Snowflake", "Mixpanel"],
+  "release": "v2.0",
+  "multiStep": false,
+  "owner": "red",
+  "description": "this action tracks the users who uploads image in order to use it as logo or banner image or channel image",
+  "trigger": "this action is triggered when user clicks on Apply' in the image editor during image upload process",
+  "sdk": "analytics.js",
+  "status": "active",
+  "rules": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "context": {},
+      "properties": {
+        "type": "object",
+        "properties": {
+          "imageAspectRatio": {
+            "description": "ImageAspectRatio of the selected Image",
+            "type": "string"
+          },
+          "imageWidth": {
+            "description": "ImageWidth of the selected Image",
+            "type": "string"
+          },
+          "imageHeight": {
+            "description": "ImageHeight of the selected Image",
+            "type": "string"
+          },
+          "triggerLocation": {
+            "description": "Location from where the upload action is triggered",
+            "type": "string"
+          }
+        },
+        "required": ["imageWidth", "imageHeight", "triggerLocation"]
+      },
+      "traits": {}
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "create section add button clicked",
+  "type": "track",
+  "folder": "channels",
+  "phase": "engagement",
+  "destinations": ["datadog", "Snowflake", "Mixpanel"],
+  "release": "v2.0",
+  "multiStep": false,
+  "owner": "red",
+  "description": "this action tracks the users who creates videos section in order to group the videos",
+  "trigger": "this action is triggered when the user clicks on 'Add' in the 'Name your section' modal ",
+  "sdk": "analytics.js",
+  "status": "active",
+  "rules": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "context": {},
+      "properties": {
+        "type": "object",
+        "properties": {
+          "sectionName": {
+            "description": "Name of the section created",
+            "type": "string"
+          },
+          "numberOfVideoAdded": {
+            "description": "NUmber of videos added to that section",
+            "type": "number"
+          }
+        },
+        "required": ["sectionName", "numberOfVideoAdded"]
+      },
+      "traits": {}
+    }
+  }
+}

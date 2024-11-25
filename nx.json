@@ -1,0 +1,79 @@
+{
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@cvent/cdf/task-runners/default",
+      "options": {}
+    }
+  },
+  "cli": {
+    "packageManager": "pnpm"
+  },
+  "defaultBase": "main",
+  "useDaemonProcess": false,
+  "useInferencePlugins": true,
+  "plugins": ["@cvent/cdf"],
+  "namedInputs": {
+    "appConfig": [
+      "{projectRoot}/.env.template",
+      "{projectRoot}/package.json",
+      "{workspaceRoot}/packages/*infra/bin/**/*",
+      "{workspaceRoot}/packages/*cdk/bin/**/*",
+      "{workspaceRoot}/packages/**/*infra/bin/**/*",
+      "{workspaceRoot}/packages/**/*cdk/bin/**/*"
+    ],
+    "cdk": [
+      "{projectRoot}/tsconfig.json",
+      "{projectRoot}/tsconfig.cdk.json",
+      "{projectRoot}/cdk.json",
+      "{projectRoot}/cdk.context.json",
+      "{projectRoot}/bin/**/*",
+      "{projectRoot}/lib/**/*",
+      "{projectRoot}/package.json"
+    ],
+    "cdkDeps": ["cdk", "src"],
+    "default": ["{projectRoot}/**/*", "sharedGlobals", "excludedOutputs"],
+    "excludedOutputs": [
+      "!{projectRoot}/.coverage/**/*",
+      "!{projectRoot}/.eslintcache",
+      "!{projectRoot}/.hogan/**/*",
+      "!{projectRoot}/.next/**/*",
+      "!{projectRoot}/cdk.out/**/*",
+      "!{projectRoot}/dist/**/*",
+      "!{projectRoot}/public/storybook/**/*",
+      "!{projectRoot}/target/**/*"
+    ],
+    "next": [
+      "src",
+      "{projectRoot}/locales/**/*",
+      "{projectRoot}/public/**/*",
+      "{projectRoot}/.phraseapp.yml",
+      "{projectRoot}/next-env.d.ts",
+      "{projectRoot}/next.config.mjs",
+      "{projectRoot}/server.js",
+      "!{projectRoot}/public/storybook/**/*"
+    ],
+    "sharedGlobals": [
+      "{workspaceRoot}/package.json",
+      "{workspaceRoot}/pnpm-workspace.yaml",
+      "{workspaceRoot}/.tool-versions"
+    ],
+    "src": [
+      "{projectRoot}/src/**/*",
+      "{projectRoot}/package.json",
+      "{projectRoot}/pom.xml",
+      "{projectRoot}/tsconfig.json",
+      "{projectRoot}/configs/**/*",
+      "{projectRoot}/test_configs/**",
+      "{projectRoot}/playwright.config.ts"
+    ],
+    "storybook": ["{projectRoot}/src/**/*", "{projectRoot}/.storybook/**/*"],
+    "testConfig": [
+      "{projectRoot}/jest.config.js",
+      "{projectRoot}/jest.config.ts",
+      "{projectRoot}/jest.global.mjs",
+      "{projectRoot}/jest.globalSetup.ts",
+      "{projectRoot}/jest.setup.ts"
+    ]
+  },
+  "targetDefaults": {}
+}

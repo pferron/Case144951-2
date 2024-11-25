@@ -1,0 +1,27 @@
+{
+  "displayPrivacyPolicy": true,
+  "termsText": "Sample Text",
+  "memberProfilePublic": true,
+  "allowTurnOffGoogleAnalytics": false,
+  "profileCard": {
+    "allowNameEdit": true
+  },
+  "guestVisibility": "VideoPlaybackPrivate",
+  "registrationSettings": {
+    "allowAllContactsRegistration": false,
+    "allowContactGroupsRegistration": true,
+    "allowContactTypesRegistration": true,
+    "blockContactsRegistration": true,
+    "blockListRegistration": true,
+    "allowedEmailDomain": "ANY_DOMAIN"
+  },
+  "showLogo": false,
+  "registrationBackground": "DEFAULT",
+  "cookieLists": {
+    "enableCvent": true,
+    "cventUrl": "https://www.cvent.com/en/appcookies",
+    "enableCustom": true,
+    "customUrl": "https://www.customUrl.com",
+    "customLinkText": "Custom Url text"
+  }
+}

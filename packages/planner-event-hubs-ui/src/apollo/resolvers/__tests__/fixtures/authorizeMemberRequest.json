@@ -1,0 +1,8 @@
+{
+  "authorizeMemberInput": {
+    "hubId": "8a6fcea8-b967-40b9-9c71-ff9e1023fc68",
+    "requestId": "30a3efc3-12d3-4dee-8b03-41d5cb9dbb07",
+    "codeChallenge": "test",
+    "state": "qwerty"
+  }
+}

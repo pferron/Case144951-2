@@ -1,0 +1,7 @@
+packages:
+  - 'packages/**'
+  - '!**/cdk.out/**'
+  - '!**/__fixtures__/**'
+
+  - '!packages/**/.next/**'
+  - '!packages/**/dist/**'

@@ -1,0 +1,60 @@
+{
+  "paging": {
+    "_links": {
+      "self": {
+        "href": "https://api-platform-dev.cvent.com/ea-staging/events/filter?token=a6fc5f42-8383-4459-b371-5d4f18ae8d39"
+      }
+    },
+    "limit": 200,
+    "totalCount": 1,
+    "currentToken": "a6fc5f42-8383-4459-b371-5d4f18ae8d39"
+  },
+  "data": [
+    {
+      "id": "99737873-fcf0-4b0f-bcf9-e5d3a55b1c21",
+      "title": "Test Event Title",
+      "code": "PKNH27PP42W",
+      "description": "<div class=\"ag87-crtemvc-hsbk\"><div class=\"css-vsf5of\"><p class=\"carina-rte-public-DraftStyleDefault-block\"><a href=\"https://events-silo606.core.cvent.org/events/home?evtstub=77f6d5d1-63f2-4576-8a4f-84f1e326bdd2\" target=\"_blank\"><span style=\"color: rgb(0,106,225);\">Engagement Panel Test Event 2021</span></a><span style=\"color: rgb(0,106,225);\"> </span>&nbsp;</p></div></div>",
+      "start": "2021-12-01T23:00:00.000Z",
+      "end": "2022-02-02T03:00:00.000Z",
+      "closeAfter": "2022-02-01T21:59:00.000Z",
+      "archiveAfter": "2022-05-02T22:00:00.000Z",
+      "timezone": "America/New_York",
+      "defaultLocale": "en-US",
+      "currency": "USD",
+      "registrationSecurityLevel": "Public",
+      "status": "NoRegistrationRequired",
+      "eventStatus": "Archived",
+      "testMode": false,
+      "planners": [
+        {
+          "firstName": "A",
+          "lastName": "C",
+          "email": "ssimpson@cvent.com"
+        }
+      ],
+      "created": "2021-12-03T18:38:42.657Z",
+      "lastModified": "2022-05-03T03:10:04.090Z",
+      "category": {
+        "name": "Conference"
+      },
+      "_links": {
+        "invitation": {
+          "href": "https://silo606-guest.core.cvent.org/d/1rqwb2/1Q"
+        },
+        "agenda": {
+          "href": "https://silo606-guest.core.cvent.org/d/1rqwb2/6X"
+        },
+        "summary": {
+          "href": "https://silo606-guest.core.cvent.org/d/1rqwb2"
+        },
+        "registration": {
+          "href": "https://silo606-guest.core.cvent.org/d/1rqwb2/4W"
+        }
+      },
+      "virtual": true,
+      "format": "Virtual",
+      "languages": ["en-US"]
+    }
+  ]
+}

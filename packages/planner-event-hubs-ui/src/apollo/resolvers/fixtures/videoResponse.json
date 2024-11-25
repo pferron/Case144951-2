@@ -1,0 +1,18 @@
+{
+  "id": "93fe481a-a1f1-434d-9e7e-4a6d991c4ac8",
+  "title": "sa.mp4",
+  "uploadCompleted": "2022-03-11T00:04:27.428Z",
+  "url": {
+    "href": "b45fd6ef-989d-4890-ae48-a7d0ed5e3f03/f5702ceb-5d0f-4ceb-916f-131168051854/93fe481a-a1f1-134d-9e7e-4a6d991c4ac8/video.mp4"
+  },
+  "generatedThumbnail": {
+    "url": {
+      "href": "https://cf-images.us-east-1.prod.boltdns.net/v1/jit/6173816595301/b7e505e4-de49-452f-8500-14be04af5a9e/main/1280x720/1m12s759ms/match/image.jpg"
+    }
+  },
+  "status": "Available",
+  "source": {
+    "id": "6173816595301",
+    "status": "Active"
+  }
+}

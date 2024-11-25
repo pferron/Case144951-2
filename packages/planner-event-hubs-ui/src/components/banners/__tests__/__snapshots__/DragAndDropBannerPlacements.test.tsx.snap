@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DragAndDropBannerPlacements should render correct elements on page with no violations 1`] = `
+.emotion-0 {
+  padding: 24px;
+  margin: 0;
+  border-radius: 4px;
+  background-color: rgb(255,255,255);
+  margin: 24px;
+}
+
+.emotion-1 {
+  font-family: 'Rubik','Helvetica','Arial';
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-bottom: 24px;
+}
+
+.emotion-1 h3 {
+  margin-bottom: 20px;
+}
+
+.emotion-1 p {
+  font-family: 'Rubik','Helvetica','Arial';
+}
+
+.emotion-2 {
+  width: 100%;
+}
+
+.emotion-3 {
+  background: transparent;
+  border: none;
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  padding: 0;
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+}
+
+.emotion-4 {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: rgb(26,32,38);
+}
+
+.emotion-5 {
+  max-height: 3000px;
+  -webkit-transition: max-height .3s ease-in-out;
+  transition: max-height .3s ease-in-out;
+  box-sizing: border-box;
+}
+
+.emotion-5 h3 {
+  font-family: 'Rubik','Helvetica','Arial';
+  margin-bottom: 16px;
+}
+
+.emotion-5 h5 {
+  font-family: 'Rubik','Helvetica','Arial';
+  text-transform: uppercase;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  margin-bottom: 16px;
+}
+
+.emotion-5 p {
+  margin-bottom: 16px;
+  font-size: 0.875rem;
+}
+
+.emotion-5 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #006ae1;
+}
+
+.emotion-6 {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.emotion-8 {
+  margin-top: 8px;
+  font-size: 0.875rem;
+  color: rgb(105,113,122);
+}
+
+<div>
+  <div
+    class="emotion-0"
+    data-cvent-id="Homepage-section"
+  >
+    <div
+      class="emotion-1"
+    >
+      <div
+        class="emotion-2"
+      >
+        <h3
+          style="margin: 0px;"
+        >
+          Homepage
+        </h3>
+      </div>
+      <button
+        aria-controls="container-body_key_accordion"
+        aria-expanded="true"
+        aria-label="Collapse"
+        class="emotion-3"
+        data-cvent-id="Homepage-toggle-card-collapse"
+        id="accordion_key_accordion"
+        tabindex="0"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="emotion-4"
+          focusable="false"
+          role="img"
+          viewBox="0 0 32 32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g>
+            <svg
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M18.7 8.3c-.4-.4-1-.4-1.4 0L12 13.6 6.7 8.3c-.4-.4-1-.4-1.4 0s-.4 1 0 1.4l6 6c.2.2.5.3.7.3s.5-.1.7-.3l6-6c.4-.4.4-1 0-1.4z"
+              />
+            </svg>
+          </g>
+        </svg>
+      </button>
+    </div>
+    <div
+      aria-labelledby="accordion_key_accordion"
+      class="emotion-5"
+      id="container-body_key_accordion"
+      role="region"
+    >
+      <div
+        class="emotion-6"
+      >
+        <div
+          class="emotion-7"
+        >
+          <div
+            class="emotion-8"
+          >
+            4/6 banners
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

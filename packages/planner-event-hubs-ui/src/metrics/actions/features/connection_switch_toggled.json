@@ -1,0 +1,32 @@
+{
+  "name": "connection switch toggled",
+  "type": "track",
+  "folder": "features",
+  "phase": "engagement",
+  "destinations": ["datadog", "Snowflake", "Mixpanel"],
+  "release": "v2.0",
+  "multiStep": false,
+  "owner": "red",
+  "description": "this action tracks the users who toggles connections feature in order to turn it on or off",
+  "trigger": "this action is triggered when user clicks on switch button on 'connections' feature card in Events+ Hub feature page",
+  "sdk": "analytics.js",
+  "status": "active",
+  "rules": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "context": {},
+      "properties": {
+        "type": "object",
+        "properties": {
+          "connectionStatus": {
+            "description": "Shows the status of connections feature whether it is on or off",
+            "type": "string"
+          }
+        },
+        "required": ["connectionStatus"]
+      },
+      "traits": {}
+    }
+  }
+}

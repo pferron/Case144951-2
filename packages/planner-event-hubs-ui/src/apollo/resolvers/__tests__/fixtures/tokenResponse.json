@@ -1,0 +1,9 @@
+{
+  "bearerToken": "4f777c4c758bc267f3323ee8e9db9c75",
+  "bearerTokenTTL": 86400,
+  "refreshToken": "bc09d44929842f3f71943b2d953755b5",
+  "refreshTokenTTL": 2563994,
+  "csrfToken": "0f355c72a33f9370d582e9bcd16bfebd23017cf8bafd8f29881dc913290e95d8157b3a8cfb91e25d498965d1e9481218b4daa7d8a97d9639e83b066417e4ac40",
+  "id": "9b947978-6231-4916-95a0-a7e15ff5439c",
+  "roles": {}
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "name": "privacyFeature",
+    "enabled": true,
+    "experimentVersion": "1001",
+    "__typename": "AppFeature"
+  },
+  {
+    "name": "memberLogin",
+    "enabled": true,
+    "experimentVersion": "1001",
+    "__typename": "AppFeature"
+  },
+  {
+    "name": "profileFeature",
+    "enabled": true,
+    "experimentVersion": "1001",
+    "__typename": "AppFeature"
+  },
+  {
+    "name": "themeBrandingFeature",
+    "enabled": true,
+    "experimentVersion": "1001",
+    "__typename": "AppFeature"
+  },
+  {
+    "name": "hubOverviewFeature",
+    "enabled": true,
+    "experimentVersion": "1001",
+    "__typename": "AppFeature"
+  },
+  {
+    "name": "cookieListFeature",
+    "enabled": true,
+    "experimentVersion": "1001",
+    "__typename": "AppFeature"
+  },
+  {
+    "name": "languageManagementFeature",
+    "enabled": true,
+    "experimentVersion": "1001",
+    "__typename": "AppFeature"
+  },
+  {
+    "name": "homepageCustomizationFeature",
+    "enabled": true,
+    "experimentVersion": "1001",
+    "__typename": "AppFeature"
+  },
+  {
+    "name": "cookieNotificationFeature",
+    "enabled": true,
+    "experimentVersion": "1001",
+    "__typename": "AppFeature"
+  },
+  {
+    "name": "videoCenterInformationFeature",
+    "enabled": true,
+    "experimentVersion": "1001",
+    "__typename": "AppFeature"
+  },
+  {
+    "name": "singleSignOnFeature",
+    "enabled": true,
+    "experimentVersion": "1001",
+    "__typename": "AppFeature"
+  }
+]

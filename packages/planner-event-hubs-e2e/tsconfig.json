@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["ES2019.Array"],
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "baseUrl": "./",
+    "types": [
+      "node",
+      "@wdio/globals/types",
+      "@wdio/jasmine-framework",
+      "@cvent/wdio-configs/types",
+      "expect-webdriverio/types/jest-global.d.ts",
+      "@applitools/eyes-webdriverio/types/service.d.ts",
+      "jasmine"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "@cvent/planner-event-hubs",
+  "version": "1.0.0",
+  "prettier": "@cvent/prettier-config"
+}

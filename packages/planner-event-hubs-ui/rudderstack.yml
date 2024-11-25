@@ -1,0 +1,17 @@
+plan:
+  name: planner events hub ui
+  folder: ./src/metrics/
+  file: plan.json
+codegen:
+  language: typescript
+  framework: nextjs
+  api: pageActions
+  profiles: true
+  storage: v3.0
+  logger: factory
+defaults:
+  destinations: ['datadog', 'Snowflake', 'Mixpanel']
+taxonomy:
+  businessUnit: event
+  component: planner-event-hubs-ui
+  product: Events+

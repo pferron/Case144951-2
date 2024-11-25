@@ -1,0 +1,11 @@
+{
+  "memberLoginInput": {
+    "hubId": "07913ff1-1f48-4726-bfe9-85d0838ca80d",
+    "requestId": "12345ff1-1f48-4726-bfe9-85d0838ca80d",
+    "memberInfo": {
+      "firstName": "test",
+      "lastName": "user",
+      "email": "abc@asd.in"
+    }
+  }
+}

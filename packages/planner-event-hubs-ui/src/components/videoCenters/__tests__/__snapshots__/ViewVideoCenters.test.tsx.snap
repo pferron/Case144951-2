@@ -1,0 +1,1348 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Video Centers table view Render Video Hubs table 1`] = `
+.emotion-0 {
+  padding: 24px;
+  background-color: rgb(247,248,249);
+  height: 100%;
+}
+
+.emotion-1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1px;
+}
+
+.emotion-2 {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.emotion-3 {
+  box-sizing: border-box;
+  outline-width: 1px;
+  outline-offset: -1px;
+  outline-style: solid;
+  outline-color: rgb(217,220,222);
+  width: 100%;
+  overflow: hidden;
+  min-height: 56px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: rgb(255,255,255);
+}
+
+.emotion-4 {
+  box-sizing: border-box;
+  position: relative;
+  width: 0;
+  background-color: rgb(255,255,255);
+  padding-left: 8px;
+  padding-right: 8px;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  font-size: 0.875rem;
+  font-family: 'Rubik','Helvetica','Arial';
+  min-width: 350px;
+}
+
+.emotion-5 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  padding: 12px 8px;
+  font-size: 0.875rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: rgb(26,32,38);
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  margin: -12px -8px;
+}
+
+.emotion-5:focus>.heading-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% + 1px);
+  bottom: -2px;
+  background-color: rgb(0,106,225);
+  pointer-events: none;
+}
+
+.emotion-5.focus-visible,
+.emotion-5:focus-within {
+  box-shadow: 0 0 0 2px #4494EF;
+  outline: none;
+}
+
+.emotion-6 {
+  position: relative;
+  font-weight: 500;
+  font-family: 'Rubik','Helvetica','Arial';
+  overflow: hidden;
+}
+
+.emotion-7 {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: rgb(105,113,122);
+}
+
+.emotion-8 {
+  box-sizing: border-box;
+  position: relative;
+  width: 0;
+  background-color: rgb(255,255,255);
+  padding-left: 8px;
+  padding-right: 8px;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  font-size: 0.875rem;
+  font-family: 'Rubik','Helvetica','Arial';
+  min-width: 150px;
+}
+
+.emotion-10 {
+  position: relative;
+  font-weight: 400;
+  font-family: 'Rubik','Helvetica','Arial';
+  overflow: hidden;
+}
+
+.emotion-16 {
+  box-sizing: border-box;
+  position: relative;
+  width: 72px;
+  background-color: rgb(255,255,255);
+  padding-left: 8px;
+  padding-right: 8px;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  font-size: 0.875rem;
+  font-family: 'Rubik','Helvetica','Arial';
+  min-width: 72px;
+}
+
+.emotion-17 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  padding: 0;
+  font-size: 0.875rem;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: rgb(26,32,38);
+}
+
+.emotion-17:focus>.heading-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% + 1px);
+  bottom: -2px;
+  background-color: rgb(0,106,225);
+  pointer-events: none;
+}
+
+.emotion-19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(217,220,222);
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(217,220,222);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(217,220,222);
+}
+
+.emotion-20 {
+  position: relative;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgb(105,113,122);
+  width: 100%;
+  overflow-x: hidden;
+  -ms-overflow-y: hidden;
+  border-left: 1px solid rgb(217,220,222);
+  border-right: 1px solid rgb(217,220,222);
+}
+
+.emotion-20::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.emotion-20:hover button[aria-checked],
+.emotion-20:focus-within button[aria-checked] {
+  z-index: 5;
+}
+
+.emotion-20:hover button[aria-checked]>div,
+.emotion-20:focus-within button[aria-checked]>div {
+  border-color: rgba(154,159,166,0.8);
+  background-color: transparent;
+}
+
+.emotion-20:hover button[aria-checked]>div svg,
+.emotion-20:focus-within button[aria-checked]>div svg {
+  fill: rgba(154,159,166,0.8);
+}
+
+.emotion-20:hover span:first-child:hover button[aria-checked]>div,
+.emotion-20:focus-within span:first-child:hover button[aria-checked]>div,
+.emotion-20:hover span:first-child:focus-within button[aria-checked]>div,
+.emotion-20:focus-within span:first-child:focus-within button[aria-checked]>div {
+  border-color: rgb(255,255,255);
+}
+
+.emotion-20:hover span:first-child:hover button[aria-checked]>div svg,
+.emotion-20:focus-within span:first-child:hover button[aria-checked]>div svg,
+.emotion-20:hover span:first-child:focus-within button[aria-checked]>div svg,
+.emotion-20:focus-within span:first-child:focus-within button[aria-checked]>div svg {
+  fill: rgb(255,255,255);
+}
+
+.emotion-20:nth-of-type(odd)>div {
+  background-color: rgb(247,248,249);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .emotion-20:nth-of-type(odd)>div:hover {
+    background-color: #E7F2FF;
+  }
+}
+
+.emotion-20 .x-ray {
+  z-index: 5;
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transition: opacity .18s;
+  transition: opacity .18s;
+  position: absolute;
+  -webkit-transform: translateY(2px);
+  -moz-transform: translateY(2px);
+  -ms-transform: translateY(2px);
+  transform: translateY(2px);
+  -ms-transform: translate(-22px, -8px);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .emotion-20:hover .x-ray.start {
+    opacity: 1;
+  }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .emotion-20:hover .x-ray.start {
+    opacity: 1;
+  }
+}
+
+.emotion-21 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  min-width: 70px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 8px;
+  padding-left: 8px;
+  background-color: unset;
+  opacity: 1;
+}
+
+.emotion-22 {
+  box-sizing: border-box;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgb(255,255,255);
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+  z-index: 1;
+  min-height: 56px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 0;
+  -webkit-transition: left .18s;
+  transition: left .18s;
+  right: unset;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: rgb(217,220,222);
+  border-top: 1px solid rgb(217,220,222);
+}
+
+.emotion-22:focus {
+  outline: none;
+}
+
+.emotion-22::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
+  pointer-events: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .emotion-22:hover {
+    background-color: #E7F2FF;
+  }
+}
+
+.emotion-23 {
+  box-sizing: border-box;
+  width: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  color: rgb(26,32,38);
+  font-family: 'Rubik','Helvetica','Arial';
+  font-weight: 300;
+  font-size: 0.875rem;
+  padding-right: 8px;
+  padding-left: 8px;
+  min-width: 350px;
+}
+
+.emotion-24 {
+  max-width: 100%;
+  overflow: visible;
+  overflow-wrap: anywhere;
+}
+
+.emotion-25 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #006DE9;
+}
+
+.emotion-25:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.emotion-26 {
+  box-sizing: border-box;
+  width: 0;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  color: rgb(26,32,38);
+  font-family: 'Rubik','Helvetica','Arial';
+  font-weight: 300;
+  font-size: 0.875rem;
+  padding-right: 8px;
+  padding-left: 8px;
+  min-width: 150px;
+}
+
+.emotion-27 {
+  border-width: 0;
+  border-radius: 4px;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: #D3E5FA;
+}
+
+.emotion-27 svg {
+  fill: rgb(26,32,38);
+}
+
+.emotion-28 {
+  font-family: 'Rubik','Helvetica','Arial';
+  font-size: 0.75rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  border: 0;
+  padding: 5px 0;
+  position: relative;
+  color: #0050AB;
+}
+
+.emotion-31 {
+  box-sizing: border-box;
+  width: 72px;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  color: rgb(26,32,38);
+  font-family: 'Rubik','Helvetica','Arial';
+  font-weight: 300;
+  font-size: 0.875rem;
+  padding-right: 8px;
+  padding-left: 8px;
+  min-width: 72px;
+}
+
+.emotion-34 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 54px;
+  right: 0;
+}
+
+.emotion-35 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  min-width: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-right: 8px;
+  padding-left: 8px;
+  background-color: unset;
+  opacity: 1;
+  z-index: 2;
+}
+
+.emotion-36 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  border-radius: 19px;
+  height: 38px;
+  width: 38px;
+  margin-right: 8px;
+  margin-left: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  -webkit-transform: unset;
+  -moz-transform: unset;
+  -ms-transform: unset;
+  transform: unset;
+}
+
+.emotion-36:focus {
+  border: 1px solid rgb(105,113,122);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .emotion-36:hover {
+    background-color: rgba(154,159,166,0.4);
+  }
+}
+
+@media (-ms-high-contrast:none), (-ms-high-contrast: active) {
+  .emotion-36:hover {
+    background-color: rgba(154,159,166,0.4);
+  }
+}
+
+.emotion-36:active {
+  background-color: rgba(154,159,166,0.4);
+}
+
+.emotion-38 {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: rgb(154, 159, 166);
+}
+
+.emotion-65 {
+  border-width: 0;
+  border-radius: 4px;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: #D1EAD1;
+}
+
+.emotion-65 svg {
+  fill: rgb(26,32,38);
+}
+
+.emotion-66 {
+  font-family: 'Rubik','Helvetica','Arial';
+  font-size: 0.75rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  border: 0;
+  padding: 5px 0;
+  position: relative;
+  color: #006200;
+}
+
+.emotion-96 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+
+<body>
+  <div>
+    <div
+      class="emotion-0"
+      data-cvent-id="video-hubs-view"
+    >
+      <div
+        dir="ltr"
+      >
+        <div
+          class="emotion-1"
+          dir="ltr"
+          role="table"
+        >
+          <div
+            class="emotion-2"
+            role="rowgroup"
+          >
+            <div
+              class="emotion-3"
+              role="row"
+            >
+              <div
+                class="emotion-4"
+                role="columnheader"
+                scope="col"
+              >
+                <button
+                  class="emotion-5"
+                  type="button"
+                >
+                  <div
+                    class="heading-text emotion-6"
+                  >
+                    Name
+                  </div>
+                  <svg
+                    aria-hidden="true"
+                    class="emotion-7"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g>
+                      <svg
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.743 14h6.516c.957 0 1.217.577.57 1.29l-3.154 3.468a.89.89 0 01-1.348 0L8.173 15.29c-.646-.712-.392-1.29.57-1.29zm6.515-4H8.742c-.957 0-1.217-.577-.57-1.29l3.154-3.468a.89.89 0 011.348 0l3.154 3.468c.646.712.392 1.29-.57 1.29z"
+                        />
+                        <use
+                          transform="rotate(180 12 12)"
+                        />
+                      </svg>
+                    </g>
+                  </svg>
+                </button>
+              </div>
+              <div
+                class="emotion-8"
+                role="columnheader"
+                scope="col"
+              >
+                <button
+                  class="emotion-5"
+                  type="button"
+                >
+                  <div
+                    class="heading-text emotion-10"
+                  >
+                    Status
+                  </div>
+                  <svg
+                    aria-hidden="true"
+                    class="emotion-7"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g>
+                      <svg
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.743 14h6.516c.957 0 1.217.577.57 1.29l-3.154 3.468a.89.89 0 01-1.348 0L8.173 15.29c-.646-.712-.392-1.29.57-1.29zm6.515-4H8.742c-.957 0-1.217-.577-.57-1.29l3.154-3.468a.89.89 0 011.348 0l3.154 3.468c.646.712.392 1.29-.57 1.29z"
+                        />
+                        <use
+                          transform="rotate(180 12 12)"
+                        />
+                      </svg>
+                    </g>
+                  </svg>
+                </button>
+              </div>
+              <div
+                class="emotion-8"
+                role="columnheader"
+                scope="col"
+              >
+                <button
+                  class="emotion-5"
+                  type="button"
+                >
+                  <div
+                    class="heading-text emotion-10"
+                  >
+                    Owner
+                  </div>
+                  <svg
+                    aria-hidden="true"
+                    class="emotion-7"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g>
+                      <svg
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.743 14h6.516c.957 0 1.217.577.57 1.29l-3.154 3.468a.89.89 0 01-1.348 0L8.173 15.29c-.646-.712-.392-1.29.57-1.29zm6.515-4H8.742c-.957 0-1.217-.577-.57-1.29l3.154-3.468a.89.89 0 011.348 0l3.154 3.468c.646.712.392 1.29-.57 1.29z"
+                        />
+                        <use
+                          transform="rotate(180 12 12)"
+                        />
+                      </svg>
+                    </g>
+                  </svg>
+                </button>
+              </div>
+              <div
+                class="emotion-16"
+                role="columnheader"
+                scope="col"
+              >
+                <div
+                  class="emotion-17"
+                >
+                  <div
+                    class="heading-text emotion-10"
+                  >
+                    Actions
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="emotion-19"
+            role="rowgroup"
+          >
+            <div
+              class="emotion-20"
+            >
+              <span
+                class="emotion-21"
+              />
+              <div
+                class="emotion-22"
+                role="row"
+                tabindex="-1"
+              >
+                <div
+                  class="emotion-23"
+                  role="cell"
+                >
+                  <div
+                    class="emotion-24"
+                  >
+                    <a
+                      class="emotion-25"
+                      href="/eventsplus/04ca6ae2-0dc3-487b-953e-86d6abbdf7d3/information"
+                    >
+                      Future Technologies
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="emotion-26"
+                  role="cell"
+                >
+                  <span
+                    class="emotion-27"
+                  >
+                    <span
+                      class="emotion-28"
+                    >
+                      Not live
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="emotion-26"
+                  role="cell"
+                >
+                  <div
+                    class="emotion-24"
+                  >
+                    Achuthanandan Velikkakathu Sankaran
+                  </div>
+                </div>
+                <div
+                  class="emotion-31"
+                  role="cell"
+                >
+                  <div
+                    class="emotion-24"
+                  />
+                </div>
+                <div
+                  class="emotion-33"
+                />
+                <div
+                  class="emotion-34"
+                />
+              </div>
+              <span
+                class="emotion-35"
+              >
+                <div>
+                  <div>
+                    <button
+                      aria-label="Row actions"
+                      class="emotion-36"
+                      type="button"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="emotion-7"
+                        focusable="false"
+                        role="img"
+                        viewBox="0 0 32 32"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <svg
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M12 14a2 2 0 100-4 2 2 0 000 4zm0-7a2 2 0 100-4 2 2 0 000 4zm0 14a2 2 0 100-4 2 2 0 000 4z"
+                            />
+                            <g
+                              fill-rule="evenodd"
+                            >
+                              <use />
+                              <use
+                                fill-rule="nonzero"
+                              />
+                            </g>
+                          </svg>
+                        </g>
+                      </svg>
+                      <span
+                        class="x-ray end"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="emotion-38"
+                          focusable="false"
+                          role="img"
+                          viewBox="0 0 32 32"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g>
+                            <svg
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M12 14a2 2 0 100-4 2 2 0 000 4zm0-7a2 2 0 100-4 2 2 0 000 4zm0 14a2 2 0 100-4 2 2 0 000 4z"
+                              />
+                              <g
+                                fill-rule="evenodd"
+                              >
+                                <use />
+                                <use
+                                  fill-rule="nonzero"
+                                />
+                              </g>
+                            </svg>
+                          </g>
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </span>
+            </div>
+            <div
+              class="emotion-20"
+            >
+              <span
+                class="emotion-21"
+              />
+              <div
+                class="emotion-22"
+                role="row"
+                tabindex="-1"
+              >
+                <div
+                  class="emotion-23"
+                  role="cell"
+                >
+                  <div
+                    class="emotion-24"
+                  >
+                    <a
+                      class="emotion-25"
+                      href="/eventsplus/770c7898-ff21-4736-8613-3fb587975639/information"
+                    >
+                      Inactive Event 2
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="emotion-26"
+                  role="cell"
+                >
+                  <span
+                    class="emotion-27"
+                  >
+                    <span
+                      class="emotion-28"
+                    >
+                      Not live
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="emotion-26"
+                  role="cell"
+                >
+                  <div
+                    class="emotion-24"
+                  >
+                    Frank Yuan
+                  </div>
+                </div>
+                <div
+                  class="emotion-31"
+                  role="cell"
+                >
+                  <div
+                    class="emotion-24"
+                  />
+                </div>
+                <div
+                  class="emotion-33"
+                />
+                <div
+                  class="emotion-34"
+                />
+              </div>
+              <span
+                class="emotion-35"
+              >
+                <div>
+                  <div>
+                    <button
+                      aria-label="Row actions"
+                      class="emotion-36"
+                      type="button"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="emotion-7"
+                        focusable="false"
+                        role="img"
+                        viewBox="0 0 32 32"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <svg
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M12 14a2 2 0 100-4 2 2 0 000 4zm0-7a2 2 0 100-4 2 2 0 000 4zm0 14a2 2 0 100-4 2 2 0 000 4z"
+                            />
+                            <g
+                              fill-rule="evenodd"
+                            >
+                              <use />
+                              <use
+                                fill-rule="nonzero"
+                              />
+                            </g>
+                          </svg>
+                        </g>
+                      </svg>
+                      <span
+                        class="x-ray end"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="emotion-38"
+                          focusable="false"
+                          role="img"
+                          viewBox="0 0 32 32"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g>
+                            <svg
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M12 14a2 2 0 100-4 2 2 0 000 4zm0-7a2 2 0 100-4 2 2 0 000 4zm0 14a2 2 0 100-4 2 2 0 000 4z"
+                              />
+                              <g
+                                fill-rule="evenodd"
+                              >
+                                <use />
+                                <use
+                                  fill-rule="nonzero"
+                                />
+                              </g>
+                            </svg>
+                          </g>
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </span>
+            </div>
+            <div
+              class="emotion-20"
+            >
+              <span
+                class="emotion-21"
+              />
+              <div
+                class="emotion-22"
+                role="row"
+                tabindex="-1"
+              >
+                <div
+                  class="emotion-23"
+                  role="cell"
+                >
+                  <div
+                    class="emotion-24"
+                  >
+                    <a
+                      class="emotion-25"
+                      href="/eventsplus/aa2cc81f-b140-4f5e-ba12-a0b1f6df3194/information"
+                    >
+                      Active Event 1
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="emotion-26"
+                  role="cell"
+                >
+                  <span
+                    class="emotion-65"
+                  >
+                    <span
+                      class="emotion-66"
+                    >
+                      Live
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="emotion-26"
+                  role="cell"
+                >
+                  <div
+                    class="emotion-24"
+                  >
+                    Brodie Beaman
+                  </div>
+                </div>
+                <div
+                  class="emotion-31"
+                  role="cell"
+                >
+                  <div
+                    class="emotion-24"
+                  />
+                </div>
+                <div
+                  class="emotion-33"
+                />
+                <div
+                  class="emotion-34"
+                />
+              </div>
+              <span
+                class="emotion-35"
+              >
+                <div>
+                  <div>
+                    <button
+                      aria-label="Row actions"
+                      class="emotion-36"
+                      type="button"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="emotion-7"
+                        focusable="false"
+                        role="img"
+                        viewBox="0 0 32 32"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <svg
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M12 14a2 2 0 100-4 2 2 0 000 4zm0-7a2 2 0 100-4 2 2 0 000 4zm0 14a2 2 0 100-4 2 2 0 000 4z"
+                            />
+                            <g
+                              fill-rule="evenodd"
+                            >
+                              <use />
+                              <use
+                                fill-rule="nonzero"
+                              />
+                            </g>
+                          </svg>
+                        </g>
+                      </svg>
+                      <span
+                        class="x-ray end"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="emotion-38"
+                          focusable="false"
+                          role="img"
+                          viewBox="0 0 32 32"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g>
+                            <svg
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M12 14a2 2 0 100-4 2 2 0 000 4zm0-7a2 2 0 100-4 2 2 0 000 4zm0 14a2 2 0 100-4 2 2 0 000 4z"
+                              />
+                              <g
+                                fill-rule="evenodd"
+                              >
+                                <use />
+                                <use
+                                  fill-rule="nonzero"
+                                />
+                              </g>
+                            </svg>
+                          </g>
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </span>
+            </div>
+            <div
+              class="emotion-20"
+            >
+              <span
+                class="emotion-21"
+              />
+              <div
+                class="emotion-22"
+                role="row"
+                tabindex="-1"
+              >
+                <div
+                  class="emotion-23"
+                  role="cell"
+                >
+                  <div
+                    class="emotion-24"
+                  >
+                    <a
+                      class="emotion-25"
+                      href="/eventsplus/d20ba749-1ac0-4d1b-a1f4-d861e8c19562/information"
+                    >
+                      Active Event 2
+                    </a>
+                  </div>
+                </div>
+                <div
+                  class="emotion-26"
+                  role="cell"
+                >
+                  <span
+                    class="emotion-65"
+                  >
+                    <span
+                      class="emotion-66"
+                    >
+                      Live
+                    </span>
+                  </span>
+                </div>
+                <div
+                  class="emotion-26"
+                  role="cell"
+                >
+                  <div
+                    class="emotion-24"
+                  >
+                    Chun-Ku Lin
+                  </div>
+                </div>
+                <div
+                  class="emotion-31"
+                  role="cell"
+                >
+                  <div
+                    class="emotion-24"
+                  />
+                </div>
+                <div
+                  class="emotion-33"
+                />
+                <div
+                  class="emotion-34"
+                />
+              </div>
+              <span
+                class="emotion-35"
+              >
+                <div>
+                  <div>
+                    <button
+                      aria-label="Row actions"
+                      class="emotion-36"
+                      type="button"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="emotion-7"
+                        focusable="false"
+                        role="img"
+                        viewBox="0 0 32 32"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g>
+                          <svg
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M12 14a2 2 0 100-4 2 2 0 000 4zm0-7a2 2 0 100-4 2 2 0 000 4zm0 14a2 2 0 100-4 2 2 0 000 4z"
+                            />
+                            <g
+                              fill-rule="evenodd"
+                            >
+                              <use />
+                              <use
+                                fill-rule="nonzero"
+                              />
+                            </g>
+                          </svg>
+                        </g>
+                      </svg>
+                      <span
+                        class="x-ray end"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="emotion-38"
+                          focusable="false"
+                          role="img"
+                          viewBox="0 0 32 32"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g>
+                            <svg
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M12 14a2 2 0 100-4 2 2 0 000 4zm0-7a2 2 0 100-4 2 2 0 000 4zm0 14a2 2 0 100-4 2 2 0 000 4z"
+                              />
+                              <g
+                                fill-rule="evenodd"
+                              >
+                                <use />
+                                <use
+                                  fill-rule="nonzero"
+                                />
+                              </g>
+                            </svg>
+                          </g>
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    id="carina-portal-root"
+  >
+    <div
+      class="emotion-96"
+      data-placement="bottom-end"
+    />
+    <div
+      class="emotion-96"
+      data-placement="bottom-end"
+    />
+    <div
+      class="emotion-96"
+      data-placement="bottom-end"
+    />
+    <div
+      class="emotion-96"
+      data-placement="bottom-end"
+    />
+  </div>
+</body>
+`;

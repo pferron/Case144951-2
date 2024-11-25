@@ -1,0 +1,101 @@
+{
+  "data": {
+    "bannerAssociations": {
+      "data": [
+        {
+          "centerId": "44bb83b3-2a5d-466e-8513-3b002efe60d2",
+          "entityType": "Homepage",
+          "entityId": "44bb83b3-2a5d-466e-8513-3b002efe60d2",
+          "displayOrder": 1,
+          "banner": {
+            "id": "08796b38-1648-44bc-9168-c4fa086a1304",
+            "name": "Gogogo new banner",
+            "layout": "banner-layout",
+            "text": {
+              "title": null,
+              "body": null,
+              "alignment": null,
+              "color": null
+            },
+            "button": {
+              "enabled": false,
+              "text": null,
+              "target": null
+            }
+          }
+        },
+        {
+          "centerId": "44bb83b3-2a5d-466e-8513-3b002efe60d2",
+          "entityType": "Homepage",
+          "entityId": "44bb83b3-2a5d-466e-8513-3b002efe60d2",
+          "displayOrder": 3,
+          "banner": {
+            "id": "18796b38-1648-44bc-9168-c4fa086a1304",
+            "name": "Gogogo new banner 3",
+            "layout": "banner-layout",
+            "text": {
+              "title": null,
+              "body": null,
+              "alignment": null,
+              "color": null
+            },
+            "button": {
+              "enabled": false,
+              "text": null,
+              "target": null
+            }
+          }
+        },
+        {
+          "centerId": "44bb83b3-2a5d-466e-8513-3b002efe60d2",
+          "entityType": "Homepage",
+          "entityId": "44bb83b3-2a5d-466e-8513-3b002efe60d2",
+          "displayOrder": 2,
+          "banner": {
+            "id": "551ffcdf-9fbb-4fb6-91e4-ca44e7f8b44e",
+            "name": "New banner",
+            "layout": "banner-layout",
+            "text": {
+              "title": null,
+              "body": null,
+              "alignment": null,
+              "color": null
+            },
+            "button": {
+              "enabled": false,
+              "text": null,
+              "target": null
+            }
+          }
+        },
+        {
+          "centerId": "44bb83b3-2a5d-466e-8513-3b002efe60d2",
+          "entityType": "Channel",
+          "entityId": "44bb83b3-2a5d-466e-8513-3b002efe60d1",
+          "displayOrder": 1,
+          "banner": {
+            "id": "0ccb44a3-1937-42e4-bd00-e3748fb54fcc",
+            "name": "sss",
+            "layout": "banner-layout",
+            "text": {
+              "title": null,
+              "body": null,
+              "alignment": null,
+              "color": null
+            },
+            "button": {
+              "enabled": false,
+              "text": null,
+              "target": null
+            }
+          }
+        }
+      ],
+      "paging": {
+        "currentToken": "f6f36418-58dd-4893-8073-37e5eeb388c2",
+        "nextToken": null,
+        "limit": 6
+      }
+    }
+  }
+}

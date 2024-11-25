@@ -1,0 +1,65 @@
+{
+  "name": "@cvent/planner-event-hubs-it",
+  "version": "5.10.6",
+  "description": "IT deployment",
+  "keywords": [],
+  "license": "UNLICENSED",
+  "author": "Cvent <rd@cvent.com>",
+  "scripts": {
+    "clean": "rm -rf .hogan dist pnpm-lock.yaml target",
+    "build": "nx build",
+    "docker:run": "nx docker:run",
+    "lint": "nx lint",
+    "fix": "nx fix",
+    "test:it": "jest",
+    "deploy": "nx deploy"
+  },
+  "prettier": "@cvent/prettier-config",
+  "eslintConfig": {
+    "extends": "@cvent/eslint-config"
+  },
+  "jest": {
+    "displayName": "@cvent/planner-event-hubs-it",
+    "globalSetup": "./jest.global.ts",
+    "maxWorkers": "50%",
+    "moduleNameMapper": {
+      "^(\\.{1,2}/.*)\\.js$": "$1",
+      "^@utils(.*)$": "<rootDir>/src/utils$1",
+      "^@queries(.*)$": "<rootDir>/src/queries$1",
+      "^@fixtures(.*)$": "<rootDir>/src/fixtures$1",
+      "^@resources(.*)$": "<rootDir>/src/resources$1",
+      "^@helpers(.*)$": "<rootDir>/src/helpers$1",
+      "^uuid$": "<rootDir>/../../node_modules/uuid/dist/index.js"
+    },
+    "modulePathIgnorePatterns": [
+      "<rootDir>[/\\\\](dist|node_modules|)[/\\\\]"
+    ],
+    "preset": "@cvent/jest-config",
+    "slowTestThreshold": 20,
+    "testEnvironment": "jest-environment-node",
+    "testTimeout": 30000
+  },
+  "dependencies": {
+    "@cvent/nucleus-networking": "^3.0.18",
+    "@cvent/nucleus-networking-node": "^3.0.19",
+    "@cvent/planner-event-hubs-model": "workspace:*",
+    "@faker-js/faker": "^9.0.0",
+    "apollo-datasource-rest": "^3.7.0",
+    "form-data": "^4.0.0",
+    "react-native": "0.75.3",
+    "source-map-support": "^0.5.21"
+  },
+  "jest-junit": {
+    "suiteName": "Integration tests",
+    "outputDirectory": "./target/surefire-reports",
+    "outputName": "junit.xml",
+    "uniqueOutputName": "false",
+    "classNameTemplate": "planner-event-hubs.{classname}",
+    "titleTemplate": "{classname}-{title}",
+    "ancestorSeparator": " › ",
+    "usePathForSuiteName": "true"
+  },
+  "nx": {
+    "includedScripts": []
+  }
+}

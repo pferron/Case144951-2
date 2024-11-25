@@ -1,0 +1,79 @@
+{
+  "data": {
+    "bannerAssociations": {
+      "data": [
+        {
+          "displayOrder": 1,
+          "banner": {
+            "id": "d8609ddc-ab69-400f-a5a7-24e6aa02fca8",
+            "name": "Big Conference 2022",
+            "layout": "FULL_IMAGE",
+            "imageAlignment": "Right",
+            "imageUrl": "https://images-lower.cvent.com/S606/6b0191139f5a4b78bb0f56892fa115b6/video-center/6eaa65a7-898d-4e0d-8852-7c66b130d775/banner/d8609ddc-ab69-400f-a5a7-24e6aa02fca8/675ac86af87e729b726576474fd7648f!_!42f3aa9a546f414e8f0327d7a9ac9ecd.jpeg",
+            "imageAltText": "League Banner",
+            "text": {
+              "title": "2022 Champions",
+              "body": "We are the league of legends 2022 champions",
+              "alignment": "Left",
+              "color": null,
+              "__typename": "BannerText"
+            },
+            "button": {
+              "text": "Summon",
+              "targetType": "Internal",
+              "internalTarget": "6eaa65a7-898d-4e0d-8852-7c66b130d775",
+              "target": "https://cvent.com"
+            }
+          }
+        },
+        {
+          "displayOrder": 2,
+          "banner": {
+            "id": "892fa8fb-27e0-47a8-b7c2-a23913fdd40c",
+            "name": "varsha banner 1",
+            "layout": "INSET_IMAGE",
+            "imageAlignment": "Right",
+            "imageUrl": null,
+            "imageAltText": "",
+            "text": {
+              "title": "welcome",
+              "body": "",
+              "alignment": "Left",
+              "color": null,
+              "__typename": "BannerText"
+            },
+            "button": {
+              "text": "",
+              "targetType": "Internal",
+              "internalTarget": "",
+              "target": ""
+            }
+          }
+        },
+        {
+          "displayOrder": 3,
+          "banner": {
+            "id": "36c6f1c4-7147-4e6e-bff9-870e1b761ba5",
+            "name": "Text only banner",
+            "layout": "TEXT_AND_COLOR",
+            "imageAlignment": "Right",
+            "imageUrl": null,
+            "imageAltText": "",
+            "text": {
+              "title": "This is a text-only banner",
+              "body": "This is body text with all 120 characters allowed to see what it looks like. The text is centered and there's no button.",
+              "alignment": "Center",
+              "color": null
+            },
+            "button": {
+              "text": "adadfasdfasdf",
+              "targetType": "Internal",
+              "internalTarget": "6eaa65a7-898d-4e0d-8852-7c66b130d775",
+              "target": ""
+            }
+          }
+        }
+      ]
+    }
+  }
+}

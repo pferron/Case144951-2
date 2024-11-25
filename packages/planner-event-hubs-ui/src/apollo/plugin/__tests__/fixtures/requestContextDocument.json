@@ -1,0 +1,161 @@
+{
+  "kind": "Document",
+  "definitions": [
+    {
+      "kind": "OperationDefinition",
+      "operation": "query",
+      "name": { "kind": "Name", "value": "bannerAssociations" },
+      "variableDefinitions": [
+        {
+          "kind": "VariableDefinition",
+          "variable": {
+            "kind": "Variable",
+            "name": { "kind": "Name", "value": "bannerAssociationSearch" }
+          },
+          "type": {
+            "kind": "NamedType",
+            "name": { "kind": "Name", "value": "BannerAssociationSearch" }
+          }
+        }
+      ],
+      "selectionSet": {
+        "kind": "SelectionSet",
+        "selections": [
+          {
+            "kind": "Field",
+            "name": { "kind": "Name", "value": "bannerAssociations" },
+            "arguments": [
+              {
+                "kind": "Argument",
+                "name": { "kind": "Name", "value": "bannerAssociationSearch" },
+                "value": {
+                  "kind": "Variable",
+                  "name": { "kind": "Name", "value": "bannerAssociationSearch" }
+                }
+              }
+            ],
+            "selectionSet": {
+              "kind": "SelectionSet",
+              "selections": [
+                {
+                  "kind": "Field",
+                  "name": { "kind": "Name", "value": "data" },
+                  "selectionSet": {
+                    "kind": "SelectionSet",
+                    "selections": [
+                      {
+                        "kind": "Field",
+                        "name": { "kind": "Name", "value": "displayOrder" }
+                      },
+                      {
+                        "kind": "Field",
+                        "name": { "kind": "Name", "value": "banner" },
+                        "selectionSet": {
+                          "kind": "SelectionSet",
+                          "selections": [
+                            {
+                              "kind": "Field",
+                              "name": { "kind": "Name", "value": "id" }
+                            },
+                            {
+                              "kind": "Field",
+                              "name": { "kind": "Name", "value": "name" }
+                            },
+                            {
+                              "kind": "Field",
+                              "name": { "kind": "Name", "value": "layout" }
+                            },
+                            {
+                              "kind": "Field",
+                              "name": {
+                                "kind": "Name",
+                                "value": "imageAlignment"
+                              }
+                            },
+                            {
+                              "kind": "Field",
+                              "name": { "kind": "Name", "value": "imageUrl" }
+                            },
+                            {
+                              "kind": "Field",
+                              "name": {
+                                "kind": "Name",
+                                "value": "imageAltText"
+                              }
+                            },
+                            {
+                              "kind": "Field",
+                              "name": { "kind": "Name", "value": "text" },
+                              "selectionSet": {
+                                "kind": "SelectionSet",
+                                "selections": [
+                                  {
+                                    "kind": "Field",
+                                    "name": { "kind": "Name", "value": "title" }
+                                  },
+                                  {
+                                    "kind": "Field",
+                                    "name": { "kind": "Name", "value": "body" }
+                                  },
+                                  {
+                                    "kind": "Field",
+                                    "name": {
+                                      "kind": "Name",
+                                      "value": "alignment"
+                                    }
+                                  },
+                                  {
+                                    "kind": "Field",
+                                    "name": { "kind": "Name", "value": "color" }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "kind": "Field",
+                              "name": { "kind": "Name", "value": "button" },
+                              "selectionSet": {
+                                "kind": "SelectionSet",
+                                "selections": [
+                                  {
+                                    "kind": "Field",
+                                    "name": { "kind": "Name", "value": "text" }
+                                  },
+                                  {
+                                    "kind": "Field",
+                                    "name": {
+                                      "kind": "Name",
+                                      "value": "targetType"
+                                    }
+                                  },
+                                  {
+                                    "kind": "Field",
+                                    "name": {
+                                      "kind": "Name",
+                                      "value": "internalTarget"
+                                    }
+                                  },
+                                  {
+                                    "kind": "Field",
+                                    "name": {
+                                      "kind": "Name",
+                                      "value": "target"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

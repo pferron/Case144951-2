@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Render Footer with all elements 1`] = `
+.emotion-0 {
+  width: 100%;
+  background-color: rgb(247,248,249);
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: rgb(105,113,122);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 0.6rem 1rem 0.6rem 1rem;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.emotion-2 {
+  white-space: nowrap;
+  margin: 0rem 0rem 0rem 1rem;
+}
+
+.emotion-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+
+.emotion-4 {
+  font-family: 'Rubik','Helvetica','Arial';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  color: rgb(26,32,38);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-sizing: border-box;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: inherit;
+  margin: 0;
+  outline: 0;
+  overflow: visible;
+  padding: 0;
+  text-align: left;
+  width: auto;
+  transition-property: outline;
+  transition-duration: 100ms;
+  transition-timing-function: cubic-bezier(0.2, 0, 0.4, 0.9);
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-4 svg {
+  fill: rgb(26,32,38);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  position: relative;
+  top: -1px;
+  vertical-align: middle;
+  margin-right: 0.25rem;
+  height: 1rem!important;
+  width: 1rem!important;
+}
+
+.emotion-4:hover {
+  color: rgb(52,56,63);
+}
+
+.emotion-4:hover svg {
+  fill: rgb(52,56,63);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  position: relative;
+  top: -1px;
+  vertical-align: middle;
+  margin-right: 0.25rem;
+  height: 1rem!important;
+  width: 1rem!important;
+}
+
+.emotion-4:focus {
+  outline: solid 2px rgb(52,56,63);
+  outline-offset: 4px;
+}
+
+.emotion-4:active {
+  color: rgb(52,56,63);
+}
+
+.emotion-4:active svg {
+  fill: rgb(52,56,63);
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  position: relative;
+  top: -1px;
+  vertical-align: middle;
+  margin-right: 0.25rem;
+  height: 1rem!important;
+  width: 1rem!important;
+}
+
+.emotion-5 {
+  color: inherit;
+}
+
+<body>
+  <div>
+    <footer
+      class="emotion-0"
+      data-cvent-id="footer"
+    >
+      <div
+        class="emotion-1"
+      >
+        <span
+          style="box-sizing: border-box; display: inline-block; overflow: hidden; width: 65px; height: 19px; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
+        >
+          <img
+            alt="Cvent"
+            data-cvent-id="footer-logo"
+            data-nimg="fixed"
+            decoding="async"
+            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+          />
+          <noscript />
+        </span>
+        <div
+          class="emotion-2"
+        >
+          © 2000-2024 Cvent, Inc. All rights reserved.
+        </div>
+      </div>
+      <div
+        class="emotion-3"
+      >
+        <a
+          class="carina-text-link carina-text-link__neutral emotion-4"
+          data-cvent-id="footer-terms-of-use"
+          href="https://www.cvent.com/en/cvent-general-terms-of-use"
+          rel="noopener noreferrer"
+          tabindex="0"
+          target="_blank"
+        >
+          Terms Of Use
+        </a>
+        <span
+          class="emotion-5"
+        >
+            |  
+        </span>
+        <a
+          class="carina-text-link carina-text-link__neutral emotion-4"
+          data-cvent-id="footer-privacy-policy"
+          href="https://www.cvent.com/en/cvent-global-privacy-policy#cookies"
+          rel="noopener noreferrer"
+          tabindex="0"
+          target="_blank"
+        >
+          Privacy Policy
+        </a>
+        <span
+          class="emotion-5"
+        >
+            |  
+        </span>
+        <a
+          class="carina-text-link carina-text-link__neutral emotion-4"
+          data-cvent-id="footer-help-and-support"
+          href="https://www.cvent.com/en/contact/support"
+          rel="noopener noreferrer"
+          tabindex="0"
+          target="_blank"
+        >
+          Help and Support
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
+`;

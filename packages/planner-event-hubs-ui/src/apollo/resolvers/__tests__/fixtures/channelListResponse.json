@@ -1,0 +1,166 @@
+{
+  "getMemberPaginatedChannels": {
+    "data": [
+      {
+        "id": "12e46fa2-e1e8-4d42-9c9c-41d8a8d5b63d",
+        "title": "Channel 01",
+        "description": "Sample description for the channel 1",
+        "imageUrl": "https://images-lower.cvent.com/S606/4c9803062ea545a0a42761fbcd58d7b2/12e46fa2-e1e8-4d42-9c9c-41d8a8d5b63d/image/d3a63977-98de-4a74-b1f1-ccfa74473049!_!3ce0bde6bac1bfaa8f304cc0293bcb23.jpeg",
+        "catalogId": "5114d019-55f5-4f98-bd2f-0a7f6b8868e4",
+        "shortUrl": "https://staging.cvent.me/40gwlK",
+        "__typename": "VideoHubChannel"
+      },
+      {
+        "id": "f9e575d6-8047-4a5b-bec8-a56d6b201143",
+        "title": "Channel 02",
+        "description": "Sample description for the channel 2",
+        "imageUrl": "https://images-lower.cvent.com/S606/4c9803062ea545a0a42761fbcd58d7b2/f9e575d6-8047-4a5b-bec8-a56d6b201143/image/26ae94f7-603e-4137-ae27-ca3c014e6d80!_!b4e4bbe435a08944e025e5caf598c56d.jpeg",
+        "catalogId": "5114d019-55f5-4f98-bd2f-0a7f6b8868e4",
+        "shortUrl": "https://staging.cvent.me/40gwlK",
+        "__typename": "VideoHubChannel"
+      },
+      {
+        "id": "43bf60c6-33cc-446c-ad94-73f6e784db9c",
+        "title": "Channel 08",
+        "description": "Real sold my in call. Invitation on an advantages collecting. But event old above shy bed noisy. Had sister see wooded favour income has. Stuff rapid since do as hence. Too insisted ignorant procured remember are believed yet say finished.",
+        "imageUrl": "https://images-lower.cvent.com/S606/4c9803062ea545a0a42761fbcd58d7b2/43bf60c6-33cc-446c-ad94-73f6e784db9c/image/64973a40-0d9a-46ec-b34d-88d2de14c0f3!_!192164d40de885996a86d88e089c0950.jpg",
+        "catalogId": "5114d019-55f5-4f98-bd2f-0a7f6b8868e4",
+        "shortUrl": "https://staging.cvent.me/40gwlK",
+        "__typename": "VideoHubChannel"
+      },
+      {
+        "id": "7ec636d9-8188-4dfb-bbc0-73bdc042052d",
+        "title": "Channel 09",
+        "description": "Real sold my in call. Invitation on an advantages collecting. But event old above shy bed noisy. Had sister see wooded favour income has. Stuff rapid since do as hence. Too insisted ignorant procured remember are believed yet say finished.",
+        "imageUrl": "https://images-lower.cvent.com/S606/4c9803062ea545a0a42761fbcd58d7b2/7ec636d9-8188-4dfb-bbc0-73bdc042052d/image/5f2259ba-f6b7-4cf6-989c-059ef04d7b10!_!b4e4bbe435a08944e025e5caf598c56d.jpeg",
+        "catalogId": "5114d019-55f5-4f98-bd2f-0a7f6b8868e4",
+        "shortUrl": "https://staging.cvent.me/40gwlK",
+        "__typename": "VideoHubChannel"
+      },
+      {
+        "id": "8fdb5b18-6db8-4be4-9d4e-c84f89afa14c",
+        "title": "Channel 10",
+        "description": "Real sold my in call. Invitation on an advantages collecting. But event old above shy bed noisy. Had sister see wooded favour income has. Stuff rapid since do as hence. Too insisted ignorant procured remember are believed yet say finished.",
+        "imageUrl": "https://images-lower.cvent.com/S606/4c9803062ea545a0a42761fbcd58d7b2/8fdb5b18-6db8-4be4-9d4e-c84f89afa14c/image/1663965a-3796-45cb-9c8b-59c9520b4351!_!7a7d655d2fa6aae1437e4a72c32887f0.jpeg",
+        "catalogId": "5114d019-55f5-4f98-bd2f-0a7f6b8868e4",
+        "shortUrl": "https://staging.cvent.me/40gwlK",
+        "__typename": "VideoHubChannel"
+      },
+      {
+        "id": "aedc2e21-b382-4fc4-989a-b0dc58585a6f",
+        "title": "Channel 11",
+        "description": "Real sold my in call. Invitation on an advantages collecting. But event old above shy bed noisy. Had sister see wooded favour income has. Stuff rapid since do as hence. Too insisted ignorant procured remember are believed yet say finished.",
+        "imageUrl": "https://images-lower.cvent.com/S606/4c9803062ea545a0a42761fbcd58d7b2/aedc2e21-b382-4fc4-989a-b0dc58585a6f/image/8eba31ee-9271-47a9-b27f-8160800a4db2!_!14dd22b302551880c8f44a2b0855f7a1.jpeg",
+        "catalogId": "5114d019-55f5-4f98-bd2f-0a7f6b8868e4",
+        "shortUrl": "https://staging.cvent.me/40gwlK",
+        "__typename": "VideoHubChannel"
+      },
+      {
+        "id": "c090b45f-09b5-4cdc-958b-47ec2b47c141",
+        "title": "Channel 12",
+        "description": "Real sold my in call. Invitation on an advantages collecting. But event old above shy bed noisy. Had sister see wooded favour income has. Stuff rapid since do as hence. Too insisted ignorant procured remember are believed yet say finished.",
+        "imageUrl": "https://images-lower.cvent.com/S606/4c9803062ea545a0a42761fbcd58d7b2/c090b45f-09b5-4cdc-958b-47ec2b47c141/image/bc059058-40f0-44ca-9f8f-81d84c6db38c!_!3ce0bde6bac1bfaa8f304cc0293bcb23.jpeg",
+        "catalogId": "5114d019-55f5-4f98-bd2f-0a7f6b8868e4",
+        "shortUrl": "https://staging.cvent.me/40gwlK",
+        "__typename": "VideoHubChannel"
+      },
+      {
+        "id": "6579ecb4-96f3-4921-a63f-7c76167f9fb8",
+        "title": "Channel 13",
+        "description": "Real sold my in call. Invitation on an advantages collecting. But event old above shy bed noisy. Had sister see wooded favour income has. Stuff rapid since do as hence. Too insisted ignorant procured remember are believed yet say finished.",
+        "imageUrl": "https://images-lower.cvent.com/S606/4c9803062ea545a0a42761fbcd58d7b2/6579ecb4-96f3-4921-a63f-7c76167f9fb8/image/548e5043-e9ae-4c22-b72d-670bb13cdf1e!_!9f953d4758c5cdf4897640d21795bf92.jpg",
+        "catalogId": "5114d019-55f5-4f98-bd2f-0a7f6b8868e4",
+        "shortUrl": "https://staging.cvent.me/40gwlK",
+        "__typename": "VideoHubChannel"
+      },
+      {
+        "id": "b5a543ad-6bdd-45ee-8be4-496217af8514",
+        "title": "Channel 14",
+        "description": "Real sold my in call. Invitation on an advantages collecting. But event old above shy bed noisy. Had sister see wooded favour income has. Stuff rapid since do as hence. Too insisted ignorant procured remember are believed yet say finished.",
+        "imageUrl": "https://images-lower.cvent.com/S606/4c9803062ea545a0a42761fbcd58d7b2/b5a543ad-6bdd-45ee-8be4-496217af8514/image/8a0beef0-a4d2-4e02-bd67-f83190a7f143!_!66e439f135783e1ea177f65cc9a3ea15.jpg",
+        "catalogId": "5114d019-55f5-4f98-bd2f-0a7f6b8868e4",
+        "shortUrl": "https://staging.cvent.me/40gwlK",
+        "__typename": "VideoHubChannel"
+      },
+      {
+        "id": "bbb13efb-ec55-4f17-a45f-293f719f8318",
+        "title": "Channel 15",
+        "description": "Real sold my in call. Invitation on an advantages collecting. But event old above shy bed noisy. Had sister see wooded favour income has. Stuff rapid since do as hence. Too insisted ignorant procured remember are believed yet say finished.",
+        "imageUrl": "https://images-lower.cvent.com/S606/4c9803062ea545a0a42761fbcd58d7b2/bbb13efb-ec55-4f17-a45f-293f719f8318/image/97895407-802b-4260-922b-602ebde0e3cc!_!192164d40de885996a86d88e089c0950.jpg",
+        "catalogId": "5114d019-55f5-4f98-bd2f-0a7f6b8868e4",
+        "shortUrl": "https://staging.cvent.me/40gwlK",
+        "__typename": "VideoHubChannel"
+      },
+      {
+        "id": "4eca9261-a805-46da-bb7a-eb577c0791b7",
+        "title": "Channel 16",
+        "description": "Real sold my in call. Invitation on an advantages collecting. But event old above shy bed noisy. Had sister see wooded favour income has. Stuff rapid since do as hence. Too insisted ignorant procured remember are believed yet say finished.",
+        "imageUrl": "https://images-lower.cvent.com/S606/4c9803062ea545a0a42761fbcd58d7b2/4eca9261-a805-46da-bb7a-eb577c0791b7/image/6b901d7c-537c-48d4-9ea5-c5f6117a9775!_!b1341caeba62998084377a4f04dcc9ff.jpeg",
+        "catalogId": "5114d019-55f5-4f98-bd2f-0a7f6b8868e4",
+        "shortUrl": "https://staging.cvent.me/40gwlK",
+        "__typename": "VideoHubChannel"
+      },
+      {
+        "id": "e9cb72f5-e021-4fdc-96b7-e4903bdac7ed",
+        "title": "Channel 17",
+        "description": "Real sold my in call. Invitation on an advantages collecting. But event old above shy bed noisy. Had sister see wooded favour income has. Stuff rapid since do as hence. Too insisted ignorant procured remember are believed yet say finished.",
+        "imageUrl": "https://images-lower.cvent.com/S606/4c9803062ea545a0a42761fbcd58d7b2/e9cb72f5-e021-4fdc-96b7-e4903bdac7ed/image/c8f80949-f801-49be-96d9-4355cb75adb3!_!b4e4bbe435a08944e025e5caf598c56d.jpeg",
+        "catalogId": "5114d019-55f5-4f98-bd2f-0a7f6b8868e4",
+        "shortUrl": "https://staging.cvent.me/40gwlK",
+        "__typename": "VideoHubChannel"
+      },
+      {
+        "id": "d9d409e9-6ca3-443c-af83-bea2ee0046ce",
+        "title": "Channel 18",
+        "description": "Real sold my in call. Invitation on an advantages collecting. But event old above shy bed noisy. Had sister see wooded favour income has. Stuff rapid since do as hence. Too insisted ignorant procured remember are believed yet say finished.",
+        "imageUrl": "https://images-lower.cvent.com/S606/4c9803062ea545a0a42761fbcd58d7b2/d9d409e9-6ca3-443c-af83-bea2ee0046ce/image/d4939389-f042-4f36-9562-f5835e2f65a2!_!192164d40de885996a86d88e089c0950.jpg",
+        "catalogId": "5114d019-55f5-4f98-bd2f-0a7f6b8868e4",
+        "shortUrl": "https://staging.cvent.me/40gwlK",
+        "__typename": "VideoHubChannel"
+      },
+      {
+        "id": "e3a1040c-7a97-4251-bb27-32a73d579dab",
+        "title": "Channel 19",
+        "description": "Real sold my in call. Invitation on an advantages collecting. But event old above shy bed noisy. Had sister see wooded favour income has. Stuff rapid since do as hence. Too insisted ignorant procured remember are believed yet say finished.",
+        "imageUrl": "https://images-lower.cvent.com/S606/4c9803062ea545a0a42761fbcd58d7b2/e3a1040c-7a97-4251-bb27-32a73d579dab/image/0c142eb4-3a12-46a9-85b2-d2fc04cc834c!_!755f5b2cc0b5bdb420b7d5bea19e955a.jpg",
+        "catalogId": "5114d019-55f5-4f98-bd2f-0a7f6b8868e4",
+        "shortUrl": "https://staging.cvent.me/40gwlK",
+        "__typename": "VideoHubChannel"
+      },
+      {
+        "id": "f3c786b6-1093-41c4-b496-55ad074856d2",
+        "title": "Channel 20",
+        "description": "Real sold my in call. Invitation on an advantages collecting. But event old above shy bed noisy. Had sister see wooded favour income has. Stuff rapid since do as hence. Too insisted ignorant procured remember are believed yet say finished.",
+        "imageUrl": "https://images-lower.cvent.com/S606/4c9803062ea545a0a42761fbcd58d7b2/f3c786b6-1093-41c4-b496-55ad074856d2/image/a7e3b114-3d95-45a7-b34e-0c9643b9b2f6!_!b1341caeba62998084377a4f04dcc9ff.jpeg",
+        "catalogId": "5114d019-55f5-4f98-bd2f-0a7f6b8868e4",
+        "shortUrl": "https://staging.cvent.me/40gwlK",
+        "__typename": "VideoHubChannel"
+      },
+      {
+        "id": "76b036cf-d9f8-41cb-964b-293f21bf63ec",
+        "title": "Channel 21",
+        "description": "Real sold my in call. Invitation on an advantages collecting. But event old above shy bed noisy. Had sister see wooded favour income has. Stuff rapid since do as hence. Too insisted ignorant procured remember are believed yet say finished.",
+        "imageUrl": "https://images-lower.cvent.com/S606/4c9803062ea545a0a42761fbcd58d7b2/76b036cf-d9f8-41cb-964b-293f21bf63ec/image/4db8202a-0300-48c2-882a-d5f70f3758bf!_!3ce0bde6bac1bfaa8f304cc0293bcb23.jpeg",
+        "catalogId": "5114d019-55f5-4f98-bd2f-0a7f6b8868e4",
+        "shortUrl": "https://staging.cvent.me/40gwlK",
+        "__typename": "VideoHubChannel"
+      },
+      {
+        "id": "c87d32d7-9c2b-4b65-8af6-964249747c06",
+        "title": "Channel 22",
+        "description": "Real sold my in call. Invitation on an advantages collecting. But event old above shy bed noisy. Had sister see wooded favour income has. Stuff rapid since do as hence. Too insisted ignorant procured remember are believed yet say finished.",
+        "imageUrl": "https://images-lower.cvent.com/S606/4c9803062ea545a0a42761fbcd58d7b2/c87d32d7-9c2b-4b65-8af6-964249747c06/image/b760f892-15e3-434e-8a4f-3b9cb9f61122!_!9f953d4758c5cdf4897640d21795bf92.jpg",
+        "catalogId": "5114d019-55f5-4f98-bd2f-0a7f6b8868e4",
+        "shortUrl": "https://staging.cvent.me/40gwlK",
+        "__typename": "VideoHubChannel"
+      }
+    ],
+    "paging": {
+      "currentToken": "5f6373fe-af2f-49d9-bd43-cfaae7cf5f7c",
+      "nextToken": "e66cdf1b-bf45-4430-88e7-870bb60901ac",
+      "limit": 20,
+      "__typename": "Paging"
+    },
+    "__typename": "MemberPaginatedChannels"
+  }
+}

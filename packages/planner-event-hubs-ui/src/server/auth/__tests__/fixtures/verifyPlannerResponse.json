@@ -1,0 +1,44 @@
+{
+  "appId": 2278,
+  "created": 1675067829699,
+  "lastModified": 1675067829699,
+  "apiKey": "70c4658ec4d9832dff88fa44885f0ccb",
+  "apiSecret": "6532fcd4faae659ded58c396734d726e",
+  "authorization": {
+    "metadata": {
+      "UserStub": "userStub",
+      "UserLoginName": "loginName",
+      "AccountId": 890247,
+      "accountMappingId": "mockAccountMappingId",
+      "environment": "mockEnvironment"
+    },
+    "roles": [],
+    "grantedAuthorizations": [
+      {
+        "appId": 3020,
+        "roles": ["videos:read"]
+      },
+      {
+        "appId": 1279,
+        "roles": ["attendees:read"]
+      },
+      {
+        "appId": 3513,
+        "roles": [
+          "video-center:anonymous",
+          "video-hubs:member",
+          "video-hubs:read"
+        ]
+      },
+      {
+        "appId": 2082,
+        "roles": ["events:read"]
+      }
+    ]
+  },
+  "accessTokenTTL": 86400,
+  "refreshTokenTTL": 2341597,
+  "accessToken": "70ad1d7e49f8a1e220faafbcab95e0e4",
+  "refreshToken": "aba2b98a9fce506944ea2e6e5208e665",
+  "csrfToken": "d0d238b212f1ccf064650315b88ced93fb5c5923f0b1bab6e37fd95a8669becbe44e66dc71502e0e47cd66d6081b911b76f9a310194857f64444d64f77bb47d6"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "create a section button clicked",
+  "type": "track",
+  "folder": "channels",
+  "phase": "engagement",
+  "destinations": ["datadog", "Snowflake", "Mixpanel"],
+  "release": "v2.0",
+  "multiStep": false,
+  "owner": "red",
+  "description": "this action tracks the users who wants to create videos sections in order to group certain videos together",
+  "trigger": "this action is triggered when user clicks on Create a section' button in edit state of channel videos section in the video tab of a channel",
+  "sdk": "analytics.js",
+  "status": "active",
+  "rules": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "context": {},
+      "properties": { "type": "object", "properties": {}, "required": [] },
+      "traits": {}
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "getHubSettings": {
+    "displayCventPrivacyPolicy": false,
+    "cventPrivacyPolicyLinkText": "hello 2",
+    "displayPrivacyPolicy": false,
+    "privacyPolicyUrl": " ",
+    "privacyPolicyLinkText": " ",
+    "displayTermsLinkOnFooter": false,
+    "termsLinkText": " ",
+    "displayTermsOnLogin": false,
+    "termsText": "knfkjsakjfnjks",
+    "notifyUsersAboutCookie": false,
+    "displayCventPrivacyPolicyInCookie": false,
+    "allowTurnOffCookies": false,
+    "ccpaEnableDoNotSell": false,
+    "ccpaLinkText": "Do Not Sell My Personal Information",
+    "ccpaSubmitButtonText": "Do Not Sell My Personal Information",
+    "ccpaDoNotSellUrlEnabled": false,
+    "ccpaConfirmationText": "Thank you, your request has been submitted",
+    "ccpaDoNotSellUrl": "www.cvent.com",
+    "ccpaLinkExplanationText": "ccpa explanation Text",
+    "memberProfilePublic": true,
+    "profileCard": {
+      "border": "SLANTED",
+      "branding": "LOGO",
+      "alignment": "CENTER",
+      "showName": true,
+      "allowNameEdit": true,
+      "showJobTitle": true,
+      "allowJobTitleEdit": true,
+      "showCompany": true,
+      "allowCompanyEdit": true,
+      "showHeadline": true,
+      "allowHeadlineEdit": true,
+      "showSocialMediaLinks": true,
+      "allowSocialMediaEdit": true,
+      "showPronouns": true,
+      "allowPronounsEdit": true
+    }
+  }
+}

@@ -1,0 +1,3383 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Channel Component Render Channel Information Page 1`] = `
+<body>
+  <div />
+</body>
+`;
+
+exports[`Test Channel Component Render Channel Information Page and open delete channel modal 1`] = `
+.emotion-0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  max-height: inherit;
+  max-width: inherit;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.emotion-1 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  max-width: 100vw;
+  max-height: 100vh;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  position: relative;
+}
+
+.emotion-2 {
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  overflow: visible;
+  -webkit-transition: box-shadow .2s ease-in-out;
+  transition: box-shadow .2s ease-in-out;
+}
+
+.emotion-3 {
+  position: relative;
+  z-index: 5;
+}
+
+.emotion-4 {
+  position: relative;
+}
+
+.emotion-5 {
+  direction: ltr;
+  background: rgb(255,255,255);
+  padding: 24px;
+  padding-bottom: 0;
+  border-bottom: 1px solid rgb(217,220,222);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-family: 'Rubik','Helvetica','Arial';
+  font-weight: 400;
+}
+
+.emotion-5 header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  width: 100%;
+  margin: 16px 0 32px 0;
+  position: relative;
+}
+
+@media (max-width: 560px) {
+  .emotion-5 header {
+    margin: 16px 0 0 0;
+  }
+}
+
+.emotion-6 {
+  background: transparent;
+  color: rgb(26,32,38);
+  font-size: 0.75rem;
+  list-style-type: none;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  padding: 0;
+  width: 100%;
+}
+
+.emotion-7 {
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 20px;
+  font-family: 'Rubik','Helvetica','Arial';
+  color: rgb(0,106,225);
+}
+
+.emotion-8 {
+  height: 16px;
+  width: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0.125rem;
+  margin-right: 0.125rem;
+}
+
+.emotion-8 svg {
+  fill: rgb(105,113,122);
+}
+
+.emotion-9 {
+  width: 1rem;
+  height: 1rem;
+  fill: currentColor;
+}
+
+.emotion-10 {
+  border: 2px solid transparent;
+  transition-property: border-color,text-decoration;
+  transition-duration: 100ms;
+  transition-timing-function: cubic-bezier(0.2, 0, 0.4, 0.9);
+  margin: 0.125rem;
+  display: inline-block;
+  box-sizing: border-box;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: default;
+}
+
+.emotion-10:focus-within {
+  border: 2px solid #4494EF;
+  outline: none;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.emotion-10 a:focus {
+  outline: 0;
+}
+
+.emotion-10>* {
+  vertical-align: baseline!important;
+}
+
+.emotion-11 a,
+.emotion-11 a:link,
+.emotion-11 a:visited {
+  color: rgb(0,106,225);
+  text-decoration-line: none;
+}
+
+.emotion-11 a:hover {
+  color: #004CD6;
+  text-decoration-line: underline;
+}
+
+.emotion-12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+@media (max-width: 560px) {
+  .emotion-12 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+  }
+}
+
+.emotion-13 {
+  padding: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin: 0;
+}
+
+@media (max-width: 560px) {
+  .emotion-13 {
+    margin: 16px 0 32px 0;
+  }
+}
+
+.emotion-14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  word-break: break-all;
+}
+
+.emotion-15 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  margin: 0;
+}
+
+.emotion-16 {
+  padding-top: 1rem;
+}
+
+.emotion-17 {
+  border-width: 0;
+  border-radius: 4px;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: #D3E5FA;
+}
+
+.emotion-17 svg {
+  fill: rgb(26,32,38);
+}
+
+.emotion-18 {
+  font-family: 'Rubik','Helvetica','Arial';
+  font-size: 0.75rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  border: 0;
+  padding: 5px 0;
+  position: relative;
+  color: #0050AB;
+}
+
+@media (max-width: 1080px) {
+  .emotion-19 {
+    position: absolute;
+    top: -33px;
+    right: 0;
+  }
+}
+
+.emotion-20 {
+  direction: ltr;
+  -webkit-flex: 0 0 30%;
+  -ms-flex: 0 0 30%;
+  flex: 0 0 30%;
+  max-height: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+
+.emotion-20>*,
+.emotion-20>button {
+  margin: 0.5rem;
+}
+
+.emotion-21 {
+  direction: ltr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #006DE9;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: 'Rubik','Helvetica','Arial';
+  font-style: normal;
+  font-weight: 400;
+  height: 40px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  letter-spacing: 0;
+  margin-right: 0;
+  margin-left: 0;
+  max-width: 100%;
+  padding-bottom: 0;
+  padding-top: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background-color cubic-bezier(0, 0, 0.39, 1) 100ms,color cubic-bezier(0, 0, 0.39, 1) 100ms,border-color cubic-bezier(0, 0, 0.39, 1) 100ms,box-shadow cubic-bezier(0.2, 0, 0.4, 0.9) 100ms;
+  transition: background-color cubic-bezier(0, 0, 0.39, 1) 100ms,color cubic-bezier(0, 0, 0.39, 1) 100ms,border-color cubic-bezier(0, 0, 0.39, 1) 100ms,box-shadow cubic-bezier(0.2, 0, 0.4, 0.9) 100ms;
+  color: #006DE9;
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  min-width: 96px;
+}
+
+@media (hover: hover) {
+  .emotion-21:hover {
+    background-color: rgb(0,106,225);
+    color: rgb(255,255,255);
+  }
+
+  .emotion-21:hover svg {
+    fill: rgb(255,255,255);
+  }
+}
+
+.emotion-21:active {
+  background-color: #004CD6;
+  color: rgb(255,255,255);
+  -webkit-transform: scale(0.96);
+  -moz-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  transform: scale(0.96);
+}
+
+.emotion-21:active svg {
+  fill: rgb(255,255,255);
+}
+
+.emotion-21:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #4494EF;
+}
+
+.emotion-22 {
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.emotion-23 {
+  direction: ltr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgb(0,106,225);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: default;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: 'Rubik','Helvetica','Arial';
+  font-style: normal;
+  font-weight: 400;
+  height: 40px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  letter-spacing: 0;
+  margin-right: 0;
+  margin-left: 0;
+  max-width: 100%;
+  padding-bottom: 0;
+  padding-top: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background-color cubic-bezier(0, 0, 0.39, 1) 100ms,color cubic-bezier(0, 0, 0.39, 1) 100ms,border-color cubic-bezier(0, 0, 0.39, 1) 100ms,box-shadow cubic-bezier(0.2, 0, 0.4, 0.9) 100ms;
+  transition: background-color cubic-bezier(0, 0, 0.39, 1) 100ms,color cubic-bezier(0, 0, 0.39, 1) 100ms,border-color cubic-bezier(0, 0, 0.39, 1) 100ms,box-shadow cubic-bezier(0.2, 0, 0.4, 0.9) 100ms;
+  color: rgb(255,255,255);
+  opacity: 0.4;
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  min-width: 96px;
+}
+
+@media (hover: hover) {
+  .emotion-23:hover {
+    background-color: #004CD6;
+  }
+}
+
+.emotion-23:active {
+  background-color: #0025BD;
+  -webkit-transform: scale(0.96);
+  -moz-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  transform: scale(0.96);
+}
+
+.emotion-23:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #4494EF;
+}
+
+.emotion-23 svg {
+  fill: rgb(255,255,255);
+}
+
+.emotion-23:hover,
+.emotion-23:active {
+  background-color: rgb(0,106,225);
+  opacity: 0.4;
+  cursor: default;
+  box-shadow: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-25 {
+  -webkit-align-content: left;
+  -ms-flex-line-pack: left;
+  align-content: left;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  direction: ltr;
+  display: table;
+  -webkit-flex: 1 1 0%;
+  -ms-flex: 1 1 0%;
+  flex: 1 1 0%;
+  margin-right: -2.5rempx;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  table-layout: fixed;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.emotion-26 {
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: flex-start;
+  align-content: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex: 1 0 0%;
+  -ms-flex: 1 0 0%;
+  flex: 1 0 0%;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  initial-scale: 1;
+  max-width: 100%;
+  min-width: 100%;
+  overflow: auto;
+  position: relative;
+  scrollbar-width: none;
+  table-layout: fixed;
+  vertical-align: middle;
+  -webkit-scrollbar: transparent;
+  -webkit-scrollbar-background: transparent;
+  -webkit-scrollbar-height: 0px;
+  -webkit-scrollbar-width: 0px;
+  white-space: nowrap;
+}
+
+.emotion-26::-webkit-scrollbar {
+  background: transparent;
+  display: none;
+  height: 0px;
+  width: 0px;
+}
+
+.emotion-27 {
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  border-bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.emotion-28 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  position: relative;
+  border: 0;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: rgb(26,32,38);
+  cursor: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  margin: auto;
+  min-height: 48px;
+  min-width: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  width: auto;
+  margin-bottom: 0;
+  transition-property: box-shadow;
+  transition-duration: 100ms;
+  transition-timing-function: cubic-bezier(0.2, 0, 0.4, 0.9);
+  font-family: 'Rubik','Helvetica','Arial';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  letter-spacing: normal;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+}
+
+.emotion-28::-moz-focus-inner {
+  border: 0;
+  outline: none;
+  padding: 0;
+}
+
+.emotion-28:focus-visible {
+  outline: 0;
+  box-shadow: inset 0 0 0 2px #4494EF;
+}
+
+.emotion-28::after {
+  content: "";
+  position: absolute;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: #00ca9d;
+}
+
+.emotion-29 {
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: rgb(105,113,122);
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  margin: 0 auto;
+  min-height: 48px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  width: auto;
+  margin-bottom: 0;
+  transition-property: box-shadow;
+  transition-duration: 100ms;
+  transition-timing-function: cubic-bezier(0.2, 0, 0.4, 0.9);
+  font-family: 'Rubik','Helvetica','Arial';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  letter-spacing: normal;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  min-width: 5rem;
+}
+
+.emotion-29::-moz-focus-inner {
+  border: 0;
+  outline: none;
+  padding: 0;
+}
+
+.emotion-29:focus-visible {
+  outline: 0;
+  box-shadow: inset 0 0 0 2px #4494EF;
+}
+
+.emotion-29:hover {
+  color: rgb(26,32,38);
+  vertical-align: middle;
+}
+
+.emotion-29:hover:after {
+  content: "";
+  position: absolute;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: rgb(217,220,222);
+}
+
+.emotion-30 {
+  width: 100vw;
+}
+
+.emotion-31 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  overflow-y: auto;
+  min-height: 100%;
+  background-color: rgb(247,248,249);
+}
+
+.emotion-32 {
+  padding: 1.5rem 1.5rem 3.438rem 1.5rem;
+}
+
+<body>
+  <div>
+    <div
+      class="emotion-0"
+    >
+      <div
+        class="emotion-1"
+      >
+        <div
+          class="emotion-2"
+        >
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <section
+                class="emotion-5"
+              >
+                <nav>
+                  <ol
+                    class="emotion-6"
+                    dir="ltr"
+                  >
+                    <li
+                      class="emotion-7"
+                    >
+                      <span
+                        class="emotion-8"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="emotion-9"
+                          focusable="false"
+                          role="img"
+                          viewBox="0 0 32 32"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g>
+                            <svg
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M10.4 12l5.3-5.3c.4-.4.4-1 0-1.4s-1-.4-1.4 0l-6 6c-.4.4-.4 1 0 1.4l6 6c.2.2.5.3.7.3s.5-.1.7-.3c.4-.4.4-1 0-1.4L10.4 12z"
+                              />
+                            </svg>
+                          </g>
+                        </svg>
+                      </span>
+                      <div
+                        class="emotion-10"
+                        title="Channels"
+                      >
+                        <div
+                          class="emotion-11"
+                        >
+                          <a
+                            href="/eventsplus/test hub/channels"
+                          >
+                            Channels
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                  </ol>
+                </nav>
+                <header>
+                  <div
+                    class="emotion-12"
+                  >
+                    <div
+                      class="emotion-13"
+                    >
+                      <section
+                        class="emotion-14"
+                      >
+                        <h1
+                          class="emotion-15"
+                          data-cvent-id="header-title"
+                        />
+                        <div
+                          class="emotion-16"
+                        >
+                          <span
+                            class="emotion-17"
+                          >
+                            <span
+                              class="emotion-18"
+                            >
+                              Not live
+                            </span>
+                          </span>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                  <section
+                    class="emotion-19"
+                  >
+                    <div
+                      class="emotion-20"
+                      data-cvent-id="header-actions"
+                    >
+                      <button
+                        class="emotion-21"
+                        data-cvent-id="header-actions__delete-channel"
+                        type="button"
+                      >
+                        <span
+                          class="emotion-22"
+                        >
+                          Delete channel
+                        </span>
+                      </button>
+                      <button
+                        class="emotion-23"
+                        data-cvent-id="header-actions__save"
+                        disabled=""
+                        type="button"
+                      >
+                        <span
+                          class="emotion-22"
+                        >
+                          Save
+                        </span>
+                      </button>
+                    </div>
+                  </section>
+                </header>
+                <div
+                  class="emotion-25"
+                >
+                  <div
+                    class="emotion-26"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="emotion-27"
+                      role="tablist"
+                      tabindex="-1"
+                    >
+                      <button
+                        aria-selected="true"
+                        class="emotion-28"
+                        data-cvent-id="channel_information_tab_header"
+                        role="tab"
+                        tabindex="0"
+                        type="button"
+                      >
+                        Channel Information
+                      </button>
+                      <button
+                        aria-selected="false"
+                        class="emotion-29"
+                        data-cvent-id="channel_video_tab_header"
+                        role="tab"
+                        tabindex="-1"
+                        type="button"
+                      >
+                        Videos
+                      </button>
+                      <div
+                        class="emotion-30"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div
+          class="emotion-31"
+        >
+          <div
+            class="emotion-32"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Test Channel Component Render Channel Information Page and open delete channel modal 2`] = `
+.emotion-0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  max-height: inherit;
+  max-width: inherit;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.emotion-1 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  max-width: 100vw;
+  max-height: 100vh;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  position: relative;
+}
+
+.emotion-2 {
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  overflow: visible;
+  -webkit-transition: box-shadow .2s ease-in-out;
+  transition: box-shadow .2s ease-in-out;
+}
+
+.emotion-3 {
+  position: relative;
+  z-index: 5;
+}
+
+.emotion-4 {
+  position: relative;
+}
+
+.emotion-5 {
+  direction: ltr;
+  background: rgb(255,255,255);
+  padding: 24px;
+  padding-bottom: 0;
+  border-bottom: 1px solid rgb(217,220,222);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-family: 'Rubik','Helvetica','Arial';
+  font-weight: 400;
+}
+
+.emotion-5 header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  width: 100%;
+  margin: 16px 0 32px 0;
+  position: relative;
+}
+
+@media (max-width: 560px) {
+  .emotion-5 header {
+    margin: 16px 0 0 0;
+  }
+}
+
+.emotion-6 {
+  background: transparent;
+  color: rgb(26,32,38);
+  font-size: 0.75rem;
+  list-style-type: none;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  padding: 0;
+  width: 100%;
+}
+
+.emotion-7 {
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 20px;
+  font-family: 'Rubik','Helvetica','Arial';
+  color: rgb(0,106,225);
+}
+
+.emotion-8 {
+  height: 16px;
+  width: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0.125rem;
+  margin-right: 0.125rem;
+}
+
+.emotion-8 svg {
+  fill: rgb(105,113,122);
+}
+
+.emotion-9 {
+  width: 1rem;
+  height: 1rem;
+  fill: currentColor;
+}
+
+.emotion-10 {
+  border: 2px solid transparent;
+  transition-property: border-color,text-decoration;
+  transition-duration: 100ms;
+  transition-timing-function: cubic-bezier(0.2, 0, 0.4, 0.9);
+  margin: 0.125rem;
+  display: inline-block;
+  box-sizing: border-box;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: default;
+}
+
+.emotion-10:focus-within {
+  border: 2px solid #4494EF;
+  outline: none;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.emotion-10 a:focus {
+  outline: 0;
+}
+
+.emotion-10>* {
+  vertical-align: baseline!important;
+}
+
+.emotion-11 a,
+.emotion-11 a:link,
+.emotion-11 a:visited {
+  color: rgb(0,106,225);
+  text-decoration-line: none;
+}
+
+.emotion-11 a:hover {
+  color: #004CD6;
+  text-decoration-line: underline;
+}
+
+.emotion-12 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+@media (max-width: 560px) {
+  .emotion-12 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+  }
+}
+
+.emotion-13 {
+  padding: 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin: 0;
+}
+
+@media (max-width: 560px) {
+  .emotion-13 {
+    margin: 16px 0 32px 0;
+  }
+}
+
+.emotion-14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  word-break: break-all;
+}
+
+.emotion-15 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  margin: 0;
+}
+
+.emotion-16 {
+  padding-top: 1rem;
+}
+
+.emotion-17 {
+  border-width: 0;
+  border-radius: 4px;
+  padding-right: 8px;
+  padding-left: 8px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: #D1EAD1;
+}
+
+.emotion-17 svg {
+  fill: rgb(26,32,38);
+}
+
+.emotion-18 {
+  font-family: 'Rubik','Helvetica','Arial';
+  font-size: 0.75rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  border: 0;
+  padding: 5px 0;
+  position: relative;
+  color: #006200;
+}
+
+@media (max-width: 1080px) {
+  .emotion-19 {
+    position: absolute;
+    top: -33px;
+    right: 0;
+  }
+}
+
+.emotion-20 {
+  direction: ltr;
+  -webkit-flex: 0 0 30%;
+  -ms-flex: 0 0 30%;
+  flex: 0 0 30%;
+  max-height: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+
+.emotion-20>*,
+.emotion-20>button {
+  margin: 0.5rem;
+}
+
+.emotion-21 {
+  direction: ltr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #006DE9;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: 'Rubik','Helvetica','Arial';
+  font-style: normal;
+  font-weight: 400;
+  height: 40px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  letter-spacing: 0;
+  margin-right: 0;
+  margin-left: 0;
+  max-width: 100%;
+  padding-bottom: 0;
+  padding-top: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background-color cubic-bezier(0, 0, 0.39, 1) 100ms,color cubic-bezier(0, 0, 0.39, 1) 100ms,border-color cubic-bezier(0, 0, 0.39, 1) 100ms,box-shadow cubic-bezier(0.2, 0, 0.4, 0.9) 100ms;
+  transition: background-color cubic-bezier(0, 0, 0.39, 1) 100ms,color cubic-bezier(0, 0, 0.39, 1) 100ms,border-color cubic-bezier(0, 0, 0.39, 1) 100ms,box-shadow cubic-bezier(0.2, 0, 0.4, 0.9) 100ms;
+  color: #006DE9;
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  min-width: 96px;
+}
+
+@media (hover: hover) {
+  .emotion-21:hover {
+    background-color: rgb(0,106,225);
+    color: rgb(255,255,255);
+  }
+
+  .emotion-21:hover svg {
+    fill: rgb(255,255,255);
+  }
+}
+
+.emotion-21:active {
+  background-color: #004CD6;
+  color: rgb(255,255,255);
+  -webkit-transform: scale(0.96);
+  -moz-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  transform: scale(0.96);
+}
+
+.emotion-21:active svg {
+  fill: rgb(255,255,255);
+}
+
+.emotion-21:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #4494EF;
+}
+
+.emotion-22 {
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.emotion-23 {
+  direction: ltr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgb(0,106,225);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: default;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: 'Rubik','Helvetica','Arial';
+  font-style: normal;
+  font-weight: 400;
+  height: 40px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  letter-spacing: 0;
+  margin-right: 0;
+  margin-left: 0;
+  max-width: 100%;
+  padding-bottom: 0;
+  padding-top: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background-color cubic-bezier(0, 0, 0.39, 1) 100ms,color cubic-bezier(0, 0, 0.39, 1) 100ms,border-color cubic-bezier(0, 0, 0.39, 1) 100ms,box-shadow cubic-bezier(0.2, 0, 0.4, 0.9) 100ms;
+  transition: background-color cubic-bezier(0, 0, 0.39, 1) 100ms,color cubic-bezier(0, 0, 0.39, 1) 100ms,border-color cubic-bezier(0, 0, 0.39, 1) 100ms,box-shadow cubic-bezier(0.2, 0, 0.4, 0.9) 100ms;
+  color: rgb(255,255,255);
+  opacity: 0.4;
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  min-width: 96px;
+}
+
+@media (hover: hover) {
+  .emotion-23:hover {
+    background-color: #004CD6;
+  }
+}
+
+.emotion-23:active {
+  background-color: #0025BD;
+  -webkit-transform: scale(0.96);
+  -moz-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  transform: scale(0.96);
+}
+
+.emotion-23:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #4494EF;
+}
+
+.emotion-23 svg {
+  fill: rgb(255,255,255);
+}
+
+.emotion-23:hover,
+.emotion-23:active {
+  background-color: rgb(0,106,225);
+  opacity: 0.4;
+  cursor: default;
+  box-shadow: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  transform: none;
+}
+
+.emotion-25 {
+  -webkit-align-content: left;
+  -ms-flex-line-pack: left;
+  align-content: left;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  direction: ltr;
+  display: table;
+  -webkit-flex: 1 1 0%;
+  -ms-flex: 1 1 0%;
+  flex: 1 1 0%;
+  margin-right: -2.5rempx;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  table-layout: fixed;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.emotion-26 {
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: flex-start;
+  align-content: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex: 1 0 0%;
+  -ms-flex: 1 0 0%;
+  flex: 1 0 0%;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  initial-scale: 1;
+  max-width: 100%;
+  min-width: 100%;
+  overflow: auto;
+  position: relative;
+  scrollbar-width: none;
+  table-layout: fixed;
+  vertical-align: middle;
+  -webkit-scrollbar: transparent;
+  -webkit-scrollbar-background: transparent;
+  -webkit-scrollbar-height: 0px;
+  -webkit-scrollbar-width: 0px;
+  white-space: nowrap;
+}
+
+.emotion-26::-webkit-scrollbar {
+  background: transparent;
+  display: none;
+  height: 0px;
+  width: 0px;
+}
+
+.emotion-27 {
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  border-bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.emotion-28 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  position: relative;
+  border: 0;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: rgb(26,32,38);
+  cursor: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  margin: auto;
+  min-height: 48px;
+  min-width: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  width: auto;
+  margin-bottom: 0;
+  transition-property: box-shadow;
+  transition-duration: 100ms;
+  transition-timing-function: cubic-bezier(0.2, 0, 0.4, 0.9);
+  font-family: 'Rubik','Helvetica','Arial';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  letter-spacing: normal;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+}
+
+.emotion-28::-moz-focus-inner {
+  border: 0;
+  outline: none;
+  padding: 0;
+}
+
+.emotion-28:focus-visible {
+  outline: 0;
+  box-shadow: inset 0 0 0 2px #4494EF;
+}
+
+.emotion-28::after {
+  content: "";
+  position: absolute;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: #00ca9d;
+}
+
+.emotion-29 {
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: rgb(105,113,122);
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  margin: 0 auto;
+  min-height: 48px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  width: auto;
+  margin-bottom: 0;
+  transition-property: box-shadow;
+  transition-duration: 100ms;
+  transition-timing-function: cubic-bezier(0.2, 0, 0.4, 0.9);
+  font-family: 'Rubik','Helvetica','Arial';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  letter-spacing: normal;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  min-width: 5rem;
+}
+
+.emotion-29::-moz-focus-inner {
+  border: 0;
+  outline: none;
+  padding: 0;
+}
+
+.emotion-29:focus-visible {
+  outline: 0;
+  box-shadow: inset 0 0 0 2px #4494EF;
+}
+
+.emotion-29:hover {
+  color: rgb(26,32,38);
+  vertical-align: middle;
+}
+
+.emotion-29:hover:after {
+  content: "";
+  position: absolute;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: rgb(217,220,222);
+}
+
+.emotion-30 {
+  width: 100vw;
+}
+
+.emotion-31 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  overflow-y: auto;
+  min-height: 100%;
+  background-color: rgb(247,248,249);
+}
+
+.emotion-32 {
+  padding: 1.5rem 1.5rem 3.438rem 1.5rem;
+}
+
+.emotion-33 {
+  padding-bottom: 1.5rem;
+}
+
+.emotion-34 {
+  pointer-events: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #E7F2FF;
+  line-height: 1.25;
+  border-radius: 10px;
+  min-height: 50px;
+  box-sizing: border-box;
+  box-shadow: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding-right: 0.75rem;
+  direction: ltr;
+}
+
+.emotion-35 {
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: flex-start;
+  align-self: flex-start;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  padding-right: 1rem;
+}
+
+.emotion-35 svg {
+  fill: #004CD6;
+}
+
+.emotion-36 {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: currentColor;
+}
+
+.emotion-37 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  direction: ltr;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.emotion-38 {
+  font-family: 'Rubik','Helvetica','Arial';
+  font-style: normal;
+  font-size: 0.875rem;
+  letter-spacing: normal;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  color: rgb(26,32,38);
+  margin-right: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.emotion-40 {
+  direction: ltr;
+  font-family: 'Rubik','Helvetica','Arial';
+  color: rgb(26,32,38);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: rgb(255,255,255);
+  box-shadow: 0px 4px 16px -4px rgba(0, 0, 0, 0.10);
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+}
+
+.emotion-41 {
+  padding: 0.75rem 1.5rem 1.5rem 1.25rem;
+  height: 100%;
+  width: 100%;
+}
+
+.emotion-42 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  min-width: 0;
+  -webkit-flex: 1 0 50%;
+  -ms-flex: 1 0 50%;
+  flex: 1 0 50%;
+}
+
+.emotion-43 {
+  width: 100%;
+  position: relative;
+}
+
+.emotion-44 {
+  direction: inherit;
+  box-sizing: border-box;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  min-height: 0;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+
+.emotion-45 {
+  direction: inherit;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: start;
+  justify-content: start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  min-height: inherit;
+  min-width: 0px;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+@media (min-width: 336px) {
+  .emotion-45 {
+    min-width: 0px;
+    width: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media (min-width: 560px) {
+  .emotion-45 {
+    min-width: 0px;
+    width: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media (min-width: 1080px) {
+  .emotion-45 {
+    min-width: 0px;
+    width: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media (min-width: 1464px) {
+  .emotion-45 {
+    min-width: 0px;
+    width: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.emotion-46 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.emotion-47 {
+  direction: inherit;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex-wrap: nowrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: start;
+  justify-content: start;
+  -webkit-align-items: stretch;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  min-height: inherit;
+  min-width: 0px;
+  width: 66.66666666666666%;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+@media (min-width: 336px) {
+  .emotion-47 {
+    min-width: 0px;
+    width: 66.66666666666666%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media (min-width: 560px) {
+  .emotion-47 {
+    min-width: 0px;
+    width: 66.66666666666666%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media (min-width: 1080px) {
+  .emotion-47 {
+    min-width: 0px;
+    width: 66.66666666666666%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+@media (min-width: 1464px) {
+  .emotion-47 {
+    min-width: 0px;
+    width: 66.66666666666666%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.emotion-48 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  display: block;
+  margin: 0;
+  padding: 0 0 1rem 0;
+  width: 100%;
+  vertical-align: top;
+  -webkit-align-items: left;
+  -webkit-box-align: left;
+  -ms-flex-align: left;
+  align-items: left;
+  text-align: left;
+  direction: ltr;
+}
+
+.emotion-49 {
+  direction: ltr;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+}
+
+.emotion-49:focus-within>fieldset {
+  border-color: rgb(0,106,225);
+  border-width: 1px;
+  border-style: solid;
+  transition-property: border-color;
+  transition-duration: 100ms;
+  transition-timing-function: cubic-bezier(0.2, 0, 0.4, 0.9);
+  outline: 0;
+  box-shadow: 0 0 0 2px #4494EF;
+}
+
+.emotion-50 {
+  direction: ltr;
+  color: rgb(105,113,122);
+  display: block;
+  position: relative;
+  font-family: 'Rubik','Helvetica','Arial';
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.5;
+  margin: 0 0 0.25rem 0;
+  padding: 0;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  vertical-align: top;
+  font-size: 0.875rem;
+}
+
+.emotion-51 {
+  color: rgb(219,44,0);
+  font-family: 'Rubik','Helvetica','Arial';
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: normal;
+  line-height: 1.5;
+  position: absolute;
+  -webkit-text-decoration: none!important;
+  text-decoration: none!important;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  -webkit-transition: left 100ms;
+  transition: left 100ms;
+  left: -10px;
+}
+
+.emotion-52 {
+  -webkit-appearance: none;
+  border: 0;
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: rgb(26,32,38);
+  display: block;
+  font-family: 'Rubik','Helvetica','Arial';
+  font-size: 1rem;
+  font-weight: 400;
+  height: 40px;
+  letter-spacing: normal;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0 1rem;
+  text-align: left;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  vertical-align: middle;
+  width: 100%;
+  background-color: rgb(255,255,255);
+}
+
+.emotion-52:focus {
+  outline: 0;
+}
+
+.emotion-52::-webkit-input-placeholder {
+  color: rgb(105,113,122);
+}
+
+.emotion-52::-moz-placeholder {
+  color: rgb(105,113,122);
+}
+
+.emotion-52:-ms-input-placeholder {
+  color: rgb(105,113,122);
+}
+
+.emotion-52::placeholder {
+  color: rgb(105,113,122);
+}
+
+.emotion-52::-ms-clear {
+  display: none;
+}
+
+.emotion-52:disabled {
+  pointer-events: none;
+  border-color: rgb(217,220,222);
+  color: rgb(154, 159, 166);
+}
+
+.emotion-52:disabled::-webkit-input-placeholder {
+  color: rgba(154,159,166,0.4);
+}
+
+.emotion-52:disabled::-moz-placeholder {
+  color: rgba(154,159,166,0.4);
+}
+
+.emotion-52:disabled:-ms-input-placeholder {
+  color: rgba(154,159,166,0.4);
+}
+
+.emotion-52:disabled::placeholder {
+  color: rgba(154,159,166,0.4);
+}
+
+.emotion-53 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(105,113,122);
+  border-radius: 6px;
+  background: transparent;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  pointer-events: none;
+  height: 50px;
+  width: 100%;
+  top: unset;
+  bottom: 0;
+}
+
+.emotion-54 {
+  display: block;
+  font-family: 'Rubik','Helvetica','Arial';
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  height: 19.5px;
+  letter-spacing: normal;
+  line-height: 19.5px;
+  margin: 0;
+  padding: 0;
+  transition-duration: 100ms;
+  transition-property: width;
+  visibility: hidden;
+  width: 0;
+}
+
+.emotion-55 {
+  font-family: 'Rubik','Helvetica','Arial';
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.5;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  display: block;
+  margin: 0.25rem 0 0;
+  padding: 0;
+  vertical-align: top;
+  text-align: left;
+  direction: ltr;
+  color: rgb(105,113,122);
+}
+
+.emotion-56 {
+  position: relative;
+}
+
+.emotion-61 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 0 0.125rem 0.125rem 0.125rem;
+  box-sizing: border-box;
+  color: rgb(26,32,38);
+  direction: ltr;
+  font-family: 'Rubik','Helvetica','Arial';
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  height: 100%;
+  letter-spacing: 0;
+  line-height: 1.5;
+  margin: 0.5rem 0 -0.25rem 0;
+  overflow: auto;
+  padding: 0 1rem 0.5rem 1rem;
+  resize: vertical;
+  text-align: left;
+  text-align-vertical: top;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  width: 100%;
+  min-height: 7.5rem;
+  background-color: rgb(255,255,255);
+}
+
+.emotion-61:focus {
+  outline: 0;
+}
+
+.emotion-61:focus-visible {
+  outline: 2px solid transparent;
+}
+
+.emotion-61::-webkit-input-placeholder {
+  color: rgb(105,113,122);
+}
+
+.emotion-61::-moz-placeholder {
+  color: rgb(105,113,122);
+}
+
+.emotion-61:-ms-input-placeholder {
+  color: rgb(105,113,122);
+}
+
+.emotion-61::placeholder {
+  color: rgb(105,113,122);
+}
+
+.emotion-61:disabled {
+  border-color: transparent;
+  color: rgb(154, 159, 166);
+  pointer-events: none;
+}
+
+.emotion-61:disabled::-webkit-input-placeholder {
+  color: rgba(154,159,166,0.4);
+}
+
+.emotion-61:disabled::-moz-placeholder {
+  color: rgba(154,159,166,0.4);
+}
+
+.emotion-61:disabled:-ms-input-placeholder {
+  color: rgba(154,159,166,0.4);
+}
+
+.emotion-61:disabled::placeholder {
+  color: rgba(154,159,166,0.4);
+}
+
+.emotion-62 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(105,113,122);
+  border-radius: 6px;
+  background: transparent;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  pointer-events: none;
+  height: 138px;
+  width: 100%;
+  top: unset;
+  bottom: 0;
+}
+
+.emotion-64 {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.emotion-65 {
+  color: rgb(105,113,122);
+  direction: ltr;
+  display: block;
+  font-family: 'Rubik','Helvetica','Arial';
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0.25rem 0 0 0;
+  text-align: left;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+}
+
+.emotion-66 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  top: -999px;
+  left: -999px;
+}
+
+.emotion-66 iframe {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.emotion-69 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-70 {
+  position: relative;
+}
+
+.emotion-71 {
+  font-family: 'Rubik','Helvetica','Arial';
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: normal;
+  line-height: 1.5;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  position: absolute;
+  color: rgb(219,44,0);
+  font-size: 1.25rem;
+  left: -11px;
+  text-align: left;
+}
+
+.emotion-72 {
+  font-family: 'Rubik','Helvetica','Arial';
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.5;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  color: rgb(105,113,122);
+  display: block;
+  font-size: 0.875rem;
+  margin: 0 0 0.25rem;
+  padding: 0;
+  vertical-align: top;
+  text-align: left;
+}
+
+.emotion-73 {
+  margin-left: 0.2rem;
+  padding: 0.1rem;
+  background: inherit;
+  border: none;
+}
+
+.emotion-74 {
+  width: 1rem;
+  height: 1rem;
+  fill: rgb(105,113,122);
+}
+
+.emotion-75 {
+  font-family: 'Rubik','Helvetica','Arial';
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.25;
+  text-align: left;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  box-sizing: border-box;
+  clear: both;
+  color: rgb(26,32,38);
+  display: block;
+  font-size: 0.875rem;
+  list-style-type: none;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+}
+
+.emotion-76 {
+  position: relative;
+  padding: 0.5rem 0;
+  outline: none;
+  display: inherit;
+}
+
+.emotion-77 {
+  position: absolute;
+  left: -9999px;
+}
+
+.emotion-78 {
+  display: inline-block;
+  font-size: 0.875rem;
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+  position: relative;
+}
+
+.emotion-78::before {
+  border-radius: 50%;
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  height: 1rem;
+  width: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  padding-left: 0.5rem;
+  left: -1rem;
+  transition-property: box-shadow;
+  transition-duration: 100ms;
+  transition-timing-function: cubic-bezier(0.2, 0, 0.4, 0.9);
+  background-color: rgb(255,255,255);
+  color: rgb(26,32,38);
+  border: 1px solid rgb(105,113,122);
+}
+
+.emotion-81 {
+  display: inline-block;
+  font-size: 0.875rem;
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+  position: relative;
+}
+
+.emotion-81::before {
+  border-radius: 50%;
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  height: 1rem;
+  width: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  padding-left: 0.5rem;
+  left: -1rem;
+  transition-property: box-shadow;
+  transition-duration: 100ms;
+  transition-timing-function: cubic-bezier(0.2, 0, 0.4, 0.9);
+  background: rgb(0,106,225);
+  border: 1px solid rgb(0,106,225);
+}
+
+.emotion-81::after {
+  border-radius: 50%;
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  position: absolute;
+  cursor: pointer;
+  font-size: 1rem;
+  background: rgb(255,255,255);
+  left: -11px;
+  top: 5px;
+  height: 0.375rem;
+  width: 0.375rem;
+}
+
+.emotion-82 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: rgb(154, 159, 166);
+  padding-bottom: 0.5rem;
+}
+
+.emotion-87 {
+  max-width: 20rem;
+}
+
+.emotion-88 {
+  overflow: hidden;
+  aspect-ratio: 1.78;
+  position: relative;
+  background-color: rgb(247,248,249);
+}
+
+.emotion-89 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.emotion-90 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.emotion-92 {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.emotion-94 {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.emotion-95 {
+  direction: ltr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #006DE9;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-family: 'Rubik','Helvetica','Arial';
+  font-style: normal;
+  font-weight: 400;
+  height: 36px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  letter-spacing: 0;
+  margin-right: 0;
+  margin-left: 0;
+  max-width: 100%;
+  padding-bottom: 0;
+  padding-top: 0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background-color cubic-bezier(0, 0, 0.39, 1) 100ms,color cubic-bezier(0, 0, 0.39, 1) 100ms,border-color cubic-bezier(0, 0, 0.39, 1) 100ms,box-shadow cubic-bezier(0.2, 0, 0.4, 0.9) 100ms;
+  transition: background-color cubic-bezier(0, 0, 0.39, 1) 100ms,color cubic-bezier(0, 0, 0.39, 1) 100ms,border-color cubic-bezier(0, 0, 0.39, 1) 100ms,box-shadow cubic-bezier(0.2, 0, 0.4, 0.9) 100ms;
+  color: #006DE9;
+  font-size: 0.875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  min-width: 80px;
+}
+
+@media (hover: hover) {
+  .emotion-95:hover {
+    background-color: rgb(0,106,225);
+    color: rgb(255,255,255);
+  }
+
+  .emotion-95:hover svg {
+    fill: rgb(255,255,255);
+  }
+}
+
+.emotion-95:active {
+  background-color: #004CD6;
+  color: rgb(255,255,255);
+  -webkit-transform: scale(0.96);
+  -moz-transform: scale(0.96);
+  -ms-transform: scale(0.96);
+  transform: scale(0.96);
+}
+
+.emotion-95:active svg {
+  fill: rgb(255,255,255);
+}
+
+.emotion-95:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px #4494EF;
+}
+
+.emotion-96 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  margin-right: 0.5rem;
+}
+
+.emotion-97 {
+  width: 1rem;
+  height: 1rem;
+  fill: #006DE9;
+}
+
+.emotion-99 {
+  font-size: 0.75rem;
+  color: rgb(105,113,122);
+  line-height: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 0.125rem;
+  margin-top: 1rem;
+}
+
+.emotion-100 {
+  font-size: 0.75rem;
+  color: rgb(105,113,122);
+  line-height: 1.125rem;
+  font-weight: 400;
+  margin-top: 0rem;
+}
+
+<body
+  style=""
+>
+  <div>
+    <div
+      class="emotion-0"
+    >
+      <div
+        class="emotion-1"
+      >
+        <div
+          class="emotion-2"
+        >
+          <div
+            class="emotion-3"
+          >
+            <div
+              class="emotion-4"
+            >
+              <section
+                class="emotion-5"
+              >
+                <nav>
+                  <ol
+                    class="emotion-6"
+                    dir="ltr"
+                  >
+                    <li
+                      class="emotion-7"
+                    >
+                      <span
+                        class="emotion-8"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="emotion-9"
+                          focusable="false"
+                          role="img"
+                          viewBox="0 0 32 32"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <g>
+                            <svg
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M10.4 12l5.3-5.3c.4-.4.4-1 0-1.4s-1-.4-1.4 0l-6 6c-.4.4-.4 1 0 1.4l6 6c.2.2.5.3.7.3s.5-.1.7-.3c.4-.4.4-1 0-1.4L10.4 12z"
+                              />
+                            </svg>
+                          </g>
+                        </svg>
+                      </span>
+                      <div
+                        class="emotion-10"
+                        title="Channels"
+                      >
+                        <div
+                          class="emotion-11"
+                        >
+                          <a
+                            href="/eventsplus/test hub/channels"
+                          >
+                            Channels
+                          </a>
+                        </div>
+                      </div>
+                    </li>
+                  </ol>
+                </nav>
+                <header>
+                  <div
+                    class="emotion-12"
+                  >
+                    <div
+                      class="emotion-13"
+                    >
+                      <section
+                        class="emotion-14"
+                      >
+                        <h1
+                          class="emotion-15"
+                          data-cvent-id="header-title"
+                        >
+                          Name Channel
+                        </h1>
+                        <div
+                          class="emotion-16"
+                        >
+                          <span
+                            class="emotion-17"
+                          >
+                            <span
+                              class="emotion-18"
+                            >
+                              Live
+                            </span>
+                          </span>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                  <section
+                    class="emotion-19"
+                  >
+                    <div
+                      class="emotion-20"
+                      data-cvent-id="header-actions"
+                    >
+                      <button
+                        class="emotion-21"
+                        data-cvent-id="header-actions__delete-channel"
+                        type="button"
+                      >
+                        <span
+                          class="emotion-22"
+                        >
+                          Delete channel
+                        </span>
+                      </button>
+                      <button
+                        class="emotion-23"
+                        data-cvent-id="header-actions__save"
+                        disabled=""
+                        type="button"
+                      >
+                        <span
+                          class="emotion-22"
+                        >
+                          Save
+                        </span>
+                      </button>
+                    </div>
+                  </section>
+                </header>
+                <div
+                  class="emotion-25"
+                >
+                  <div
+                    class="emotion-26"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="emotion-27"
+                      role="tablist"
+                      tabindex="-1"
+                    >
+                      <button
+                        aria-selected="true"
+                        class="emotion-28"
+                        data-cvent-id="channel_information_tab_header"
+                        role="tab"
+                        tabindex="0"
+                        type="button"
+                      >
+                        Channel Information
+                      </button>
+                      <button
+                        aria-selected="false"
+                        class="emotion-29"
+                        data-cvent-id="channel_video_tab_header"
+                        role="tab"
+                        tabindex="-1"
+                        type="button"
+                      >
+                        Videos
+                      </button>
+                      <div
+                        class="emotion-30"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div
+          class="emotion-31"
+        >
+          <div
+            class="emotion-32"
+          >
+            <div
+              class="emotion-33"
+            >
+              <div
+                aria-live="polite"
+                class="emotion-34"
+                data-cvent-id="channel-hidden-banner"
+                role="status"
+              >
+                <div
+                  class="emotion-35"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="emotion-36"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 32 32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g>
+                      <svg
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1zm0 20c-5 0-9-4-9-9s4-9 9-9 9 4 9 9-4 9-9 9z"
+                        />
+                        <path
+                          d="M12 11c-.6 0-1 .4-1 1v4c0 .6.4 1 1 1s1-.4 1-1v-4c0-.6-.4-1-1-1zM12.9 7.6c0-.1-.1-.1-.1-.2s-.1-.1-.1-.1c-.3-.3-.7-.4-1.1-.2-.1.1-.2.1-.3.2l-.1.1c0 .1-.1.1-.1.2s0 .1-.1.2V8c0 .3.1.5.3.7.1.1.2.2.3.2.1.1.3.1.4.1h.2c.1 0 .1 0 .2-.1.1 0 .1-.1.2-.1l.1-.1c.2-.2.3-.4.3-.7v-.2c0-.1-.1-.1-.1-.2z"
+                        />
+                      </svg>
+                    </g>
+                  </svg>
+                </div>
+                <div
+                  class="emotion-37"
+                >
+                  <div
+                    class="emotion-38"
+                  >
+                    <div
+                      class="emotion-39"
+                    >
+                      Name Channel has been hidden from members because it does not contain any content
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="emotion-40"
+            >
+              <div
+                class="emotion-41"
+              >
+                <div
+                  class="emotion-42"
+                >
+                  <form
+                    class="emotion-43"
+                    data-cvent-id="channel-information-form"
+                    id="channel-information-form"
+                    novalidate=""
+                  >
+                    <div
+                      class="emotion-44"
+                      data-layout="row"
+                    >
+                      <div
+                        class="emotion-45"
+                        data-layout="col"
+                      >
+                        <div
+                          class="emotion-46"
+                        >
+                          <h2>
+                            Basic Information
+                          </h2>
+                        </div>
+                      </div>
+                      <div
+                        class="emotion-47"
+                        data-layout="col"
+                      >
+                        <div>
+                          <div
+                            class="emotion-48"
+                          >
+                            <div
+                              class="emotion-49"
+                              data-cvent-id="channel-name-input-field"
+                            >
+                              <label
+                                class="emotion-50"
+                                data-cvent-id="channel-name-input-field-label"
+                                for="channel-name-input-field"
+                                id="channel-name-input-field-label"
+                              >
+                                <abbr
+                                  class="emotion-51"
+                                >
+                                  *
+                                </abbr>
+                                Name
+                              </label>
+                              <input
+                                aria-describedby="channel-name-input-field-messages-container"
+                                aria-invalid="false"
+                                aria-label="Name"
+                                class="emotion-52"
+                                data-cvent-id="channel-name-input-field-input"
+                                id="channel-name-input-field"
+                                maxlength="100"
+                                name="title"
+                                required=""
+                                value="Name Channel"
+                              />
+                              <fieldset
+                                aria-hidden="true"
+                                class="emotion-53"
+                                data-cvent-id="channel-name-input-field-fieldset"
+                                id="channel-name-input-field-fieldset"
+                              >
+                                <legend
+                                  class="emotion-54"
+                                  data-cvent-id="channel-name-input-field-legend"
+                                  id="channel-name-input-field-legend"
+                                >
+                                  Name
+                                </legend>
+                              </fieldset>
+                            </div>
+                            <div
+                              id="channel-name-input-field-messages-container"
+                            >
+                              <div
+                                class="emotion-55"
+                                data-cvent-id="channel-name-input-field-messages-info-0"
+                              >
+                                88 characters left
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="emotion-56"
+                        >
+                          <div>
+                            <div
+                              class="emotion-48"
+                            >
+                              <div
+                                class="emotion-49"
+                                data-cvent-id="channel-description-input-field"
+                              >
+                                <label
+                                  class="emotion-50"
+                                  data-cvent-id="channel-description-input-field-label"
+                                  for="channel-description-input-field"
+                                  id="channel-description-input-field-label"
+                                >
+                                  <abbr
+                                    class="emotion-51"
+                                  >
+                                    *
+                                  </abbr>
+                                  Description
+                                </label>
+                                <textarea
+                                  aria-describedby="channel-description-input-field-messages undefined channel-description-input-field-character-count"
+                                  aria-invalid="false"
+                                  aria-label="Description"
+                                  class="emotion-61"
+                                  data-cvent-id="channel-description-input-field-textarea"
+                                  id="channel-description-input-field"
+                                  maxlength="1000"
+                                  required=""
+                                >
+                                  This is a demo description
+                                </textarea>
+                                <fieldset
+                                  aria-hidden="true"
+                                  class="emotion-62"
+                                  data-cvent-id="channel-description-input-field-fieldset"
+                                  id="channel-description-input-field-fieldset"
+                                >
+                                  <legend
+                                    class="emotion-54"
+                                    data-cvent-id="channel-description-input-field-legend"
+                                    id="channel-description-input-field-legend"
+                                  >
+                                    Description
+                                  </legend>
+                                </fieldset>
+                              </div>
+                              <span
+                                aria-live="assertive"
+                                class="emotion-64"
+                              />
+                              <div
+                                class="emotion-65"
+                                data-cvent-id="channel-description-input-field-character-count"
+                                id="channel-description-input-field-character-count"
+                              >
+                                974 characters remaining
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="emotion-66"
+                          >
+                            <iframe
+                              name=""
+                              src="undefined/feature"
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="emotion-48"
+                        >
+                          <label
+                            class="emotion-50"
+                            data-cvent-id="channel-status-input-field-label"
+                            id="channel-status-input-field-label"
+                          >
+                            <div
+                              class="emotion-69"
+                            >
+                              <div
+                                class="emotion-70"
+                              >
+                                <span
+                                  aria-hidden="true"
+                                  class="emotion-71"
+                                >
+                                  *
+                                </span>
+                                <label
+                                  class="emotion-72"
+                                  for="status"
+                                >
+                                  Status
+                                </label>
+                              </div>
+                              <div>
+                                <span
+                                  class="emotion-73"
+                                  id="channel_status_help_circle_icon"
+                                  role="tooltip"
+                                  tabindex="0"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    class="emotion-74"
+                                    focusable="false"
+                                    role="img"
+                                    viewBox="0 0 32 32"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <g>
+                                      <svg
+                                        viewBox="0 0 24 24"
+                                      >
+                                        <path
+                                          d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1zm0 20c-5 0-9-4-9-9s4-9 9-9 9 4 9 9-4 9-9 9zm0-5.25a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5zM10.2 6.4c1-.5 2.1-.5 3.1-.1 1.5.5 2.6 2 2.7 3.9 0 2.6-3.3 3.8-3.7 3.9-.1.1-.2.1-.3.1-.4 0-.8-.3-.9-.7-.2-.6.1-1.1.6-1.3.6-.3 2.3-1.1 2.3-2.1 0-.9-.5-1.7-1.3-1.9-.6-.2-1.1-.2-1.6 0s-.8.6-1 1.1c-.2.6-.8.9-1.3.7-.5-.2-.8-.8-.6-1.3.3-1 1-1.8 2-2.3z"
+                                        />
+                                        <g
+                                          fill-rule="evenodd"
+                                        >
+                                          <use />
+                                          <use
+                                            fill-rule="nonzero"
+                                          />
+                                        </g>
+                                      </svg>
+                                    </g>
+                                  </svg>
+                                </span>
+                              </div>
+                            </div>
+                          </label>
+                          <div
+                            aria-labelledby="channel-status-input-field-label"
+                            class="emotion-75"
+                            data-cvent-id="channel-status-input-field"
+                            id="channel-status-input-field"
+                            role="radiogroup"
+                          >
+                            <div
+                              class="emotion-76"
+                              data-cvent-id="channel-status-input-field__div__INACTIVE"
+                            >
+                              <input
+                                aria-checked="false"
+                                aria-invalid="false"
+                                class="emotion-77"
+                                data-cvent-id="channel-status-input-field__INACTIVE"
+                                id="channel-status-input-field__status__0"
+                                name="status"
+                                type="radio"
+                                value="INACTIVE"
+                              />
+                              <label
+                                class="emotion-78"
+                                for="channel-status-input-field__status__0"
+                                id="channel-status-input-field__status__0_label"
+                              >
+                                Not live
+                              </label>
+                            </div>
+                            <div
+                              class="emotion-76"
+                              data-cvent-id="channel-status-input-field__div__ACTIVE"
+                            >
+                              <input
+                                aria-checked="true"
+                                aria-invalid="false"
+                                checked=""
+                                class="emotion-77"
+                                data-cvent-id="channel-status-input-field__ACTIVE"
+                                id="channel-status-input-field__status__1"
+                                name="status"
+                                type="radio"
+                                value="ACTIVE"
+                              />
+                              <label
+                                class="emotion-81"
+                                for="channel-status-input-field__status__1"
+                                id="channel-status-input-field__status__1_label"
+                              >
+                                Live
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="emotion-82"
+                        >
+                          <div
+                            class="emotion-70"
+                          >
+                            <label
+                              class="emotion-72"
+                              for=""
+                            >
+                              Image
+                            </label>
+                          </div>
+                          <div>
+                            <span
+                              class="emotion-73"
+                              id="channel_status_help_circle_icon"
+                              role="tooltip"
+                              tabindex="0"
+                            >
+                              <svg
+                                aria-hidden="true"
+                                class="emotion-74"
+                                focusable="false"
+                                role="img"
+                                viewBox="0 0 32 32"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g>
+                                  <svg
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1zm0 20c-5 0-9-4-9-9s4-9 9-9 9 4 9 9-4 9-9 9zm0-5.25a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5zM10.2 6.4c1-.5 2.1-.5 3.1-.1 1.5.5 2.6 2 2.7 3.9 0 2.6-3.3 3.8-3.7 3.9-.1.1-.2.1-.3.1-.4 0-.8-.3-.9-.7-.2-.6.1-1.1.6-1.3.6-.3 2.3-1.1 2.3-2.1 0-.9-.5-1.7-1.3-1.9-.6-.2-1.1-.2-1.6 0s-.8.6-1 1.1c-.2.6-.8.9-1.3.7-.5-.2-.8-.8-.6-1.3.3-1 1-1.8 2-2.3z"
+                                    />
+                                    <g
+                                      fill-rule="evenodd"
+                                    >
+                                      <use />
+                                      <use
+                                        fill-rule="nonzero"
+                                      />
+                                    </g>
+                                  </svg>
+                                </g>
+                              </svg>
+                            </span>
+                          </div>
+                        </div>
+                        <div>
+                          <div
+                            class="emotion-87"
+                          >
+                            <div
+                              class="emotion-88"
+                            >
+                              <div
+                                class="emotion-89"
+                              >
+                                <div
+                                  aria-label="No image uploaded"
+                                  class="emotion-90"
+                                  data-cvent-id="image-icon"
+                                  role="img"
+                                  title="No image uploaded"
+                                >
+                                  <svg
+                                    aria-hidden="true"
+                                    class="emotion-36"
+                                    focusable="false"
+                                    role="img"
+                                    viewBox="0 0 32 32"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                  >
+                                    <g>
+                                      <svg
+                                        viewBox="0 0 24 24"
+                                      >
+                                        <path
+                                          d="M19 2H5C3.3 2 2 3.3 2 5v14c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3V5c0-1.7-1.3-3-3-3zM4 5c0-.6.4-1 1-1h14c.6 0 1 .4 1 1v7.6l-3.3-3.3c-.4-.4-1-.4-1.4 0L4.7 19.9c-.4-.1-.7-.5-.7-.9V5zm15 15H7.4l8.6-8.6 4 4V19c0 .6-.4 1-1 1zM8.5 11C9.9 11 11 9.9 11 8.5S9.9 6 8.5 6 6 7.1 6 8.5 7.1 11 8.5 11zm0-3c.3 0 .5.2.5.5s-.2.5-.5.5-.5-.2-.5-.5.2-.5.5-.5z"
+                                        />
+                                        <g
+                                          fill-rule="evenodd"
+                                        >
+                                          <use />
+                                          <use
+                                            fill-rule="nonzero"
+                                          />
+                                        </g>
+                                      </svg>
+                                    </g>
+                                  </svg>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="emotion-92"
+                          />
+                          <div
+                            class="emotion-92"
+                          />
+                          <div
+                            class="emotion-94"
+                          >
+                            <button
+                              class="emotion-95"
+                              data-cvent-id="image-upload-button"
+                              type="button"
+                            >
+                              <span
+                                class="emotion-96"
+                              >
+                                <svg
+                                  aria-hidden="true"
+                                  class="emotion-97"
+                                  focusable="false"
+                                  role="img"
+                                  viewBox="0 0 32 32"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g>
+                                    <svg
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <path
+                                        d="M21 14c-.6 0-1 .4-1 1v4c0 .6-.4 1-1 1H5c-.6 0-1-.4-1-1v-4c0-.6-.4-1-1-1s-1 .4-1 1v4c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-4c0-.6-.4-1-1-1zM7.7 8.7L11 5.4V15c0 .6.4 1 1 1s1-.4 1-1V5.4l3.3 3.3c.2.2.4.3.7.3.3 0 .5-.1.7-.3.4-.4.4-1 0-1.4l-5-5c-.1-.1-.2-.2-.3-.2-.2-.1-.5-.1-.8 0-.1.1-.2.1-.3.2l-5 5c-.4.4-.4 1 0 1.4.4.4 1 .4 1.4 0z"
+                                      />
+                                      <g
+                                        fill-rule="evenodd"
+                                      >
+                                        <use />
+                                        <use
+                                          fill-rule="nonzero"
+                                        />
+                                      </g>
+                                    </svg>
+                                  </g>
+                                </svg>
+                              </span>
+                              <span
+                                class="emotion-22"
+                              >
+                                Upload
+                              </span>
+                            </button>
+                            <label
+                              for="uploadImage"
+                              hidden=""
+                            >
+                              Image
+                              <input
+                                accept=".jpg, .jpeg, .png, .gif"
+                                data-cvent-id="image-upload-input"
+                                hidden=""
+                                id="uploadImage"
+                                type="file"
+                              />
+                            </label>
+                          </div>
+                          <div>
+                            <p
+                              class="emotion-99"
+                            >
+                              Supported file types: JPEG, JPG, PNG. File size up to 5 MB.
+                            </p>
+                            <p
+                              class="emotion-100"
+                            >
+                              Recommended size: 1280 x 720 pixels. Aspect ratio must be 16:9.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      hidden=""
+                      type="submit"
+                    >
+                      Click
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Test Channel Component Switch to videos page and reload, videos should render 1`] = `
+<body
+  style=""
+>
+  <div />
+</body>
+`;
