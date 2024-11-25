@@ -1,86 +1,47 @@
 {
- "scanSettings": { 
-  "configMode": "AUTO", 
-  "baseBranches": [],
-  "enableLicenseViolations": true,
-  "exploitability": true
-}, 
-"buildSettings": { 
-  "failBuilds": false, 
-  "displayMode": "diff", 
-  "useMendBuildNames": true 
-}, 
-"issueSettings": { 
-  "minSeverityLevel": "LOW" 
-}, 
-  "remediateSettings": 
-  {
-   "workflowRules": { 
-    "enabled": false 
-    }, 
-    "enableRenovate" : true, 
-    "extends": [ 
-    "config:recommended", 
-    "mergeConfidence:all-badges"
-    ],
-    "rangeStrategy": "bump",
-    "npmrc": "registry=https://nexus.core.cvent.org/nexus/repository/npm-public",
-    "npmrcMerge": true,
-    "separateMajorMinor": false,
-    "ignorePresets": ["group:monorepos","group:recommended","replacements:all"],
-   "constraints": {
-      "pnpm": "7"
-    },
-  "packageRules": [
-      {
-        "groupName": "Dependencies",
-        "matchPaths": ["**/pom.xml", "packages/**/package.json"],
-        "packagePatterns": ["*"]
-      },
-      {
-        "groupName": "Tools Dependencies",
-        "matchFiles": [".tool-versions"],
-        "matchUpdateTypes": ["minor", "patch"],
-        "packagePatterns": ["*"]
-      },
-      {
-        "excludePackageNames": ["*"],
-        "groupName": "CDF Dependency",
-        "matchFiles": ["package.json"],
-        "matchPackageNames": ["@cvent/cdf"],
-        "matchUpdateTypes": ["minor", "patch"],
-        "postUpgradeTasks": {
-          "commands": [
-            "pnpm install",
-            "NX_MIGRATE_USE_LOCAL=true pnpm nx migrate @cvent/cdf@{{{newVersion}}} --from=@cvent/cdf@{{{currentVersion}}}",
-            "pnpm reset-cdf-dependencies && pnpm install",
-            "NX_MIGRATE_USE_LOCAL=true pnpm nx migrate --run-migrations --if-exists",
-            "pnpm fix",
-            "pnpm install",
-            "./node_modules/.bin/changeset-cvent renovate '{{{commitMessage}}}'"
-          ],
-          "executionMode": "branch",
-          "fileFilters": [".changeset/*.md", ".*", "**/**", "**/.*"]
-        }
-      },
-      {
-        "enabled": false,
-        "excludePackageNames": ["@cvent/cdf"],
-        "groupName": "Root dependencies",
-        "matchFiles": ["package.json", ".tool-versions"],
-        "matchPackagePatterns": ["*"]
-      }
-    ],
-     "postUpgradeTasks": {
-      "commands": [
-        "pnpm install --ignore-scripts",
-        "./node_modules/.bin/changeset-cvent renovate '{{{commitMessage}}}'"
-      ],
-      "executionMode": "branch",
-      "fileFilters": [
-        ".changeset/*.md",
-        "pnpm-lock.yaml"
-      ]
+  "scanSettings": {
+    "configMode": "AUTO",
+    "configExternalURL": "",
+    "projectToken": "",
+    "baseBranches": []
+  },
+  "scanSettingsSAST": {
+    "enableScan": true,
+    "scanPullRequests": true,
+    "incrementalScan": true,
+    "baseBranches": [],
+    "snippetSize": 10
+  },
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "displayMode": "diff",
+    "useMendCheckNames": true
+  },
+  "checkRunSettingsSAST": {
+    "checkRunConclusionLevel": "failure",
+    "severityThreshold": "high"
+  },
+  "issueSettings": {
+    "minSeverityLevel": "LOW",
+    "issueType": "DEPENDENCY"
+  },
+  "issueSettingsSAST": {
+    "minSeverityLevel": "high",
+    "issueType": "repo"
+  },
+  "remediateSettings": {
+    "enableRenovate": true,
+    "extends": ["config:base"];
+    "workflowRules": {
+      "enabled": true
     }
-  }
+  },
+   "imageSettings":{
+       "imageTracing":{
+           "enableImageTracingPR": false,
+           "addRepositoryCoordinate": false,
+           "addDockerfilePath": false,
+           "addMendIdentifier": false
+       }
+   }
 }
