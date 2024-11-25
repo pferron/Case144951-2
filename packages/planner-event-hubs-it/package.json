@@ -44,7 +44,7 @@
     "@cvent/nucleus-networking-node": "^3.0.19",
     "@cvent/planner-event-hubs-model": "workspace:*",
     "@faker-js/faker": "^9.0.0",
-    "apollo-datasource-rest": "^3.7.0",
+    "@apollo/datasource-rest": "^4.0.0",
     "form-data": "^4.0.0",
     "react-native": "0.75.3",
     "source-map-support": "^0.5.21"
