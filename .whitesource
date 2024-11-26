@@ -1,49 +1,40 @@
 {
- "scanSettings": { 
-  "configMode": "AUTO", 
-  "baseBranches": [],
-  "enableLicenseViolations": true,
-  "exploitability": true
-}, 
-"buildSettings": { 
-  "failBuilds": false, 
-  "displayMode": "diff", 
-  "useMendBuildNames": true 
-}, 
-"issueSettings": { 
-  "minSeverityLevel": "LOW" 
-}, 
-  "remediateSettings": 
-  {
-   "workflowRules": { 
-    "enabled": false 
-    }, 
-    "enableRenovate" : true, 
-    "extends": [ 
-    "config:recommended", 
-    "mergeConfidence:all-badges"
-    ],
-    "rangeStrategy": "bump",
-    "npmrc": "registry=https://nexus.core.cvent.org/nexus/repository/npm-public",
-    "npmrcMerge": true,
-    "separateMajorMinor": false,
-    "ignorePresets": ["group:monorepos","group:recommended","replacements:all"],
-   "constraints": {
+"settingsInheritedFrom": "WHIT/whitesource-config@master",
+"remediateSettings": {
+     "constraints": {
       "pnpm": "7"
     },
-  "packageRules": [
+     "packageRules": [
       {
+          "matchPackagePatterns": [".*"],
+          "groupName": "",
+          "commitMessagePrefix": ""
+        },
+        {
+        "enabled": false,
+        "excludePackageNames": ["@cvent/cdf"],
+        "groupName": "Root dependencies",
+        "matchFiles": ["package.json", ".tool-versions"],
+        "matchPackagePatterns": ["*"]
+      },
+      {
+        "enabled": true,
         "groupName": "Dependencies",
         "matchPaths": ["**/pom.xml", "packages/**/package.json"],
-        "packagePatterns": ["*"]
+        "packagePatterns": ["*"],
+        "excludePackageNames": ["aws-cdk"]
       },
       {
+        "enabled": true,
         "groupName": "Tools Dependencies",
         "matchFiles": [".tool-versions"],
+        "ignorePaths": ["**/pom.xml", "packages/**/package.json"],
         "matchUpdateTypes": ["minor", "patch"],
         "packagePatterns": ["*"]
+         
       },
       {
+        "enabled": true,
         "excludePackageNames": ["*"],
         "groupName": "CDF Dependency",
         "matchFiles": ["package.json"],
@@ -62,16 +53,9 @@
           "executionMode": "branch",
           "fileFilters": [".changeset/*.md", ".*", "**/**", "**/.*"]
         }
-      },
-      {
-        "enabled": false,
-        "excludePackageNames": ["@cvent/cdf"],
-        "groupName": "Root dependencies",
-        "matchFiles": ["package.json", ".tool-versions"],
-        "matchPackagePatterns": ["*"]
       }
     ],
-     "postUpgradeTasks": {
+    "postUpgradeTasks": {
       "commands": [
         "pnpm install --ignore-scripts",
         "./node_modules/.bin/changeset-cvent renovate '{{{commitMessage}}}'"
