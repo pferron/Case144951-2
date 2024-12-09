@@ -1,4 +1,4 @@
-FROM node:16.18.0-alpine3.16
+FROM node:20.2.0-alpine3.16
 
 RUN echo 'https://sjc.edge.kernel.org/alpine/v3.14/main' >> /etc/apk/repositories \
   && echo 'https://sjc.edge.kernel.org/alpine/v3.14/community' >> /etc/apk/repositories
